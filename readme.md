@@ -1,10 +1,15 @@
 # S2T_Transformation (PO 檔案翻譯工具)
 
 已知 bug
+
 - [ ] 無法手動，目前會全自動檢查 QAQ。
 - [ ] 樂詞網有些奇怪詞彙 例如『拉』跟『圖』，每次自動運行完進行修改 ods 詞彙文件後再次運行。
 
+- 詞網加油好嗎？
+
 ![加油好嗎？](./doc/樂詞網加油好嗎？.png)
+
+![加油好嗎？](./doc/樂詞網你認真？.png)
 
 ## 功能描述
 
@@ -19,9 +24,9 @@
    ![簡詞轉繁體](./doc/簡詞轉繁體.png)
 
 - 本專案需要將樂詞網下載 ods 放置於 dataset 中，請於下面連結進行下載。
-  
+
   https://terms.naer.edu.tw/download/10/
-  
+
   ![樂詞網下載](./doc/樂詞網下載.png)
 
 ## 使用方法
@@ -69,5 +74,5 @@ process_po_file(input_document, output_document, translation_dict, auto_mode=Fal
 
 ## 查看翻譯記錄
 
-會於 log 底下產出文字檔，並且可以查看翻譯作為翻譯品質，並進行ods的數據修改後再次運行。
+會於 log 底下產出文字檔，並且可以查看翻譯作為翻譯品質，並進行 ods 的數據修改後再次運行。
 ![翻譯記錄](./doc/log記錄.png)
