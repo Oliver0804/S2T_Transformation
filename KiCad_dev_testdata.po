@@ -1,0 +1,23 @@
+
+#: common/dialogs/dialog_unit_entry_base.h:73
+msgid "Move Point to Location"
+msgstr "移動光標到指定位置"
+光標
+光標
+背景
+背景
+訪問路徑
+对齐
+#: common/dialogs/dialog_global_lib_table_config.cpp:44
+#, c-format
+msgid "光標"
+msgstr "光標"
+"KiCad has been run for the first time using the new %s library table for\n"
+"accessing libraries.  In order for KiCad to access %s libraries,\n"
+"you must configure your global %s library table.  Please select from one\n"
+"of the options below.  If you are not sure which option to select, please\n"
+"use the default selection."
+msgstr ""
+"首次運行 KiCad 時使用了新的%s庫表來訪問庫。\n"
+"為了使 KiCad 能夠保存%s庫資訊以供下次訪問, 您必須配置全局%s庫表。\n"
+"請從以下選項中選擇一個, 如果您不確定要選擇哪個選項, 請使用默認選項。"
