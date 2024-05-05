@@ -1,0 +1,209 @@
+-- 用法： Item('原文', '轉換規則')
+local Item = require('Module:CGroup/core').Item;
+
+return {
+
+name = 'Windows',
+description = 'Microsoft Windows 作業系統',
+content = {
+
+{ type = 'text', text = [=[
+== 基础用词 ==
+]=] },
+Item('Operation System', 'zh-cn:操作系统;zh-tw:作業系統'),
+Item(nil, 'zh-cn:幻灯片;zh-tw:投影片'),
+Item('Uninstall', '卸载=>zh-tw:移除;'),
+Item('Data Execution Prevention', 'zh-cn:数据执行保护;zh-tw:資料執行防止'),
+Item('Device', 'zh-cn:设备;zh-tw:裝置'),
+-- ?
+Item('Documents', '文档=>zh-tw:文件'),
+Item('Help', 'zh-cn:帮助;zh-tw:說明'),
+Item('Thumbnails', 'zh-cn:缩略图;zh-tw:預覽縮圖'),
+Item('Log Off', 'zh-cn:注销;zh-tw:登出'),
+Item('Preference', '属性=>zh-tw:內容; 属性=>zh-hk:內容; 属性=>zh-mo:內容;'),
+Item('Search', 'zh-cn:搜索;zh-tw:搜尋'),
+Item('Refresh', 'zh-cn:刷新;zh-tw:重新整理'),
+Item('Performance', 'zh-cn:性能;zh-tw:效能'),
+Item('Font', 'zh-cn:字体;zh-tw:字型'),
+Item('View', 'zh-cn:查看;zh-tw:檢視'),
+-- ?
+Item(nil, 'zh-cn:自定义;zh-tw:自訂'),
+Item(nil, 'zh-cn:兼容;zh-tw:相容'),
+Item(nil, 'zh-cn:字符;zh-tw:字元'),
+Item('Favorites', 'zh-cn:收藏夹;zh-tw:我的最愛'),
+Item('Byte', 'zh-cn:字节;zh-tw:位元組'),
+Item('Icon', 'zh-cn:图标;zh-tw:圖示'),
+Item('check button', 'zh-cn:复选按钮; zh-tw:核取按鈕;'),
+Item('checkbox', 'zh-cn:复选框; zh-tw:核取方塊;'),
+Item('dialog box', 'zh-cn:对话框; zh-tw:對話方塊;'),
+Item('bitmap', 'zh-cn:位图; zh-tw:點陣圖;'),
+Item('cursor', 'zh-cn:指针; zh-tw:指標;'),
+Item('template', 'zh-cn:模板; zh-tw:範本;'),
+
+Item(nil, 'zh-cn:脚本; zh-tw:指令碼'),
+Item(nil, 'zh-cn:代码; zh-tw:程式碼'),
+Item(nil, 'zh-cn:滚动条; zh-tw:卷軸'),
+Item(nil, 'zh-cn:滚动; zh-tw:捲動'),
+Item(nil, 'zh-cn:源文件;zh-tw:原始檔'),
+Item(nil, 'zh-cn:源代码;zh-tw:原始碼'),
+Item('Creat', 'zh-cn:创建;zh-tw:建立'),
+Item(nil, 'zh-cn:远程;zh-tw:遠端'),
+Item(nil, 'zh-cn:本地;zh-tw:本機'),
+Item(nil, 'zh-cn:部分;zh-tw:部份;zh-hk:部份;'),
+Item(nil, 'zh-cn:数据执行保护;zh-tw:系統記憶體保護;'),
+Item('Product Key', 'zh-cn:密钥;zh-tw:金鑰'),
+Item('Product Key', 'zh-cn:产品密钥;zh-tw:產品金鑰'),
+Item(nil, 'zh-cn:数字版权;zh-tw:數位著作權; zh-hk:數碼版權;'),
+Item(nil, 'zh-cn:识别;zh-tw:辨識'),
+-- Windows 8
+Item('dock', 'zh-cn:贴靠;zh-tw:貼齊'),
+-- 參見：http://msdn.microsoft.com/zh-cn/library/windows/apps/hh465349.aspx http://msdn.microsoft.com/zh-tw/library/windows/apps/hh465349.aspx
+Item('user', 'zh-cn:用户; zh-tw:使用者; zh-hk:使用者;'),
+Item('user name', 'zh-cn:用户名; zh-tw:使用者名稱; zh-hk:使用者名稱;'),
+{ type = 'text', text = [[
+== 硬體及裝置 ==
+]] },
+Item(nil, 'zh-cn:屏幕;zh-tw:螢幕'),
+-- 1
+Item('Monitor', 'zh-cn:显示器;zh-tw:監視器'),
+Item('Speaker', 'zh-cn:扬声器;zh-tw:喇叭'),
+Item('VGA', 'zh-cn:显示卡;zh-tw:視訊卡'),
+Item(nil, 'zh-cn:高速缓存;zh-tw:快取記憶體'),
+Item(nil, 'zh-cn:物理内存;zh-tw:實體記憶體'),
+-- 1
+Item('Scaner', 'zh-cn:扫描仪;zh-tw:掃描器'),
+Item(nil, 'zh-cn:投影仪;zh-tw:投影機'),
+Item(nil, 'zh-cn:设备环境;zh-tw:裝置環境'),
+Item(nil, 'zh-cn:设备上下文;zh-tw:裝置內容'),
+{ type = 'text', text = [[
+== 桌面 ==
+]] },
+Item('Taskbar', 'zh-cn:任务栏;zh-tw:工作列'),
+Item('Task view', 'zh-cn:任务视图;zh-tw:工作檢視'),
+Item('Window', 'zh-cn:窗口;zh-tw:視窗'),
+Item('Jump List', 'zh-cn:跳转列表; zh-tw:跳躍清單'),
+Item('Start Menu', 'zh-cn:开始菜单;zh-tw:開始功能表'),
+Item('Theme', '佈景主題=>zh-cn:主题; 佈景主題=>zh-sg:主题;'),
+Item('DreamScene', 'zh-cn:梦幻桌面;zh-tw:DreamScene'),
+{ type = 'text', text = [[
+== 檔案總管 ==
+]] },
+Item('Explorer', '资源管理器=>zh-tw:檔案總管;'),
+Item('File Explorer', '文件资源管理器=>zh-tw:檔案總管;'),
+Item('Explorer', '檔案總管=>zh-cn:资源管理器; 檔案總管=>zh-sg:资源管理器;'),
+Item(nil, 'zh-cn:公文包;zh-tw:公事包'),
+Item('Saved Search', 'zh-cn:已保存的搜索;zh-tw:儲存的搜尋'),
+-- ?
+Item('Library', 'zh-cn:库;zh-tw:媒體櫃'),
+Item('Recycle Bin', 'zh-cn:回收站;zh-tw:資源回收筒'),
+-- ?
+Item(nil, 'zh-cn:命令栏;zh-tw:命令列'),
+-- ?
+Item('Menu', 'zh-cn:菜单;zh-tw:清單'),
+{ type = 'text', text = [[
+== 控制台 ==
+]] },
+Item('Control', '主控台=>zh-cn:控制台; 主控台=>zh-sg:控制台;'),
+Item('Control Panel', '控制面板=>zh-tw:控制台'),
+Item('Windows Control Panel', 'zh-cn:Windows控制面板;zh-tw:Windows控制台;zh-hk:Windows控制台'),
+Item('Windows Control Panel', 'zh-cn:Windows 控制面板;zh-tw:Windows 控制台;zh-hk:Windows 控制台'),
+Item('Personalize', 'zh-cn:个性化;zh-tw:個人化'),
+Item('Security Center', 'zh-cn:安全中心;zh-tw:資訊安全中心'),
+Item('Action Center', 'zh-cn:操作中心;zh-tw:重要訊息中心;zh-hk:重要訊息中心'),
+Item('Device Stage', 'zh-cn:Device Stage; zh-tw:裝置舞台'),
+Item('Parental Controls', 'zh-cn:家长控制;zh-tw:家長監護'),
+Item('Easy Access', 'zh-cn:轻松访问;zh-tw:輕鬆存取'),
+Item('Troubleshooting', 'zh-cn:疑难解答;zh-tw:疑難排解'),
+Item('Device Manager', 'zh-cn:设备管理器;zh-tw:裝置管理員'),
+Item('User Account Control', 'zh-cn:用户帐户控制;zh-tw:使用者帳戶控制'),
+Item('Regional and Language Options', 'zh-cn:区域和语言选项;zh-tw:地區及語言選項'),
+{ type = 'text', text = [[
+== 核心组件 ==
+]] },
+Item('Process', 'zh-cn:进程;zh-tw:處理程序'),
+Item('Threads', 'zh-cn:线程;zh-tw:執行緒'),
+Item('Home Group', 'zh-cn:家庭组;zh-tw:家用群組'),
+Item('Registry', 'zh-cn:注册表;zh-hant:登錄檔'),
+Item('Registry Tool', 'zh-cn:注册表编辑器;zh-tw:登錄編輯程式'),
+Item('File System', 'zh-cn:文件系统;zh-tw:檔案系統'),
+Item(nil, 'zh-cn:对象连接与嵌入;zh-tw:物件連結與嵌入'),
+Item(nil, 'zh-cn:字符映射表;zh-tw:字元對應表'),
+Item(nil, 'zh-cn:任务管理器;zh-tw:工作管理員'),
+Item('kernel transaction manager', 'zh-cn:内核事务管理器;zh-tw:核心交易管理員'),
+Item('Task Scheduler', 'zh-cn:计划任务;zh-tw:工作排程器'),
+Item('File Replication Service', 'zh-cn:文件复制服务;zh-tw:檔案複寫服務'),
+Item('security account manager', 'zh-cn:安全帐户管理器;zh-tw:安全性帳戶管理員'),
+Item('group policy', 'zh-cn:组策略;zh-tw:群組原則'),
+{ type = 'text', text = [[
+== 附屬應用程式 ==
+]] },
+Item('Accessories', '附屬應用程式=>zh-cn:附件; 附屬應用程式=>zh-sg:附件;'),
+Item('Snipping Tool', 'zh-cn:截图工具;zh-tw:剪取工具'),
+Item('Calculator', 'zh-cn:计算器; zh-tw:小算盤'),
+Item('Disk Cleanup', 'zh-cn:磁盘清理; zh-tw:磁碟清理'),
+Item('Disk Defragmenter', 'zh-cn:磁盘碎片整理程序; zh-tw:磁碟重組工具'),
+Item('DVD Maker', 'zh-cn:DVD Maker; zh-tw:DVD 製作程式'),
+Item('Photo Gallery', 'zh-cn:照片库;zh-tw:相片圖庫'),
+Item('Calendar', 'zh-cn:日历;zh-tw:行事曆'),
+Item('WordPad', 'zh-cn:写字板;zh-tw:WordPad'),
+Item('Paint', 'zh-cn:画图;zh-tw:小畫家'),
+Item('Windows Write', 'zh-cn:书写器;zh-tw:小作家'),
+Item('Windows Sidebar', 'zh-cn:边栏;zh-tw:資訊看板'),
+Item('Narrator', 'zh-cn:讲述人;zh-tw:朗讀程式'),
+Item('Windows Photo Viewer', 'zh-cn:Windows照片查看器;zh-tw:Windows相片檢視器;zh-hk:Windows相片檢視器'),
+Item('Windows Speech Recognition', 'zh-cn:语音识别;zh-tw:語音辨識'),
+Item('On-Screen Keyboard', 'zh-cn:屏幕键盘;zh-tw:螢幕小鍵盤'),
+Item('Windows Journey', 'zh-cn:Windows 日记本;zh-tw:Windows 筆記本'),
+Item('Sticky Notes', 'zh-cn:便笺;zh-tw:自黏便箋'),
+Item('Command Prompt', 'zh-cn:命令提示符;zh-tw:命令提示字元'),
+Item('Mobility Center', 'zh-cn:移动中心;zh-tw:行動中心'),
+Item('System Configuration Utility', 'zh-cn:系统配置实用程序;zh-tw:系統設定公用程式'),
+Item('Ease of Access', 'zh-cn:易用性;zh-tw:輕鬆存取'),
+-- In Windows 7
+Item('System Configuration', 'zh-cn:系统配置;zh-tw:系統設定'),
+Item('Volume Shadow Copy', 'zh-cn:卷影复制;zh-tw:磁碟區陰影複製;zh-hk:大量陰影複製'),
+{ type = 'text', text = [[
+== 服务器端 ==
+]] },
+Item(nil, 'zh-cn:活动目录; zh-tw:Active Directory'),
+{ type = 'text', text = [[
+== 游戏 ==
+]] },
+Item(nil, 'zh-cn:空当接龙; zh-tw:新接龍'),
+Item(nil, 'zh-cn:红心大战; zh-tw:傷心小棧'),
+Item(nil, 'zh-cn:墨球; zh-tw:筆跡球'),
+Item(nil, 'zh-cn:扫雷; zh-tw:踩地雷'),
+Item(nil, 'zh-cn:纸牌;zh-tw:接龍'),
+Item(nil, 'zh-cn:蜘蛛纸牌;zh-tw:連環新接龍'),
+Item(nil, 'zh-cn:Internet 黑桃王;zh-tw:網際網路西式拱豬'),
+Item(nil, 'zh-cn:Internet 跳棋;zh-tw:網際網路西洋棋'),
+Item(nil, 'zh-cn:Internet 双陆棋;zh-tw:網際網路西洋骰子棋'),
+{ type = 'text', text = [[
+== 版本 ==
+]] },
+-- Windows 7中，Professional及Enterprise在繁體中文被稱為專業版及企業版，Windows Vista有關條目請另外添加手動轉換
+Item('Starter Edition', 'zh-cn:入门版; zh-tw:簡易版; zh-hk:入門版'),
+Item('Home Edition', 'zh-cn:家庭版; zh-tw:家用版;'),
+Item('Home Basic', 'zh-cn:家庭普通版; zh-tw:家用入門版;'),
+Item('Home Premium', 'zh-cn:家庭高级版; zh-tw:家用進階版;'),
+Item('Ultimate', 'zh-cn:旗舰版; zh-tw:旗艦版; zh-hk:終極版;'),
+{ type = 'text', text = [[
+== 其他 ==
+]] },
+Item(nil, 'zh-cn:Windows 接口; zh-tw:Windows 介面'),
+Item(nil, 'zh-cn:锁定; zh-tw:釘選'),
+Item(nil, 'zh-cn:任务栏; zh-tw:工作列'),
+Item(nil, 'zh-cn:跳转列表; zh-tw:跳躍功能清單'),
+Item(nil, 'zh-cn:工具栏; zh-tw:工具列'),
+Item('apply', 'zh-hans:应用; zh-hant:套用;'),
+Item('Extended Support', 'zh:延伸支持;zh-cn:扩展支持; zh-hant:延伸支援;'),
+Item('File managers', 'zh-cn:文件管理器;zh-tw:檔案管理員'),
+Item('News and Interests', 'zh-cn:资讯和兴趣;zh-tw:新聞和興趣'),
+Item('System Resource Manager', 'zh-cn:系统资源管理器;zh-tw:系統資源管理員'),
+Item('tile', 'zh-hans:磁贴; zh-hant:磚;'),
+{ type = 'text', text = [[
+
+]] },
+
+},
+}

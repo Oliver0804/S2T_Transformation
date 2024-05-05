@@ -1,0 +1,172 @@
+-- 用法： Item('原文', '轉換規則')
+local Item = require('Module:CGroup/core').Item;
+
+return {
+
+name = 'Communication',
+description = '-{zh-cn:通信;zh-tw:通訊;}-学',
+content = {
+{ type = 'text', text = [=[
+[[Category:公共转换组模块|{{SUBPAGENAME}}]]
+
+本页面没有类似于NoteTA的数量限制。另请参考转换组[[Module:CGroup/Signals and Systems]]
+
+以下是與本頁面相關的公共轉換組：
+{| class="wikitable"
+! 公共轉換組 || 說明
+|-
+| [[Module:CGroup/Games]] || 電子遊戲相關
+|-
+| [[Module:CGroup/Windows]] || 微軟視窗作業系統及其相關組件
+|-
+| [[Module:CGroup/Electronics]] || 電子相關
+|-
+| [[Module:CGroup/IT]] || 信息技术相關
+|-
+| [[Module:CGroup/MediaWiki]] || MediaWiki相關
+|-
+|}
+
+==訊號與系統==
+]=] },
+Item('Analog', 'zh-tw:類比; zh-cn:模拟; zh-hk:模擬;'),
+Item('Audio', 'zh-cn:音频;zh-tw:音訊;'),
+Item('Channel', '信道=>zh-tw:頻道; 信道=>zh-hk:頻道; 信道=>zh-sg:波道; 波道=>zh-cn:信道'),
+Item('Communication', 'zh-cn:通信;zh-sg:通讯;zh-tw:通訊;'),
+Item('Digital', 'zh-tw:數位;zh-cn:数字;zh-sg:数码;zh-my:数码;zh-hk:數碼;'),
+Item('information', 'zh-cn:信息; zh-sg:资讯; zh-my:资讯; zh-tw:資訊;'),
+Item('integrated circuit', 'zh-cn:集成电路;zh-tw:積體電路;zh-hk:集成電路;'),
+Item('logic gate', 'zh-cn:逻辑门; zh-hk:邏輯門; zh-tw:邏輯閘;'),
+Item('Medium', '媒质=>zh-hant:媒介; 介质=>zh-hant:媒介;'),
+Item('Noise', 'zh:噪聲; zh-tw:雜訊; zh-hk:雜訊; zh-sg:杂讯; zh-my:杂讯; zh-cn:噪声;'),
+Item('P-N junction', 'zh-cn:P-N结;zh-hk:P-N結;zh-tw:P-N接面;'),
+Item('P-n junction', 'zh-cn:P-n结;zh-hk:P-n結;zh-tw:P-n接面;'),
+Item('p-n junction', 'zh-cn:p-n结;zh-hk:p-n結;zh-tw:p-n接面;'),
+Item('PN junction', 'zh-cn:PN结;zh-hk:PN結;zh-tw:PN接面;'),
+Item('Pn junction', 'zh-cn:Pn结;zh-hk:Pn結;zh-tw:Pn接面;'),
+Item('pn junction', 'zh-cn:pn结;zh-hk:pn結;zh-tw:pn接面;'),
+Item('Pulse', 'zh-cn:脉冲; zh-hk:脈衝; zh-tw:脈波;'),
+Item('Serial', 'zh-cn:串行; zh-tw:序列;'),
+Item('signal', 'zh-cn:信号; zh-tw:訊號;'),
+Item('signal', '信號=>zh-tw:訊號; 信號=>zh-hk:訊號; 信號=>zh-mo:訊號;'),
+Item('signal', '讯号=>zh-tw:訊號; 讯号=>zh-cn:信号; 讯号=>zh-sg:信号;'),
+Item('Signal-to-noise ratio, SNR', 'zh-tw:訊雜比;zh-cn:信噪比;zh-hk:訊噪比;'),
+Item('Signaling System Number 7', 'zh-cn:七号信令系统; zh-tw:第七號發信系統; zh-hk:七號信令系統;'),
+Item('Video', 'zh-cn:视频;zh-tw:視訊;zh-hk:視像;'),
+Item('Mobile communication', 'zh-cn:移动通信;zh-hk:流動通訊;zh-tw:行動通訊;'),
+{ type = 'text', text = [[
+
+==調變系統==
+]] },
+Item('modulation', 'zh-cn:调制;zh-hk:調制;zh-tw:調變;'),
+Item('DM', 'zh-cn:增量调制;zh-tw:差量調變'),
+Item('DPCM', 'zh-cn:差分脉冲编码调制;zh-tw:脈波差量編碼調變'),
+Item('vestigial sideband', 'zh-cn:残余边带;zh-tw:殘邊帶;'),
+Item('amplitude', 'zh-cn:幅度;zh-tw:振幅;'),
+Item('PSK', 'zh-tw:相位移鍵;zh-cn:移相键控;'),
+Item('Mobile communication', 'zh-tw:行動通訊;zh-cn:移动通信;zh-hk:流動通訊;'),
+Item('Time division', 'zh-hk:時分;zh-cn:时分;zh-tw:分時;'),
+Item('Frequency division', 'zh-hk:頻分;zh-cn:频分;zh-tw:分頻;'),
+Item('Code division', 'zh-hk:碼分;zh-cn:码分;zh-tw:分碼;'),
+Item('TDMA', 'zh-hk:時分多址;zh-cn:时分多址;zh-tw:分時多重進接;'),
+Item('FDMA', 'zh-hk:頻分多址;zh-cn:频分多址;zh-tw:分頻多重進接;'),
+Item('CDMA', 'zh-hk:碼分多址;zh-cn:码分多址;zh-tw:分碼多重進接;'),
+Item('SDMA', 'zh-hk:空分多址;zh-cn:空分多址;zh-tw:分空間多重進接;'),
+Item('TDM', 'zh-hk:時分複用;zh-cn:时分复用;zh-tw:分時多工;'),
+Item('FDM', 'zh-hk:頻分複用;zh-cn:频分复用;zh-tw:分頻多工;'),
+Item('SDM', 'zh-hk:空分複用;zh-cn:空分复用;zh-tw:空間多工;'),
+Item('WDM', 'zh-hk:波分複用;zh-cn:波分复用;zh-tw:波長分波多工;'),
+Item('iDEN', 'zh-tw:整合數位強化網路;zh-cn:集成数字增强网络;'),
+Item('GPRS', 'zh-tw:通用封包無線服務;zh-cn:通用分组无线服务;'),
+Item('spread-spectrum', 'zh-cn:扩频;zh-tw:展頻;'),
+Item('spread-spectrum', 'zh-cn:扩谱;zh-tw:展譜;'),
+Item('Signal-to-noise ratio', 'zh-cn:信噪比;zh-tw:訊號雜訊比;'),
+Item('Baud rate', 'zh-cn:波特率;zh-hans:波特率;zh-hk:鮑率;zh-tw:鮑率;zh-hant:鮑率;'),
+Item('Baud', 'zh-cn:波特;zh-hans:波特;zh-hk:鮑;zh-tw:鮑;zh-hant:鮑;'),
+-- 可能会出现过度转换
+{ type = 'text', text = [[
+
+==網路系統==
+]] },
+Item('Network', 'zh-tw:網路; zh-cn:网络; zh-hk:網絡;'),
+Item('Packet', 'zh-tw:封包;zh-cn:分组;'),
+Item('Cellular data', 'zh-tw:蜂巢式資料; zh-cn:蜂窝数据; zh-hk:蜂巢式數據;'),
+Item('Cellular network', 'zh-tw:蜂巢式網路; zh-cn:蜂窝网络; zh-hk:蜂巢式網絡;'),
+Item('Slot', 'zh-tw:時槽;zh-cn:时隙;'),
+{ type = 'text', text = [[
+
+==编码理论==
+]] },
+Item('bit', 'zh-tw:位元; zh-sg:位元; zh-cn:比特;'),
+Item('bitrate', '码率=>zh-tw:位元速率; 码率=>zh-hk:位元速率; 码率=>zh-mo:位元速率;'),
+Item('bitrate', '碼率=>zh-tw:位元速率; 碼率=>zh-hk:位元速率; 碼率=>zh-mo:位元速率;'),
+Item('bitrate', '荷码率=>zh-tw:位元速率; 荷码率=>zh-hk:位元速率; 荷码率=>zh-mo:位元速率;'),
+Item('bitrate', '荷碼率=>zh-tw:位元速率; 荷碼率=>zh-hk:位元速率; 荷碼率=>zh-mo:位元速率;'),
+Item('bit error', 'zh-cn:比特差错;zh-tw:位元錯誤;'),
+Item('block code', 'zh-cn:分组码;zh-tw:區塊碼;'),
+Item('error correcting code', 'zh-cn:纠错码;zh-tw:錯誤更正碼;zh-hk:除錯碼;'),
+Item('error detecting code', 'zh-cn:检错码;zh-tw:偵錯碼;'),
+Item('error detecting code', 'zh-cn:差错检测码;zh-tw:誤差檢測碼;'),
+Item('forward error correction', 'zh-cn:前向纠错; zh-tw:前向錯誤更正;'),
+Item('perfect code', 'zh-cn:完备码; zh-tw:完整码;'),
+{ type = 'text', text = [[
+
+==資訊理論==
+]] },
+Item('Information theory', 'zh-tw:資訊理論;zh-cn:信息论;'),
+Item('Information theory', '消息理論=>zh-cn:信息论; 消息理論=>zh-sg:信息论;'),
+Item('Sampling Theorem', 'zh-tw:取樣定理;zh-cn:采样定理;'),
+Item('Shannon', 'zh-cn:香农; zh-tw:夏農; zh-hk:山農;'),
+{ type = 'text', text = [[
+
+==電視==
+]] },
+Item('Analog Broadcasting', 'zh-cn:模拟广播; zh-tw:類比廣播; zh-hk:模擬廣播;'),
+Item('Analog Television', 'zh-cn:模拟电视; zh-tw:類比電視; zh-hk:模擬電視; zh-mo:模擬電視;'),
+Item('Definition', 'zh-cn:清晰度; zh-tw:解析度; zh-hk:清晰度;'),
+Item('Digital Broadcasting', 'zh:數字廣播; zh-cn:数字广播; zh-sg:数码广播; zh-my:数码广播; zh-hk:數碼廣播; zh-tw:數位廣播;'),
+Item('Digital Television', 'zh-cn:数字电视;zh-tw:數位電視;zh-hk:數碼電視;zh-mo:數字電視;zh-sg:数码电视;zh-my:数码电视;'),
+Item('Digital Terrestrial Television', 'zh:數字地面電視;zh-tw:無線數位電視;zh-sg:地面数码电视;zh-my:地面数码电视;zh-hk:地面數碼電視;zh-mo:數碼地面電視;zh-cn:数字地面电视;'), -- 次常用
+Item('Digital Terrestrial Television', 'zh:无线数字电视;zh-tw:數位無線電視;zh-sg:数码地面电视;zh-my:数码地面电视;zh-hk:數碼地面電視;zh-mo:地面數字電視;zh-cn:地面数字电视;'), -- 最常用
+Item('DVB-H', 'zh-cn:手持地面无线;zh-tw:手持式數位視訊廣播;zh-hk:手持式數碼視像廣播;'),
+Item('External', 'zh-cn:外置;zh-hk:外置;zh-tw:外接;'),
+Item('Set-top box', 'zh-hans:机顶盒;zh-hk:機頂盒;zh-mo:機頂盒;zh-tw:機上盒;'),
+Item('Set-top box', 'zh-tw:數位電視機上盒;zh-hk:數碼電視解碼器;zh-my:数码电视解码器;zh-sg:电视解码器;'),
+-- 防止過度轉換成「電視訊道」或「電視像道」
+Item('Television channel', 'zh-hans:电视频道;zh-hant:電視頻道;'),
+Item('terrestrial television', 'zh-tw:無線電視; zh-hk:地面電視; zh-cn:地面电视;'),
+Item('USB Digital TV tuner', 'zh-cn:USB数字电视棒;zh-hk:高清USB手指;zh-tw:USB數位電視棒;'),
+Item('USB TV Tuner', 'zh-cn:USB电视棒;zh-hk:USB電視手指;zh-tw:USB電視棒;'),
+Item('Standard definition', 'zh-cn:标清;zh-hk:標清;zh-tw:標準畫質;'),
+Item('High definition', 'zh-cn:高清;zh-hk:高清;zh-tw:高畫質;'),
+Item('Full High definition/Full HD', 'zh-tw:1080P; zh-hk:全高清; zh-cn:高清;'),
+Item('Ultra High definition', 'zh-tw:超高畫質; zh-hk:超高清; zh-cn:超高清; '),
+{ type = 'text', text = [[
+
+==其他==
+]] },
+Item('Call forwarding', 'zh-cn:呼叫转移; zh-tw:來電轉駁;'),
+Item('Information Technology', 'zh-cn:信息技术; zh-sg:资讯科技; zh-my:资讯科技; zh-tw:資訊科技;'),
+Item('Cable', 'zh-tw: 纜線; zh-cn: 线缆; zh-hans: 线缆;'),
+Item('Leakage cable', 'zh-tw: 洩波電纜; zh-cn: 泄漏电缆; zh-hans: 泄漏电缆;'),
+Item('Landline', 'zh-cn:固定电话; zh-tw:固網電信; zh-hk:固網電話;'),
+Item('Mobileline', 'zh-cn:移动电话; zh-tw:移動電話; zh-hk:流動電話;'),
+Item('China Telecom', 'zh-hans:中国电信; zh-hant:中國電信; zh-tw:中國電信; zh-hk:中國電信; zh-cn:中国电信;'),--防止“电信”过度转换
+Item('China Mobile', 'zh-hans:中国移动; zh-hant:中國移動; zh-tw:中國移動; zh-hk:中國移動; zh-cn:中国移动;'),--防止「移動」過度轉換
+Item('Service plan', 'zh-tw:服務專案; zh-hk:服務計劃; zh-cn:服务套餐; zh-sg:服务配套;'), 
+Item('Frame', 'zh-cn:帧; zh-tw:影格;'),
+Item('Communication', 'zh-tw:通訊學; zh-sg:通讯学; zh-my:通讯学; zh-cn:通信学;'),
+Item('Distortion', 'zh-hans:失真; zh-hant:失真;'),-- 防止来自IT组的过度转换
+Item('low-fidelity (Lo-Fi)', 'zh-cn:低保真; zh-tw:低傳真; zh-hk:低傳真;'),
+Item('high fidelity (Hi-Fi)', 'zh-cn:高保真; zh-tw:高傳真; zh-hk:高傳真;'),
+Item('Smartone', 'zh-hant:數碼通; zh-hans:数码通;'),-- 香港公司，防止过度转换
+Item('Base Station', 'zh-hans:基站; zh-tw:基地台; zh-hk:基站;'),
+Item(nil, 'zh-hant:資訊台; zh-hans:资讯台;'),
+Item(nil, 'zh-hant:資訊頻道; zh-hans:资讯频道;'), -- 防止电视频道名称过度转换
+{ type = 'text', text = [[
+
+== 参考资料 ==
+<references/>
+]] },
+},
+}

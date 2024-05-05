@@ -1,0 +1,21 @@
+en,zh-tw,zh-cn,zh-hk,zh
+transform,轉換,变换,,
+inverse transform,反轉換,逆变换,,
+Convolution,摺積,卷积,,
+Fourier,傅立葉,傅里叶,傅利葉,傅里叶
+Moving average,滑動平均,移动平均,,
+Circular convolution,圓周摺積,循环卷积,,圓周摺積
+Analog,類比,模拟,模擬,
+Digital,數位,数字,數碼,
+information,資訊,信息,,
+Pulse,脈波,脉冲,,
+Sampling,取樣,采样,,
+Signal,訊號,信号,,信號
+Impulse response,脈衝響應,冲激响应,,
+Impulse invariance,脈衝不變法,冲激不变法,,
+Settling time,整定時間,调节时间,,
+Time-invariant,非時變,时不变,,
+Feedback,回受,反馈,,
+Open loop,開迴路,开环,,
+Close loop,閉迴路,闭环,,
+Overshoot,過衝,过冲,,

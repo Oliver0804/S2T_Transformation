@@ -1,0 +1,171 @@
+-- 用法： Item('原文', '轉換規則')
+local Item = require('Module:CGroup/core').Item;
+
+return {
+
+name = 'MediaWiki',
+description = 'MediaWiki',
+content = {
+
+{ type = 'text', text = [=[
+{{NoteTA/MediaWiki}}
+本转换组为MediaWiki及中文维基百科专有用语。
+
+由于中文维基百科部分统一用语与常见IT术语不同，可视情况与[[Module:CGroup/IT]]配合使用来抵消[[Module:CGroup/IT]]带来的过度转换。
+
+本转换组只应用于Wikipedia、Help、Template等命名空间或与维基百科相关的条目，请勿用于其他主命名空间条目内。
+
+如無特別需求請直接使用{{tlx|NoteTA/MediaWiki}}
+
+== 專有名稱 ==
+]=] },
+Item('account', 'zh-cn:账号; zh-tw:帳號;'),
+Item('account', '账户=>zh-cn:账号; 账户=>zh-tw:帳號;'),
+Item('account', '賬戶=>zh-cn:账号; 賬戶=>zh-tw:帳號;'),
+Item('account', '賬號=>zh-cn:账号; 賬號=>zh-tw:帳號;'),
+Item('account', '帐户=>zh-cn:账号; 帐户=>zh-tw:帳號;'),
+Item('account', '帳戶=>zh-cn:账号;'),
+Item('account', '帐号=>zh-cn:账号; 帐号=>zh-tw:帳號;'),
+Item('account creator', 'zh-cn:大量账号创建者; zh-tw:大量帳號建立者; zh-hk:大量帳號建立者;'),
+Item('advanced', 'zh-cn:高级; zh-tw:進階;'),
+Item('authority control', 'zh-cn:规范控制; zh-tw:權威控制;'),
+Item('block', 'zh-cn:封禁; zh-tw:封鎖; zh-hk:封鎖;'),
+Item('change', 'zh-cn:更改; zh-tw:變更;'),
+Item('character', 'zh-cn:字符; zh-tw:字元;'),
+Item('copyright', 'zh-cn:著作权; zh-tw:著作權; zh-hk:版權; zh-mo:著作權;'),
+Item('copyright', '版权=>zh-tw:著作權; 版权=>zh-mo:著作權;'),
+Item('copyright information', '版权信息=>zh-cn:著作权信息; 版权信息=>zh-sg:著作权信息; 版权信息=>zh-my:著作权信息; 版权信息=>zh-tw:著作權資訊; 版权信息=>zh-mo:著作權資訊;'),
+Item('create', 'zh-cn:创建; zh-tw:建立;'),
+Item('create', '創建=>zh-tw:建立; 創建=>zh-hk:建立; 創建=>zh-mo:建立;'),
+Item('custom', 'zh-cn:自定义; zh-tw:自訂;'),
+Item('custom', '自定義=>zh-hk:自訂; 自定義=>zh-tw:自訂;'),
+Item('custom', '自定=>zh-hk:自訂; 自定=>zh-tw:自訂;'),
+Item('default', 'zh-cn:默认; zh-tw:預設;'),
+Item('default', '默認=>zh-tw:預設;'),
+Item('file', 'zh-cn:文件; zh-tw:檔案;'),
+Item('file', '档案=>zh-cn:文件; 档案=>zh-sg:文件; 档案=>zh-my:文件;'),
+Item('file name', 'zh-cn:文件名; zh-tw:檔案名稱;'),
+Item('flood', 'zh-hans:机器用户; zh-tw:機器使用者; zh-hk:機械用戶;'),
+Item('footnote', 'zh-cn:脚注; zh-tw:註腳;'),
+Item('Help:', 'zh-cn:帮助:; zh-tw:說明:;'),
+Item('Help talk:', 'zh-cn:帮助讨论:; zh-tw:說明討論:;'),
+Item('info (information)', 'zh-cn:信息; zh-tw:資訊;'),
+Item('interface', 'zh-hans:界面; zh-hant:介面;'),
+Item('interface administrators', 'zh-cn:界面管理员; zh-tw:介面管理員;'),
+Item('IP block exemption', 'zh-cn:IP封禁豁免; zh-tw:IP封鎖豁免;'),
+Item('IP block exemption', 'IP封禁例外=>zh-hans:IP封禁豁免; IP封禁例外=>zh-hant:IP封鎖豁免;'),
+Item('IP block exemption', 'IP封鎖例外=>zh-hans:IP封禁豁免; IP封禁例外=>zh-hant:IP封鎖豁免;'),
+--[=[
+抄自[[Module:CGroup/IT]]
+因為現在要求不要沒事加上IT以防過度轉換
+結果 链接/鏈接/連結 又不轉換了
+]=]
+Item('import', 'zh-cn:导入; zh-tw:匯入;'),
+Item('import', '汇入=>zh-cn:导入; 汇入=>zh-sg:导入; 汇入=>zh-my:导入;'),
+Item('import', '導入=>zh-tw:匯入; 導入=>zh-hk:匯入; 導入=>zh-mo:匯入;'),
+Item('line breaker', 'zh-hans:换行符;zh-hant:換行字元;'),
+Item('line breaker', 'zh:換行符;zh-hans:换行符;zh-hant:換行字元;'),
+Item('line breaker', 'zh:换行字元;zh-hans:换行符;zh-hant:換行字元;'),
+Item('link', 'zh-cn:链接; zh-tw:連結;'),
+Item('link', '连结=>zh-cn:链接; 连结=>zh-sg:链接; 连结=>zh-my:链接;'),
+Item('link', '鏈接=>zh-tw:連結; 鏈接=>zh-hk:連結; 鏈接=>zh-mo:連結;'),
+Item('link', '鏈結=>zh-tw:連結; 鏈結=>zh-hk:連結; 鏈結=>zh-mo:連結;'),
+Item('internal link', '内链=>zh-tw:內部連結; 内链=>zh-hk:內部連結; 内链=>zh-mo:內部連結;'),
+Item('internal link', '內鏈=>zh-tw:內部連結; 內鏈=>zh-hk:內部連結; 內鏈=>zh-mo:內部連結;'),
+Item('external link', '外链=>zh-tw:外部連結; 外链=>zh-hk:外部連結; 外链=>zh-mo:外部連結;'),
+Item('external link', '外鏈=>zh-tw:外部連結; 外鏈=>zh-hk:外部連結; 外鏈=>zh-mo:外部連結;'),
+Item('red link', '红链=>zh-tw:紅色連結; 红链=>zh-hk:紅色連結; 红链=>zh-mo:紅色連結;'),
+Item('red link', '紅鏈=>zh-tw:紅色連結; 紅鏈=>zh-hk:紅色連結; 紅鏈=>zh-mo:紅色連結;'),
+Item('green link', '绿链=>zh-tw:綠色連結; 绿链=>zh-hk:綠色連結; 绿链=>zh-mo:綠色連結;'),
+Item('green link', '綠鏈=>zh-tw:綠色連結; 綠鏈=>zh-hk:綠色連結; 綠鏈=>zh-mo:綠色連結;'),
+Item('blue link', '蓝链=>zh-tw:藍色連結; 蓝链=>zh-hk:藍色連結; 蓝链=>zh-mo:藍色連結;'),
+Item('blue link', '藍鏈=>zh-tw:藍色連結; 藍鏈=>zh-hk:藍色連結; 藍鏈=>zh-mo:藍色連結;'),
+Item('link (here)', 'zh-cn:链入; zh-tw:連入;'),
+Item('link (here)', '鏈入=>zh-tw:連入;'),
+-- end
+Item('log details', 'zh-hans:日志详情; zh-hant:日誌明細;'),
+Item('login', 'zh-hans:登录; zh-hant:登入;'),
+Item('logout', 'zh-hant:登出; zh-hans:退出;'), -- 覆蓋[[Module_talk:CGroup/IT#編輯請求_2023-06-13]]
+Item('logout', '退出登录 => zh-tw:登出; 退出登录 => zh-hk:登出; 退出登录 => zh-mo:登出; '), -- 你永遠想不到編者怎麼造成轉換錯誤
+Item('module', 'zh-cn:模块; zh-tw:模組;'),
+Item('module', '模组=>zh-cn:模块; 模组=>zh-sg:模块; 模组=>zh-my:模块;'),
+Item('namespace', 'zh-hans:命名空间; zh-hant:命名空間;'),
+Item('namespace', '名字空间=>zh-cn:命名空间; 名字空间=>zh-hk:命名空間; 名字空间=>zh-mo:命名空間; 名字空间=>zh-tw:命名空間; 名字空间=>zh-sg:命名空间; 名字空间=>zh-my:命名空间;'),
+Item('namespace', '名字空間=>zh-cn:命名空间; 名字空間=>zh-hk:命名空間; 名字空間=>zh-mo:命名空間; 名字空間=>zh-tw:命名空間; 名字空間=>zh-sg:命名空间; 名字空間=>zh-my:命名空间;'),
+Item('parser functions', 'zh-cn:解析器函数; zh-hk:解析器函數; zh-tw:解析器函數;'),
+Item('preferences', 'zh-cn:参数设置; zh-tw:偏好設定; zh-hk:參數設置;'),
+Item('project', 'zh-hans:项目; zh-hant:專案; zh-tw:專案;'), 
+--[=[
+誤轉率過高，真的要用請用 项目 代替 項目 即可轉換
+Item('project', '項目=>zh-tw:專案; 項目=>zh-hk:專案; 項目=>zh-mo:專案;'),
+]=]--
+Item('project', '专案=>zh-cn:项目; 专案=>zh-sg:项目; 专案=>zh-my:项目; 专案=>zh-tw:專案;'), 
+Item('project', '計劃=>zh-cn:项目; 計劃=>zh-sg:项目; 計劃=>zh-my:项目; 計劃=>zh-tw:專案; 計劃=>zh-hk:專案; 計劃=>zh-mo:專案;'), 
+Item('project page', 'zh-hans:项目页面; zh-hant:專案頁面; zh-tw:專案頁面;'), 
+Item('project page', '項目頁面=>zh-tw:計畫頁面; 項目頁面=>zh-hk:專案頁面; 項目=>zh-mo:專案頁面;'),
+Item('recent change', 'zh-hans:最近更改; zh-hant:近期變更;'),
+Item('redirect', 'zh-cn:重定向; zh-tw:重新導向;'),
+Item('redirect page', 'zh-cn:重定向页; zh-tw:重新導向頁面;'),
+Item('redirect page', '重定向页面=>zh-tw:重新導向頁面; 重定向页面=>zh-hk:重新導向頁面; 重定向页面=>zh-mo:重新導向頁面;'),
+Item('report', 'zh-cn:举报; zh-tw:檢舉;'),
+Item('sample', 'zh-cn:示例; zh-tw:範例;'),
+Item('skin', '皮肤=>zh-tw:外觀; 皮肤=>zh-hk:外觀; 皮肤=>zh-mo:外觀;'),
+Item('source code', 'zh-hans:原始码; zh-hant:原始碼; zh-cn:源代码;'),
+Item('source code', '源代碼=>zh-hk:原始碼; 源代碼=>zh-mo:原始碼; 源代碼=>zh-tw:原始碼; 源代碼=>zh-sg:原始码; 源代碼=>zh-my:原始码;'),
+Item('source code', '源码=>zh-hk:原始碼; 源码=>zh-mo:原始碼; 源码=>zh-tw:原始碼; 源码=>zh-sg:原始码; 源码=>zh-my:原始码;'),
+Item('source code', '源碼=>zh-hk:原始碼; 源碼=>zh-mo:原始碼; 源碼=>zh-tw:原始碼; 源碼=>zh-sg:原始码; 源碼=>zh-my:原始码;'),
+Item('string', 'zh-cn:字符串; zh-tw:字串;'),
+Item('template data', 'zh-hans:模板数据; zh-hant:模板資料; zh-tw:模板資料;'),
+Item('template documentation', 'zh-hans:模板文档; zh-hant:模板文件;'),
+Item('through', 'zh-cn:通过; zh-tw:透過;'),
+Item('undo', 'zh-cn:撤销; zh-tw:復原;'),
+Item('undo', '撤消=>zh-tw:復原; 撤消=>zh-hk:復原; 撤消=>zh-mo:復原;'),
+Item('user', 'zh-hans:用户; zh-hant:使用者; zh-tw:使用者; zh-hk:用戶;'),
+Item('user group', 'zh-cn:用户组; zh-tw:使用者群組; zh-hk:用戶組;'),
+Item('user page', 'zh-cn:用户页; zh-tw:使用者頁面; zh-hk:用戶頁;'),
+Item('user page', '用户頁=>zh-tw:使用者頁面;'),
+Item('user page', '用戶页=>zh-tw:使用者頁面;'),
+Item('user page', '用户页面=>zh-tw:使用者頁面;'),
+Item('user page', '使用者頁=>zh-tw:使用者頁面;'),
+Item('user page', '使用者頁面=>zh-tw:使用者頁面;'),
+Item('user right', '用户权限 => zh-tw:使用者權限;用戶權限 => zh-tw:使用者權限;'),
+Item('user right', '用户权 => zh-tw:使用者權限;用戶權 => zh-tw:使用者權限;'),
+Item('userbox', 'zh-cn:用户框; zh-tw:使用者方塊; zh-hk:用戶框;'),
+Item('username', 'zh-hans:用户名; zh-hant:用戶名; zh-tw:使用者名稱;'),
+Item('username', '用户名称=>zh-cn:用户名; 用户名称=>zh-my:用户名; 用户名称=>zh-sg:用户名; 用户名称=>zh-tw:使用者名稱;'),
+Item('username', '用戶名稱=>zh-cn:用户名; 用戶名稱=>zh-my:用户名; 用戶名稱=>zh-sg:用户名; 用戶名稱=>zh-tw:使用者名稱;'),
+Item('view', 'zh-cn:查看; zh-tw:檢視;'),
+Item('visual', 'zh-cn:可视化; zh-tw:視覺化;'), -- VisualEditor
+Item('watchlist', 'zh-cn:监视列表; zh-tw:監視清單;'),
+{ type = 'text', text = [=[
+== 避免過度轉換 ==
+]=] },
+--[=[
+此區僅用來防止過度轉換，請按照過度轉換源提供的轉換方式（ex.zh-hans:xxx; zh-hant:xxx; 或 zh-cn:xxx; zh-tw:xxx;）加入，避免無法覆蓋
+]=]--
+Item('archives', 'zh-cn:档案馆; zh-tw:檔案館;'), -- 避免 档案馆->文件馆 的過度轉換
+Item('archives', '档案馆=>zh-cn:档案馆; 档案馆=>zh-sg:档案馆; 档案馆=>zh-my:档案馆;'), -- 避免 档案馆->文件馆 的過度轉換
+Item('administrator intervention against vandalism', 'zh-hans:当前的破坏; zh-hant:目前的破壞;'), -- 「当前=>目前」非過度轉換
+Item('cite', 'zh-hans:引用; zh-hant:引用;'), -- 避免 引用->參照 的過度轉換
+Item('commons', 'zh-hans:共享资源; zh-hant:共享資源;'), -- 避免 共享->共用 的過度轉換
+Item('global', 'zh-cn:全域; zh-tw:全域;'),
+Item('log', 'zh-hans:日志; zh-hant:日誌;'), -- 避免 日志->紀錄檔 的過度轉換
+Item('log entry', 'zh-cn:日志项目; zh-tw:日誌項目;'), -- 避免 项目->專案/計畫/計劃 的過度轉換
+Item(nil, 'zh-hans:主页面; zh-hant:主頁面;'), -- 避免 主頁->首頁 的過度轉換
+Item('message', 'zh-hans:讯息; zh-hant:訊息;'), -- 避免 訊息->消息 的過度轉換
+Item('native', 'zh-hans:本地的; zh-hant:本地的;'), -- 避免 本地的->原生的 的過度轉換
+Item('object', 'zh-hans:对象; zh-hant:對象;'), -- 避免 对象->物件 的過度轉換
+Item('perform', 'zh-hans:执行; zh-hant:執行;'), -- 避免 執行->运行 的過度轉換
+Item('procedure', 'zh-hans:程序; zh-hant:程序;'), -- 避免 程序->程式 的過度轉換
+Item('segment', 'zh-hans:区段; zh-hant:區段;'), -- 避免 區段->区块 的過度轉換
+Item('sign', 'zh-hans:签名; zh-hant:簽名;'), -- 避免 签名->簽章 的過度轉換
+Item('support', 'zh-hans:支持; zh-hant:支持;'), -- 避免 支持->支援 的過度轉換
+Item('user namespace', '用户名字空間=>zh-hk:用戶命名空間; 用户名字空間=>zh-mo:用戶命名空間; 用户名字空間=>zh-tw:使用者命名空間;'), -- 避免 用户名->使用者名稱 的過度轉換
+Item('user namespace', '用戶名字空间=>zh-hk:用戶命名空間; 用戶名字空间=>zh-mo:用戶命名空間; 用戶名字空间=>zh-tw:使用者命名空間;'), -- 避免 用戶名->使用者名稱 的過度轉換
+Item('user namespace', '用戶名字空間=>zh-hk:用戶命名空間; 用戶名字空間=>zh-mo:用戶命名空間; 用戶名字空間=>zh-tw:使用者命名空間;'), -- 避免 用戶名->使用者名稱 的過度轉換
+-- 註：“名字空間”是舊的簡體中文譯名，後來簡體中文譯名改為“命名空間”，與繁體用詞保持一致。參見[[维基百科:互助客栈/其他/存档/2021年10月#關於zh-hans/zh-Hans-CN中namespace的翻譯]]。舊的用法保留在轉換表中。
+Item('community', 'zh-hans:社群; zh-hant:社群;'), -- 避免 社区->社群 的過度轉換
+Item(nil, '授權=>zh-cn:授权; zh-tw:授權;'), -- 避免 授權->特許 的過度轉換
+Item(nil, '特許=>zh-cn:授权; zh-tw:特許;'), -- 避免 授權->特許 的過度轉換
+},
+}
