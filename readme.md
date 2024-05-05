@@ -82,6 +82,8 @@ process_po_file(input_document, output_document, translation_dict, auto_mode=Fal
 
 ## 基於 基於 WIKI 文件進行運行 ，樂詞網需要評估翻譯品質
 
+![翻譯記錄](./doc/當前數據對比.png)
+
 ```
 [112:msgstr] <不支持您的 OpenGL 版本。最低要求版本為 1.5。> -> <不支援您的 OpenGL 版本。最低要求版本為 1.5。>
 [117:msgstr] <渲染時間 %.0f ms> -> <彩現時間 %.0f ms>
