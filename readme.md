@@ -4,7 +4,7 @@ TODO...
 
 - [ ] 自動化獲取 WIKI 數據
 - [ ] 自動化獲取樂詞網數據
-- [ ] 無法手動，目前會全自動檢查 QAQ。
+- [V] 無法手動，目前會全自動檢查 QAQ。
 - [ ] 樂詞網有些奇怪詞彙 例如『拉』跟『圖』，每次自動運行完進行修改 ods 詞彙文件後再次運行。
 
 - 詞網加油好嗎？
@@ -20,8 +20,8 @@ TODO...
 ![demo](./doc/demo.png)
 
 1. 採用樂詞網的 ods 文件進行簡詞翻譯
-2. 會針對 msgid 與 msgstr 進行翻譯
-3. 翻譯結果可以由 log 進行查詢
+2. 會針對.po 中的 msgid 與 msgstr 進行翻譯
+3. 翻譯結果可以由 log 進行檢視
 4. 添加使用 WIKI 繁體中文對應數據...
 5. 針對 taotixxxx 所使用的簡詞繁體字型詞彙進行處理(如果全部都是簡體字到沒問題)
    ![簡詞轉繁體](./doc/簡詞轉繁體.png)
@@ -62,7 +62,7 @@ TODO...
 ```
 input_document = "KiCad Taipei source zh Hant.po"
 output_document = "KiCad_dev_testdata_translated.po"
-auto_mode = True  # 手動模式 有bug還沒修好= =
+auto_mode = True  # 自動模式
 debug_mode = False  # 開啟會打印更多資訊
 logging_mode = True #如果開啟 會將有翻譯的行數與翻譯前後結果記錄於另外檔案
 ```
