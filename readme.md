@@ -4,13 +4,12 @@ TODO...
 
 - [ ] 自動化獲取 WIKI 數據
 - [ ] 自動化獲取樂詞網數據
-- [V] 無法手動，目前會全自動檢查 QAQ。
-- [ ] 樂詞網有些奇怪詞彙 例如『拉』跟『圖』，每次自動運行完進行修改 ods 詞彙文件後再次運行。
+- [x] 無法手動，目前會全自動檢查 QAQ。
+- [x] 樂詞網有些奇怪詞彙 例如『拉』跟『圖』，每次自動運行完進行修改 ods 詞彙文件後再次運行。(改由 wiki 替代轉 csv，ods 仍保留其代碼)
 
 - 詞網加油好嗎？
 
 ![加油好嗎？](./doc/樂詞網加油好嗎？.png)
-
 ![加油好嗎？](./doc/樂詞網你認真？.png)
 
 ## 功能描述
@@ -23,14 +22,17 @@ TODO...
 2. 會針對.po 中的 msgid 與 msgstr 進行翻譯
 3. 翻譯結果可以由 log 進行檢視
 4. 添加使用 WIKI 繁體中文對應數據...
+   https://zh.wikipedia.org/wiki/Module:CGroup
+   ![](./../doc/WIKI.png)
+
 5. 針對 taotixxxx 所使用的簡詞繁體字型詞彙進行處理(如果全部都是簡體字到沒問題)
    ![簡詞轉繁體](./doc/簡詞轉繁體.png)
 
-- 本專案需要將樂詞網下載 ods 放置於 dataset 中，請於下面連結進行下載。
+   - 本專案需要將樂詞網下載 ods 放置於 dataset 中，請於下面連結進行下載。
 
-  https://terms.naer.edu.tw/download/10/
+   https://terms.naer.edu.tw/download/10/
 
-  ![樂詞網下載](./doc/樂詞網下載.png)
+   ![樂詞網下載](./doc/樂詞網下載.png)
 
 ## 使用方法
 
@@ -55,6 +57,17 @@ TODO...
     pip install -r requirements.txt
    ```
 
+## 修改為翻譯文件庫
+
+```
+# 載入樂詞網翻譯表
+# translation_dict = load_translation_table_from_ods(ods_files)
+
+# 載入WIKI轉換的 csv翻譯表 (當前預設)
+translation_dict = load_translation_table_from_csv(csv_files)
+
+```
+
 ## 在 Jupyter Notebook 中運行以下代碼塊來使用此工具
 
 需要修改的內容如下(本項目可以直接運行)，有需求在進行修改：
@@ -62,7 +75,7 @@ TODO...
 ```
 input_document = "KiCad Taipei source zh Hant.po"
 output_document = "KiCad_dev_testdata_translated.po"
-auto_mode = True  # 自動模式
+auto_mode = False  # 手動模式 ,可以輸入auto進行自動
 debug_mode = False  # 開啟會打印更多資訊
 logging_mode = True #如果開啟 會將有翻譯的行數與翻譯前後結果記錄於另外檔案
 ```
