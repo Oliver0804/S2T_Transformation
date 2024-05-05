@@ -32,15 +32,15 @@ SMD,表面黏著,貼片
 Surface Mount,表面黏著,貼片
 mark,標示,設置
 database library,資料函式庫,數據庫庫
-Fallback graphics,後備圖形,
+Fallback graphics,備用圖型,
 Compatible,相容,兼容
 power dissipation,消耗功率,耗散功率取
 wizard,精靈 ,響導
 information,資訊,信息
-Courtyard collision shadow ?,,
+Courtyard collision shadow,外框衝突陰影顯示,
 Loading board regions...,,
 via ,通孔；貫孔,過孔
 ,品質,質量
 ,品質,網絡
-Configuration,配置,
+Configuration,組態,
 setting,設定,
