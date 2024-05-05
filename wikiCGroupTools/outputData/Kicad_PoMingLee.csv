@@ -1,0 +1,46 @@
+en,zh-tw,zh-cn
+page,頁面,
+paper,,
+sheet,圖紙,
+title block,標題欄,
+cache,快取,緩存
+template,模板,
+document,文件,文檔
+doc,文件,文檔
+evironment variable,環境變數,變量
+loaded,載入,加載
+missing,遺失,缺失
+read-only,唯讀,只讀
+hardware,硬體,硬件
+software,軟體,軟件
+text,文字,文本
+import,匯入,導入
+export,匯出,導出
+bitmap,點陣圖,位圖
+save,儲存,保存
+field,欄位,字段
+simulation,模擬,仿真
+grid,網格,柵格
+character,字元,字符
+User,使用者,用戶
+render,算繪,渲染
+memory,記憶體,內存
+part,零件,元件；部件
+component,元件,
+element,元素,
+SMD,表面黏著,貼片
+Surface Mount,表面黏著,貼片
+mark,標示,設置
+database library,資料函式庫,數據庫庫
+Fallback graphics,後備圖形,
+Compatible,相容,兼容
+power dissipation,消耗功率,耗散功率取
+wizard,精靈 ,響導
+information,資訊,信息
+Courtyard collision shadow ?,,
+Loading board regions...,,
+via ,通孔；貫孔,過孔
+,品質,質量
+,品質,網絡
+Configuration,配置,
+setting,設定,
