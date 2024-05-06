@@ -22,6 +22,8 @@ def find_csv_files(directory):
     for filename in os.listdir(directory):
         if filename.endswith(".csv"):
             csv_files.append(os.path.join(directory, filename))
+    # 最倒序排列
+    csv_files.sort(reverse=True)
     return csv_files
 
 def simplify_to_traditional(simplified_text):
@@ -79,52 +81,77 @@ def load_translation_table_from_csv(file_paths):
     print(f"Rows ignored due to missing fields: {ignored_count}")
     return translation_dict
 
+
+
+# %%
 def replace_text(line, translation_dict, auto_mode):
     auto_replace = auto_mode
-    stop_processing = False  # 用於控制是否停止整個處理
+    stop_processing = False
+    matches = []
 
+    # 尋找所有可能的替換
     for simplified, details in translation_dict.items():
-        if simplified in line:
-            traditional_text = details['traditional']
-            traditional_choices = traditional_text.split('；')
-            chosen_traditional = traditional_choices[0]  # 預設選擇第一組
+        start = 0
+        while simplified in line[start:]:
+            start = line.find(simplified, start)
+            if start == -1:
+                break
+            end = start + len(simplified)
+            matches.append((start, end, simplified, details))
+            start += len(simplified)  # 避免重複檢查
 
-            if not auto_replace:  # 如果當前不是自動替換模式，詢問用戶
-                print(f"找到的文字: '{simplified}' 可以被替換成 '{chosen_traditional}'.")
-                if len(traditional_choices) > 1:
-                    print(f"為 '{simplified}' 提供了多個選擇:")
-                    for idx, choice in enumerate(traditional_choices, 1):
-                        print(f"{idx}. {choice}")
-                    print(f"{len(traditional_choices) + 1}. 跳過替換")
+    # 按起始位置和長度排序，實現最長匹配優先
+    matches.sort(key=lambda x: (x[0], x[1] - x[0]), reverse=True)
+
+    replaced_ranges = []
+    for start, end, simplified, details in matches:
+        if any(start >= r[0] and end <= r[1] for r in replaced_ranges):
+            continue  # 如果當前詞已經在替換範圍內，則跳過
+
+        traditional_text = details['traditional']
+        traditional_choices = traditional_text.split('；')
+        chosen_traditional = traditional_choices[0]  # 預設選擇第一組
+
+        if not auto_replace:
+            print(f"找到的文字: '{simplified}' 可以被替換成 '{chosen_traditional}'.")
+            if len(traditional_choices) > 1:
+                print(f"為 '{simplified}' 提供了多個選擇:")
+                for idx, choice in enumerate(traditional_choices, 1):
+                    print(f"{idx}. {choice}")
+                print(f"{len(traditional_choices) + 1}. 跳過替換")
+            else:
+                print("只有一個選擇可用。按 Enter 鍵跳過。")
+            print("輸入 'auto' 切換到自動替換模式，輸入 'stop' 停止處理。")
+
+            user_input = input("輸入編號進行替換，'auto' 自動替換，'stop' 停止，'n' 跳過: ").strip().lower()
+            if user_input == 'auto':
+                auto_replace = True
+                chosen_traditional = traditional_choices[0]
+            elif user_input == 'stop':
+                stop_processing = True
+                break
+            elif user_input == 'n':
+                continue
+            elif user_input.isdigit():
+                choice_index = int(user_input) - 1
+                if 0 <= choice_index < len(traditional_choices):
+                    chosen_traditional = traditional_choices[choice_index]
                 else:
-                    print("只有一個選擇可用。按 Enter 鍵跳過。")
-                print("輸入 'auto' 切換到自動替換模式，輸入 'stop' 停止處理。")
-
-                user_input = input("輸入編號進行替換，'auto' 自動替換，'stop' 停止，'n' 跳過: ").strip().lower()
-                if user_input == 'auto':
-                    auto_replace = True
-                elif user_input == 'stop':
-                    stop_processing = True
-                    break
-                elif user_input == 'n':
+                    print("無效的選擇，跳過替換。")
                     continue
-                elif user_input.isdigit():
-                    choice_index = int(user_input) - 1
-                    if 0 <= choice_index < len(traditional_choices):
-                        chosen_traditional = traditional_choices[choice_index]
-                    else:
-                        print("無效的選擇，跳過替換。")
-                        continue
-                elif user_input == "":
-                    # 沒有輸入任何值，使用預設選項進行替換
-                    print(f"進行替換: '{simplified}' -> '{chosen_traditional}'")
-                else:
-                    print("無效的輸入，跳過替換。")
-                    continue
+            elif user_input == "":
+                # 沒有輸入任何值，使用預設選項進行替換
+                print(f"進行替換: '{simplified}' -> '{chosen_traditional}'")
+            else:
+                print("無效的輸入，跳過替換。")
+                continue
 
-            line = line.replace(simplified, chosen_traditional)
+        # 替換文字並更新替換範圍
+        line = line[:start] + chosen_traditional + line[end:]
+        replaced_ranges.append((start, start + len(chosen_traditional)))
 
     return line, auto_replace, stop_processing
+
 
 # %%
 # 設置ods文件路徑
@@ -179,7 +206,7 @@ for index, (simplified, details) in enumerate(translation_dict.items()):
 # %%
 #input_document = "KiCad_dev_testdata.po"
 input_document = "KiCad Taipei source zh Hant.po"
-output_document = "KiCad_dev_testdata_translated.po"
+output_document = "KiCad Taipei source zh Hant_translated.po"
 auto_mode = False  # 自動模式
 debug_mode = False  # 開啟會打印更多資訊
 logging_mode = True #如果開啟 會將有翻譯的行數與翻譯前後結果記錄於另外檔案
@@ -240,9 +267,6 @@ def process_po_file(input_file, output_file, translation_dict, auto_mode=False, 
 
 # %%
 process_po_file(input_document, output_document, translation_dict, auto_mode, debug_mode, logging_mode)
-
-
-# %%
 
 
 
