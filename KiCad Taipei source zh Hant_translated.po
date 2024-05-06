@@ -1360,11 +1360,11 @@ msgstr "建立 PostScript 檔案"
 
 #: bitmap2component/bitmap2cmp_frame.cpp:517
 msgid "Create Symbol Library"
-msgstr "建立符號函式庫"
+msgstr "建立符號庫"
 
 #: bitmap2component/bitmap2cmp_frame.cpp:552
 msgid "Create Footprint Library"
-msgstr "建立封裝函式庫"
+msgstr "建立封裝庫"
 
 #: bitmap2component/bitmap2cmp_panel.cpp:50 common/eda_draw_frame.cpp:672
 #: eeschema/dialogs/dialog_field_properties_base.cpp:220
@@ -1751,7 +1751,7 @@ msgstr "無法建立輸出目錄 '%s'。"
 
 #: common/common.cpp:694
 msgid "This operating system is not supported by KiCad and its dependencies."
-msgstr "KiCad 及其相依函式庫式庫不支援此作業系統。"
+msgstr "KiCad 及其相依函式庫不支援此作業系統。"
 
 #: common/common.cpp:696
 msgid "Unsupported Operating System"
@@ -1938,7 +1938,7 @@ msgstr "開發者網站 - "
 
 #: common/dialog_about/AboutDialog_main.cpp:142
 msgid "Official KiCad library repositories - "
-msgstr "KiCad 官方函式庫倉函式庫 - "
+msgstr "KiCad 官方庫倉庫 - "
 
 #: common/dialog_about/AboutDialog_main.cpp:149
 msgid "Bug tracker"
@@ -1982,7 +1982,7 @@ msgstr "檔案團隊"
 
 #: common/dialog_about/AboutDialog_main.cpp:800
 msgid "Librarian Team"
-msgstr "函式庫團隊"
+msgstr "庫團隊"
 
 #: common/dialog_about/AboutDialog_main.cpp:843
 msgid "3D models"
@@ -2041,7 +2041,7 @@ msgstr "檔案撰寫人員"
 
 #: common/dialog_about/dialog_about.cpp:146
 msgid "Librarians"
-msgstr "資料函式庫人員"
+msgstr "資料庫人員"
 
 #: common/dialog_about/dialog_about.cpp:149
 msgid "Artists"
@@ -2085,7 +2085,7 @@ msgstr "構建版本資訊"
 
 #: common/dialog_about/dialog_about_base.cpp:45
 msgid "Lib Version Info"
-msgstr "函式庫版本資訊"
+msgstr "庫版本資訊"
 
 #: common/dialog_about/dialog_about_base.cpp:58
 msgid "&Copy Version Info"
@@ -2343,7 +2343,7 @@ msgstr "路徑"
 #: common/dialogs/dialog_global_lib_table_config.cpp:41
 #, c-format
 msgid "Configure Global %s Library Table"
-msgstr "組態全域 %s 函式庫表"
+msgstr "組態全域 %s 庫表"
 
 #: common/dialogs/dialog_global_lib_table_config.cpp:44
 #, c-format
@@ -2361,41 +2361,41 @@ msgstr ""
 #: common/dialogs/dialog_global_lib_table_config.cpp:51
 #, c-format
 msgid "Copy default global %s library table (recommended)"
-msgstr "複製預設的全域 %s 函式庫表 (推薦)"
+msgstr "複製預設的全域 %s 庫表 (推薦)"
 
 #: common/dialogs/dialog_global_lib_table_config.cpp:53
 #, c-format
 msgid ""
 "Select this option if you not sure about configuring the global %s library "
 "table"
-msgstr "如果你不確定如何組態全域 %s 函式庫表, 請選擇此選項目"
+msgstr "如果你不確定如何組態全域 %s 庫表, 請選擇此選項目"
 
 #: common/dialogs/dialog_global_lib_table_config.cpp:57
 #, c-format
 msgid "Copy custom global %s library table"
-msgstr "複製自訂全域 %s 函式庫表"
+msgstr "複製自訂全域 %s 庫表"
 
 #: common/dialogs/dialog_global_lib_table_config.cpp:59
 #, c-format
 msgid ""
 "Select this option to copy a %s library table file other than the default"
-msgstr "選擇此選項目可複製除預設值以外的 %s 函式庫表檔案"
+msgstr "選擇此選項目可複製除預設值以外的 %s 庫表檔案"
 
 #: common/dialogs/dialog_global_lib_table_config.cpp:63
 #, c-format
 msgid "Create an empty global %s library table"
-msgstr "建立一個空的全域 %s 函式庫表"
+msgstr "建立一個空的全域 %s 庫表"
 
 #: common/dialogs/dialog_global_lib_table_config.cpp:65
 #, c-format
 msgid ""
 "Select this option to define %s libraries in project specific library tables"
-msgstr "選擇此選項目可在專案專用函式庫表中定義 %s 函式庫"
+msgstr "選擇此選項目可在專案專用庫表中定義 %s 庫"
 
 #: common/dialogs/dialog_global_lib_table_config.cpp:69
 #, c-format
 msgid "Select global %s library table file:"
-msgstr "選擇全域 %s 函式庫表檔案:"
+msgstr "選擇全域 %s 庫表檔案:"
 
 #: common/dialogs/dialog_global_lib_table_config_base.cpp:21
 #: common/dialogs/dialog_global_lib_table_config_base.cpp:28
@@ -2454,7 +2454,7 @@ msgstr "選擇檔案"
 
 #: common/dialogs/dialog_global_lib_table_config_base.h:55
 msgid "Configure Global Library Table"
-msgstr "組態全域函式庫表"
+msgstr "組態全域庫表"
 
 #: common/dialogs/dialog_grid_settings.cpp:61
 msgid "Grid size X out of range."
@@ -2689,13 +2689,13 @@ msgstr "所選路徑不包含有效的 KiCad 標示!"
 
 #: common/dialogs/dialog_migrate_settings_base.cpp:63
 msgid "Import library configuration from previous version"
-msgstr "從先前版本匯入函式庫組態"
+msgstr "從先前版本匯入庫組態"
 
 #: common/dialogs/dialog_migrate_settings_base.cpp:65
 msgid ""
 "When checked, the symbol and footprint library tables from the previous "
 "version will be imported into this version"
-msgstr "勾選後, 先前版本的符號和封裝函式庫表將匯入到此版本中"
+msgstr "勾選後, 先前版本的符號和封裝庫表將匯入到此版本中"
 
 #: common/dialogs/dialog_migrate_settings_base.cpp:69
 msgid "Start with default settings"
@@ -3021,7 +3021,7 @@ msgstr ""
 #: common/dialogs/dialog_plugin_options.cpp:52
 #, c-format
 msgid "Options for Library '%s'"
-msgstr "函式庫 '%s' 的選項目"
+msgstr "庫 '%s' 的選項目"
 
 #: common/dialogs/dialog_plugin_options_base.cpp:26
 msgid "Plugin Options"
@@ -3452,11 +3452,11 @@ msgstr "缺少資訊"
 
 #: common/dialogs/git/dialog_git_repository.cpp:418
 msgid "Please enter a name for the repository"
-msgstr "請輸入倉函式庫名稱"
+msgstr "請輸入倉庫名稱"
 
 #: common/dialogs/git/dialog_git_repository.cpp:425
 msgid "Please enter a URL for the repository"
-msgstr "請輸入倉函式庫 URL"
+msgstr "請輸入倉庫 URL"
 
 #: common/dialogs/git/dialog_git_repository.cpp:447
 #: common/dialogs/git/dialog_git_repository_base.cpp:120
@@ -3498,7 +3498,7 @@ msgstr "使用者"
 
 #: common/dialogs/git/dialog_git_repository_base.h:77
 msgid "Git Repository"
-msgstr "Git 倉函式庫"
+msgstr "Git 倉庫"
 
 #: common/dialogs/git/dialog_git_switch.cpp:39
 msgid "Git Branch Switch"
@@ -3549,7 +3549,7 @@ msgstr "作者電子信箱:"
 
 #: common/dialogs/git/panel_git_repos_base.cpp:68
 msgid "Git Repositories"
-msgstr "Git 倉函式庫"
+msgstr "Git 倉庫"
 
 #: common/dialogs/git/panel_git_repos_base.cpp:97
 #: eeschema/dialogs/panel_sym_lib_table_base.cpp:44
@@ -3561,15 +3561,15 @@ msgstr "活動的"
 
 #: common/dialogs/git/panel_git_repos_base.cpp:122
 msgid "Add new repository"
-msgstr "添加新的倉函式庫"
+msgstr "添加新的倉庫"
 
 #: common/dialogs/git/panel_git_repos_base.cpp:127
 msgid "Edit repository properties"
-msgstr "編輯倉函式庫屬性"
+msgstr "編輯倉庫屬性"
 
 #: common/dialogs/git/panel_git_repos_base.cpp:135
 msgid "Remove Git Repository"
-msgstr "移除 Git 倉函式庫"
+msgstr "移除 Git 倉庫"
 
 #: common/dialogs/panel_color_settings.cpp:50
 msgid "Reveal Themes in Finder"
@@ -4413,19 +4413,19 @@ msgstr "啟動時檢查 擴充內容包 是否可更新"
 
 #: common/dialogs/panel_packages_and_updates_base.cpp:63
 msgid "Library package handling"
-msgstr "處理擴充內容包函式庫"
+msgstr "處理擴充內容包庫"
 
 #: common/dialogs/panel_packages_and_updates_base.cpp:76
 msgid "Automatically add installed libraries to global library table"
-msgstr "自動將已安裝的函式庫添加到全域函式庫表"
+msgstr "自動將已安裝的庫添加到全域庫表"
 
 #: common/dialogs/panel_packages_and_updates_base.cpp:80
 msgid "Automatically remove uninstalled libraries"
-msgstr "自動移除已解除安裝的函式庫"
+msgstr "自動移除已解除安裝的庫"
 
 #: common/dialogs/panel_packages_and_updates_base.cpp:87
 msgid "Library nickname prefix:"
-msgstr "函式庫名稱字首:"
+msgstr "庫名稱字首:"
 
 #: common/dialogs/panel_plugin_settings.cpp:103
 #, c-format
@@ -5272,11 +5272,11 @@ msgstr "單位"
 
 #: common/eda_draw_frame.cpp:1098 pcbnew/footprint_libraries_utils.cpp:1388
 msgid "Select Library"
-msgstr "選擇函式庫"
+msgstr "選擇庫"
 
 #: common/eda_draw_frame.cpp:1098
 msgid "New Library"
-msgstr "新建函式庫"
+msgstr "新建庫"
 
 #: common/eda_draw_frame.cpp:1196 common/widgets/search_pane.cpp:42
 #: eeschema/sch_edit_frame.cpp:257 pcbnew/pcb_edit_frame.cpp:341
@@ -5870,15 +5870,15 @@ msgstr "最大"
 msgid ""
 "The base path of locally installed system footprint libraries (.pretty "
 "folders)."
-msgstr "KiCad 自帶的封裝函式庫(.pretty 資料夾) 的儲存路徑。"
+msgstr "KiCad 自帶的封裝庫(.pretty 資料夾) 的儲存路徑。"
 
 #: common/env_vars.cpp:111
 msgid "The base path of system footprint 3D shapes (.3Dshapes folders)."
-msgstr "KiCad 自帶的 3D 模型函式庫 (.3Dshapes 資料夾) 的儲存路徑。"
+msgstr "KiCad 自帶的 3D 模型庫 (.3Dshapes 資料夾) 的儲存路徑。"
 
 #: common/env_vars.cpp:113
 msgid "The base path of the locally installed symbol libraries."
-msgstr "KiCad 自帶的原理圖符號函式庫的儲存路徑。"
+msgstr "KiCad 自帶的原理圖符號庫的儲存路徑。"
 
 #: common/env_vars.cpp:115
 msgid "A directory containing project templates installed with KiCad."
@@ -5894,7 +5894,7 @@ msgstr "可選。如果你想建立自己的專案模板資料夾, 可以進行�
 msgid ""
 "A directory containing 3rd party plugins, libraries and other downloadable "
 "content."
-msgstr "擴充內容管理員所下載的第三方外掛程式、函式庫以及其他內容的儲存目錄。"
+msgstr "擴充內容管理員所下載的第三方外掛程式、庫以及其他內容的儲存目錄。"
 
 #: common/env_vars.cpp:123
 msgid ""
@@ -6034,7 +6034,7 @@ msgstr "載入封裝時出錯:"
 msgid ""
 "Duplicate library nickname '%s' found in footprint library table file line "
 "%d."
-msgstr "發現重複的函式庫名稱 '%s', 位於封裝函式庫表檔案的行 %d。"
+msgstr "發現重複的庫名稱 '%s', 位於封裝庫表檔案的行 %d。"
 
 #: common/fp_lib_table.cpp:560 eeschema/symbol_lib_table.cpp:601
 msgid "Added by Plugin and Content Manager"
@@ -6043,7 +6043,7 @@ msgstr "由擴充內容管理員添加"
 #: common/fp_lib_table.cpp:586 eeschema/symbol_lib_table.cpp:629
 #, c-format
 msgid "Cannot create global library table path '%s'."
-msgstr "無法建立全域函式庫表路徑 '%s'。"
+msgstr "無法建立全域庫表路徑 '%s'。"
 
 #: common/gestfich.cpp:244
 #, c-format
@@ -6094,7 +6094,7 @@ msgstr "無法建立目錄 '%s'"
 #: common/git/git_clone_handler.cpp:66
 #, c-format
 msgid "Could not clone repository '%s'"
-msgstr "無法克隆倉函式庫 '%s'"
+msgstr "無法克隆倉庫 '%s'"
 
 #: common/git/git_pull_handler.cpp:46
 #, c-format
@@ -6129,7 +6129,7 @@ msgstr "HEAD 無效, 無法合併。"
 
 #: common/git/git_pull_handler.cpp:177
 msgid "Could not get repository head"
-msgstr "無法取得倉函式庫 HEAD"
+msgstr "無法取得倉庫 HEAD"
 
 #: common/git/git_pull_handler.cpp:187
 #, c-format
@@ -6150,7 +6150,7 @@ msgstr "無法合併提交"
 
 #: common/git/git_pull_handler.cpp:257
 msgid "Could not get repository index"
-msgstr "無法取得倉函式庫索引"
+msgstr "無法取得倉庫索引"
 
 #: common/git/git_pull_handler.cpp:265
 msgid "Could not get conflict iterator"
@@ -6208,7 +6208,7 @@ msgstr "[已更新] %s"
 
 #: common/git/kicad_git_errors.cpp:39
 msgid "Invalid repository."
-msgstr "倉函式庫無效。"
+msgstr "倉庫無效。"
 
 #: common/git/kicad_git_errors.cpp:40
 msgid "Failed to commit changes."
@@ -6220,15 +6220,15 @@ msgstr "合併分支失敗。"
 
 #: common/git/kicad_git_errors.cpp:44
 msgid "Failed to clone repository."
-msgstr "克隆倉函式庫失敗。"
+msgstr "克隆倉庫失敗。"
 
 #: common/git/kicad_git_errors.cpp:45
 msgid "Remote repository not found."
-msgstr "找不到遠端倉函式庫。"
+msgstr "找不到遠端倉庫。"
 
 #: common/git/kicad_git_errors.cpp:46
 msgid "Authentication failed for remote repository."
-msgstr "遠端倉函式庫身分驗證失敗。"
+msgstr "遠端倉庫身分驗證失敗。"
 
 #: common/git/kicad_git_errors.cpp:49
 msgid "Branch not found."
@@ -6256,11 +6256,11 @@ msgstr "發生變基衝突。"
 
 #: common/git/kicad_git_errors.cpp:62
 msgid "Failed to pull changes from remote repository."
-msgstr "從遠端倉函式庫提取變更失敗。"
+msgstr "從遠端倉庫提取變更失敗。"
 
 #: common/git/kicad_git_errors.cpp:63
 msgid "Failed to push changes to remote repository."
-msgstr "向遠端倉函式庫推播變更失敗。"
+msgstr "向遠端倉庫推播變更失敗。"
 
 #: common/git/kicad_git_errors.cpp:64
 msgid "No upstream branch configured."
@@ -6268,7 +6268,7 @@ msgstr "未組態上游分支。"
 
 #: common/git/kicad_git_errors.cpp:65
 msgid "Failed to establish connection with remote repository."
-msgstr "與遠端倉函式庫建立連接失敗。"
+msgstr "與遠端倉庫建立連接失敗。"
 
 #: common/git/kicad_git_errors.cpp:68
 msgid "Tag not found."
@@ -6615,17 +6615,17 @@ msgstr "無法解析 JSON 檔案 '%2$s' 中的第 %1$d 行: %3$s"
 #: common/kiway.cpp:243
 #, c-format
 msgid "Failed to verify kiface library '%s' signature."
-msgstr "無法驗證 kiface 函式庫 '%s' 簽章。"
+msgstr "無法驗證 kiface 庫 '%s' 簽章。"
 
 #: common/kiway.cpp:283
 #, c-format
 msgid "Failed to load kiface library '%s'."
-msgstr "載入 kiface 函式庫 '%s' 失敗。"
+msgstr "載入 kiface 庫 '%s' 失敗。"
 
 #: common/kiway.cpp:291
 #, c-format
 msgid "Could not read instance name and version from kiface library '%s'."
-msgstr "無法從 kiface 函式庫 '%s' 讀取實例名稱和版本。"
+msgstr "無法從 kiface 庫 '%s' 讀取實例名稱和版本。"
 
 #: common/kiway.cpp:462
 msgid "Error loading editor."
@@ -6967,7 +6967,7 @@ msgstr "元件外框碰撞陰影"
 
 #: common/lib_id.cpp:145
 msgid "Illegal character found in library nickname"
-msgstr "函式庫名稱中包含非法字元"
+msgstr "庫名稱中包含非法字元"
 
 #: common/lib_table_grid_tricks.cpp:32
 msgid "Edit options..."
@@ -6975,7 +6975,7 @@ msgstr "編輯選項目..."
 
 #: common/lib_table_grid_tricks.cpp:33
 msgid "Edit options for this library entry"
-msgstr "函式庫條目的編輯選項目"
+msgstr "庫條目的編輯選項目"
 
 #: common/lib_table_grid_tricks.cpp:63
 msgid "Activate selected"
@@ -6996,7 +6996,7 @@ msgstr "取消可見標記"
 #: common/lib_table_grid_tricks.cpp:80
 #, c-format
 msgid "Library settings for %s..."
-msgstr "%s 的函式庫標示..."
+msgstr "%s 的庫標示..."
 
 #: common/lib_tree_model.cpp:149
 #: eeschema/dialogs/dialog_lib_edit_pin_table.cpp:131
@@ -7150,7 +7150,7 @@ msgstr "打開 %s"
 
 #: common/project.cpp:366 common/project.cpp:371 pcbnew/project_pcb.cpp:69
 msgid "Error loading project footprint library table."
-msgstr "載入專案封裝函式庫表時出錯。"
+msgstr "載入專案封裝庫表時出錯。"
 
 #: common/project/net_settings.cpp:60 pcbnew/board.cpp:122
 msgid "This is the default net class."
@@ -7333,19 +7333,19 @@ msgstr "在編輯器中建立一個新的檔案"
 #: common/tool/actions.cpp:52 eeschema/symbol_editor/symbol_editor.cpp:618
 #: pcbnew/footprint_libraries_utils.cpp:1018
 msgid "New Library..."
-msgstr "新建函式庫..."
+msgstr "新建庫..."
 
 #: common/tool/actions.cpp:53
 msgid "Create a new library folder"
-msgstr "建立新的函式庫資料夾"
+msgstr "建立新的庫資料夾"
 
 #: common/tool/actions.cpp:59
 msgid "Add Library..."
-msgstr "添加函式庫..."
+msgstr "添加庫..."
 
 #: common/tool/actions.cpp:60
 msgid "Add an existing library folder"
-msgstr "添加現有函式庫資料夾"
+msgstr "添加現有庫資料夾"
 
 #: common/tool/actions.cpp:68
 msgid "Open..."
@@ -7834,19 +7834,19 @@ msgstr "執行滑鼠左鍵雙擊"
 
 #: common/tool/actions.cpp:732
 msgid "Pin Library"
-msgstr "置頂函式庫"
+msgstr "置頂庫"
 
 #: common/tool/actions.cpp:733
 msgid "Keep the library at the top of the list"
-msgstr "將函式庫保持在列表頂部"
+msgstr "將庫保持在列表頂部"
 
 #: common/tool/actions.cpp:738
 msgid "Unpin Library"
-msgstr "取消置頂函式庫"
+msgstr "取消置頂庫"
 
 #: common/tool/actions.cpp:739
 msgid "No longer keep the library at the top of the list"
-msgstr "不再將函式庫保持在列表頂部"
+msgstr "不再將庫保持在列表頂部"
 
 #: common/tool/actions.cpp:745
 msgid "Pan Up"
@@ -8042,11 +8042,11 @@ msgstr "顯示 3D 檢視器視窗"
 #: common/tool/actions.cpp:1005 eeschema/symbol_diff_frame.cpp:57
 #: eeschema/symbol_viewer_frame.cpp:103 eeschema/symbol_viewer_frame.cpp:1104
 msgid "Symbol Library Browser"
-msgstr "符號函式庫瀏覽器"
+msgstr "符號庫瀏覽器"
 
 #: common/tool/actions.cpp:1006
 msgid "Browse symbol libraries"
-msgstr "瀏覽符號函式庫"
+msgstr "瀏覽符號庫"
 
 #: common/tool/actions.cpp:1015
 msgid "Create, delete and edit symbols"
@@ -8055,11 +8055,11 @@ msgstr "建立, 刪除和編輯符號"
 #: common/tool/actions.cpp:1023 pcbnew/footprint_viewer_frame.cpp:111
 #: pcbnew/footprint_viewer_frame.cpp:1024
 msgid "Footprint Library Browser"
-msgstr "封裝函式庫瀏覽器"
+msgstr "封裝庫瀏覽器"
 
 #: common/tool/actions.cpp:1024
 msgid "Browse footprint libraries"
-msgstr "瀏覽封裝函式庫"
+msgstr "瀏覽封裝庫"
 
 #: common/tool/actions.cpp:1033
 msgid "Create, delete and edit footprints"
@@ -8108,19 +8108,19 @@ msgstr "編輯路徑組態環境變數"
 
 #: common/tool/actions.cpp:1080
 msgid "Manage Symbol Libraries..."
-msgstr "管理符號函式庫..."
+msgstr "管理符號庫..."
 
 #: common/tool/actions.cpp:1081
 msgid "Edit the global and project symbol library lists"
-msgstr "編輯全域和專案符號函式庫列表"
+msgstr "編輯全域和專案符號庫列表"
 
 #: common/tool/actions.cpp:1087
 msgid "Manage Footprint Libraries..."
-msgstr "管理封裝函式庫..."
+msgstr "管理封裝庫..."
 
 #: common/tool/actions.cpp:1088
 msgid "Edit the global and project footprint library lists"
-msgstr "編輯全域和專案封裝函式庫列表"
+msgstr "編輯全域和專案封裝庫列表"
 
 #: common/tool/actions.cpp:1094
 msgid "Getting Started with KiCad"
@@ -8351,7 +8351,7 @@ msgstr "電路板"
 #: eeschema/sch_symbol.cpp:1954 eeschema/sch_symbol.cpp:1989
 #: eeschema/widgets/symbol_diff_widget.cpp:39 pcbnew/footprint.cpp:1519
 msgid "Library"
-msgstr "函式庫"
+msgstr "庫"
 
 #: common/widgets/footprint_preview_widget.cpp:115
 msgid "Footprint not found."
@@ -8361,7 +8361,7 @@ msgstr "找不到封裝。"
 #: pcbnew/footprint_edit_frame.cpp:1014
 #: pcbnew/widgets/panel_footprint_chooser.cpp:68
 msgid "Loading Footprint Libraries"
-msgstr "載入封裝函式庫"
+msgstr "載入封裝庫"
 
 #: common/widgets/footprint_select_widget.cpp:148
 msgid "No default footprint"
@@ -8735,7 +8735,7 @@ msgstr "所有檔案"
 #: common/wildcards_and_files_ext.cpp:222
 #: eeschema/sch_io/kicad_sexpr/sch_io_kicad_sexpr.h:82
 msgid "KiCad symbol library files"
-msgstr "KiCad 符號函式庫檔案"
+msgstr "KiCad 符號庫檔案"
 
 #: common/wildcards_and_files_ext.cpp:229
 msgid "KiCad project files"
@@ -8810,7 +8810,7 @@ msgstr "KiCad 封裝檔案"
 
 #: common/wildcards_and_files_ext.cpp:333
 msgid "KiCad footprint library paths"
-msgstr "KiCad 封裝函式庫路徑"
+msgstr "KiCad 封裝庫路徑"
 
 #: common/wildcards_and_files_ext.cpp:340
 msgid "Drawing sheet files"
@@ -8878,7 +8878,7 @@ msgstr "電氣規則檢查 (ERC) 檔案"
 
 #: common/wildcards_and_files_ext.cpp:441
 msgid "Spice library file"
-msgstr "Spice 函式庫檔案"
+msgstr "Spice 庫檔案"
 
 #: common/wildcards_and_files_ext.cpp:447
 msgid "SPICE netlist file"
@@ -8961,7 +8961,7 @@ msgstr "找到 %lu 個封裝/符號等效關係。"
 msgid ""
 "Component %s: footprint %s not found in any of the project footprint "
 "libraries."
-msgstr "元件 %s: 在任何專案封裝函式庫中都找不到封裝 %s。"
+msgstr "元件 %s: 在任何專案封裝庫中都找不到封裝 %s。"
 
 #: cvpcb/auto_associate.cpp:308
 msgid "CvPcb Warning"
@@ -8986,7 +8986,7 @@ msgstr ""
 #: cvpcb/cvpcb.cpp:206
 msgid ""
 "An error occurred attempting to load the global footprint library table."
-msgstr "嘗試載入全域封裝函式庫表時出錯。"
+msgstr "嘗試載入全域封裝庫表時出錯。"
 
 #: cvpcb/cvpcb_mainframe.cpp:65 cvpcb/cvpcb_mainframe.cpp:81
 #: cvpcb/menubar.cpp:50
@@ -8995,7 +8995,7 @@ msgstr "分配封裝"
 
 #: cvpcb/cvpcb_mainframe.cpp:113 pcbnew/dialogs/panel_fp_lib_table.cpp:1167
 msgid "Footprint Libraries"
-msgstr "封裝函式庫"
+msgstr "封裝庫"
 
 #: cvpcb/cvpcb_mainframe.cpp:117
 msgid "Symbol : Footprint Assignments"
@@ -9061,16 +9061,16 @@ msgstr "描述: %s; 關鍵字: %s"
 #: cvpcb/cvpcb_mainframe.cpp:876
 #, c-format
 msgid "Library location: %s"
-msgstr "函式庫位置: %s"
+msgstr "庫位置: %s"
 
 #: cvpcb/cvpcb_mainframe.cpp:878
 msgid "Library location: unknown"
-msgstr "函式庫位置: 未知"
+msgstr "庫位置: 未知"
 
 #: cvpcb/cvpcb_mainframe.cpp:891
 msgid ""
 "No PCB footprint libraries are listed in the current footprint library table."
-msgstr "在當前封裝函式庫表中沒有列出 PCB 封裝函式庫。"
+msgstr "在當前封裝庫表中沒有列出 PCB 封裝庫。"
 
 #: cvpcb/cvpcb_mainframe.cpp:892
 msgid "Configuration Error"
@@ -9173,7 +9173,7 @@ msgstr "封裝 ID '%s' 無效。"
 #: cvpcb/display_footprints_frame.cpp:421
 #, c-format
 msgid "Library '%s' is not in the footprint library table."
-msgstr "函式庫 '%s' 不在封裝函式庫表中。"
+msgstr "庫 '%s' 不在封裝庫表中。"
 
 #: cvpcb/display_footprints_frame.cpp:430
 #: cvpcb/display_footprints_frame.cpp:456
@@ -9189,7 +9189,7 @@ msgstr "封裝: %s"
 #: cvpcb/display_footprints_frame.cpp:534
 #, c-format
 msgid "Lib: %s"
-msgstr "函式庫: %s"
+msgstr "庫: %s"
 
 #: cvpcb/readwrite_dlgs.cpp:120
 msgid ""
@@ -9204,20 +9204,20 @@ msgstr ""
 #: cvpcb/readwrite_dlgs.cpp:149
 #, c-format
 msgid "Component '%s' footprint '%s' <b>not found</b> in any library.\n"
-msgstr "元件 '%s' 的封裝 '%s' 在任何函式庫中 <b>均未找到</b> .\n"
+msgstr "元件 '%s' 的封裝 '%s' 在任何庫中 <b>均未找到</b> .\n"
 
 #: cvpcb/readwrite_dlgs.cpp:156
 #, c-format
 msgid "Component '%s' footprint '%s' was found in <b>multiple</b> libraries.\n"
-msgstr "元件 '%s' 的封裝 '%s' 在 <b>多個</b> 函式庫中被找到。\n"
+msgstr "元件 '%s' 的封裝 '%s' 在 <b>多個</b> 庫中被找到。\n"
 
 #: cvpcb/readwrite_dlgs.cpp:169
 msgid "First check your footprint library table entries."
-msgstr "首先檢查封裝函式庫表條目。"
+msgstr "首先檢查封裝庫表條目。"
 
 #: cvpcb/readwrite_dlgs.cpp:171
 msgid "Problematic Footprint Library Tables"
-msgstr "有問題的封裝函式庫表"
+msgstr "有問題的封裝庫表"
 
 #: cvpcb/readwrite_dlgs.cpp:179
 msgid ""
@@ -9343,11 +9343,11 @@ msgstr "根據接腳數量顯示篩選結果, 只顯示接腳數量與符號接�
 
 #: cvpcb/tools/cvpcb_actions.cpp:175
 msgid "Filter by library"
-msgstr "根據封裝函式庫篩選"
+msgstr "根據封裝庫篩選"
 
 #: cvpcb/tools/cvpcb_actions.cpp:176
 msgid "Filter footprint list by library"
-msgstr "根據函式庫封裝篩選封裝列表, 只顯示來自當前勾選函式庫的封裝"
+msgstr "根據庫封裝篩選封裝列表, 只顯示來自當前勾選庫的封裝"
 
 #: cvpcb/tools/cvpcb_association_tool.cpp:255
 msgid "Delete all associations?"
@@ -9819,7 +9819,7 @@ msgstr "替換值與給定值相同的符號:"
 
 #: eeschema/dialogs/dialog_change_symbols.cpp:97
 msgid "Change symbols matching library identifier:"
-msgstr "替換使用此函式庫索引值的符號:"
+msgstr "替換使用此庫索引值的符號:"
 
 #: eeschema/dialogs/dialog_change_symbols.cpp:134
 msgid "Update Fields"
@@ -9924,11 +9924,11 @@ msgstr "更新值與給定值相同的符號:"
 
 #: eeschema/dialogs/dialog_change_symbols_base.cpp:46
 msgid "Update symbols matching library identifier:"
-msgstr "更新使用此函式庫索引值的符號:"
+msgstr "更新使用此庫索引值的符號:"
 
 #: eeschema/dialogs/dialog_change_symbols_base.cpp:73
 msgid "New library identifier:"
-msgstr "新符號的函式庫索引值:"
+msgstr "新符號的庫索引值:"
 
 #: eeschema/dialogs/dialog_change_symbols_base.cpp:95
 #: eeschema/dialogs/dialog_update_symbol_fields_base.cpp:36
@@ -9948,17 +9948,17 @@ msgstr "更新選項目"
 
 #: eeschema/dialogs/dialog_change_symbols_base.cpp:120
 msgid "Remove fields if not in library symbol"
-msgstr "如果在函式庫符號中不存在, 則移除欄位"
+msgstr "如果在庫符號中不存在, 則移除欄位"
 
 #: eeschema/dialogs/dialog_change_symbols_base.cpp:121
 #: eeschema/dialogs/dialog_update_symbol_fields_base.cpp:62
 #: pcbnew/dialogs/dialog_exchange_footprints_base.cpp:98
 msgid "Removes fields that do not occur in the original library symbols"
-msgstr "移除來源函式庫中不存在的符號欄位"
+msgstr "移除來源庫中不存在的符號欄位"
 
 #: eeschema/dialogs/dialog_change_symbols_base.cpp:125
 msgid "Reset fields if empty in library symbol"
-msgstr "如果在函式庫符號中為空, 則重設欄位"
+msgstr "如果在庫符號中為空, 則重設欄位"
 
 #: eeschema/dialogs/dialog_change_symbols_base.cpp:131
 #: eeschema/dialogs/dialog_update_symbol_fields_base.cpp:72
@@ -9990,25 +9990,25 @@ msgstr "重設自訂電源符號"
 
 #: eeschema/dialogs/dialog_change_symbols_base.h:102
 msgid "Update Symbols from Library"
-msgstr "與函式庫更新符號"
+msgstr "與庫更新符號"
 
 #: eeschema/dialogs/dialog_database_lib_settings.cpp:98
 msgid "Connected to database successfully"
-msgstr "資料函式庫連接成功"
+msgstr "資料庫連接成功"
 
 #: eeschema/dialogs/dialog_database_lib_settings.cpp:106
 #, c-format
 msgid "Database connection failed: %s"
-msgstr "資料函式庫連接失敗: %s"
+msgstr "資料庫連接失敗: %s"
 
 #: eeschema/dialogs/dialog_database_lib_settings.cpp:117
 msgid "No connection to database"
-msgstr "沒有資料函式庫連接"
+msgstr "沒有資料庫連接"
 
 #: eeschema/dialogs/dialog_database_lib_settings.cpp:124
 #, c-format
 msgid "Loaded %zu libraries"
-msgstr "已載入 %zu 個函式庫"
+msgstr "已載入 %zu 個庫"
 
 #: eeschema/dialogs/dialog_database_lib_settings_base.cpp:39
 msgid "DSN:"
@@ -10031,7 +10031,7 @@ msgstr "連接字串(URL):"
 #: eeschema/symbol_editor/symbol_edit_frame.cpp:1290
 #: pcbnew/footprint_edit_frame.cpp:229 pcbnew/footprint_edit_frame.cpp:905
 msgid "Libraries"
-msgstr "函式庫"
+msgstr "庫"
 
 #: eeschema/dialogs/dialog_database_lib_settings_base.cpp:104
 msgid "Reload Configuration"
@@ -10039,7 +10039,7 @@ msgstr "重新載入組態"
 
 #: eeschema/dialogs/dialog_database_lib_settings_base.cpp:105
 msgid "Reload the database library configuration file"
-msgstr "重新載入資料函式庫式庫組態檔案"
+msgstr "重新載入資料函式庫組態檔案"
 
 #: eeschema/dialogs/dialog_database_lib_settings_base.cpp:120
 msgid "Caching"
@@ -10052,7 +10052,7 @@ msgstr "快取大小:"
 #: eeschema/dialogs/dialog_database_lib_settings_base.cpp:129
 #: eeschema/dialogs/dialog_database_lib_settings_base.cpp:134
 msgid "How many database queries to cache"
-msgstr "快取多少次資料函式庫查詢"
+msgstr "快取多少次資料庫查詢"
 
 #: eeschema/dialogs/dialog_database_lib_settings_base.cpp:138
 msgid "Cache timeout:"
@@ -10061,16 +10061,16 @@ msgstr "快取逾時:"
 #: eeschema/dialogs/dialog_database_lib_settings_base.cpp:140
 #: eeschema/dialogs/dialog_database_lib_settings_base.cpp:145
 msgid "Time in seconds that database queries will be cached for"
-msgstr "快取資料函式庫查詢的時間 (以秒為單位)"
+msgstr "快取資料庫查詢的時間 (以秒為單位)"
 
 #: eeschema/dialogs/dialog_database_lib_settings_base.h:79
 msgid "Database Library Settings"
-msgstr "資料函式庫式庫標示"
+msgstr "資料函式庫標示"
 
 #: eeschema/dialogs/dialog_edit_symbols_libid.cpp:546
 #, c-format
 msgid "Symbol library identifier %s is not valid."
-msgstr "符號的函式庫索引值 %s 無效。"
+msgstr "符號的庫索引值 %s 無效。"
 
 #: eeschema/dialogs/dialog_edit_symbols_libid.cpp:643
 #, c-format
@@ -10094,7 +10094,7 @@ msgstr "所有 %u 個鏈結已解決"
 
 #: eeschema/dialogs/dialog_edit_symbols_libid.cpp:691
 msgid "Invalid symbol library identifier"
-msgstr "符號的函式庫索引值無效"
+msgstr "符號的庫索引值無效"
 
 #: eeschema/dialogs/dialog_edit_symbols_libid.cpp:742
 #, c-format
@@ -10109,11 +10109,11 @@ msgstr ""
 
 #: eeschema/dialogs/dialog_edit_symbols_libid_base.cpp:38
 msgid "Current Library Reference"
-msgstr "當前函式庫參考"
+msgstr "當前庫參考"
 
 #: eeschema/dialogs/dialog_edit_symbols_libid_base.cpp:39
 msgid "New Library Reference"
-msgstr "新的函式庫參考"
+msgstr "新的庫參考"
 
 #: eeschema/dialogs/dialog_edit_symbols_libid_base.cpp:58
 msgid "Map Orphans"
@@ -10130,7 +10130,7 @@ msgstr ""
 
 #: eeschema/dialogs/dialog_edit_symbols_libid_base.cpp:63
 msgid "Update symbol fields from new library"
-msgstr "與新函式庫中的符號欄位同步"
+msgstr "與新庫中的符號欄位同步"
 
 #: eeschema/dialogs/dialog_edit_symbols_libid_base.cpp:64
 msgid ""
@@ -10142,7 +10142,7 @@ msgstr ""
 
 #: eeschema/dialogs/dialog_edit_symbols_libid_base.h:57
 msgid "Symbol Library References"
-msgstr "符號函式庫參考"
+msgstr "符號庫參考"
 
 #: eeschema/dialogs/dialog_erc.cpp:108
 msgid "Run ERC"
@@ -10761,7 +10761,7 @@ msgstr "按父級位號篩選專案:"
 
 #: eeschema/dialogs/dialog_global_edit_text_and_graphics_base.cpp:107
 msgid "Filter items by parent symbol library id:"
-msgstr "按父級符號函式庫索引值 篩選專案:"
+msgstr "按父級符號庫索引值 篩選專案:"
 
 #: eeschema/dialogs/dialog_global_edit_text_and_graphics_base.cpp:113
 msgid "Filter items by parent symbol type:"
@@ -10884,7 +10884,7 @@ msgstr ""
 
 #: eeschema/dialogs/dialog_global_sym_lib_table_config.cpp:75
 msgid "Please select a symbol library table file."
-msgstr "請選擇一個符號函式庫表檔案。"
+msgstr "請選擇一個符號庫表檔案。"
 
 #: eeschema/dialogs/dialog_global_sym_lib_table_config.cpp:84
 #: pcbnew/dialogs/dialog_global_fp_lib_table_config.cpp:83
@@ -10905,12 +10905,12 @@ msgstr ""
 #: eeschema/dialogs/dialog_global_sym_lib_table_config.cpp:109
 #, c-format
 msgid "Cannot create global library table '%s'."
-msgstr "無法建立全域函式庫表 '%s'。"
+msgstr "無法建立全域庫表 '%s'。"
 
 #: eeschema/dialogs/dialog_global_sym_lib_table_config.cpp:117
 #, c-format
 msgid "Error copying global symbol library table '%s' to '%s'."
-msgstr "將全域符號函式庫表 '%s' 複製到 '%s' 時出錯。"
+msgstr "將全域符號庫表 '%s' 複製到 '%s' 時出錯。"
 
 #: eeschema/dialogs/dialog_ibis_parser_reporter.cpp:31
 msgid "Ibis parser log"
@@ -11457,7 +11457,7 @@ msgstr "符號必須要有一個名稱。"
 #: eeschema/dialogs/dialog_lib_symbol_properties.cpp:335
 #, c-format
 msgid "Symbol name '%s' already in use in library '%s'."
-msgstr "符號名稱 '%s' 在函式庫 '%s' 中已被使用。"
+msgstr "符號名稱 '%s' 在庫 '%s' 中已被使用。"
 
 #: eeschema/dialogs/dialog_lib_symbol_properties.cpp:342
 #: eeschema/dialogs/dialog_lib_symbol_properties.cpp:347
@@ -11672,7 +11672,7 @@ msgstr "編輯類比模型..."
 
 #: eeschema/dialogs/dialog_lib_symbol_properties_base.h:116
 msgid "Library Symbol Properties"
-msgstr "函式庫符號屬性"
+msgstr "庫符號屬性"
 
 #: eeschema/dialogs/dialog_line_properties.cpp:152
 msgid "Edit Line"
@@ -12195,7 +12195,7 @@ msgstr "快取符號:"
 
 #: eeschema/dialogs/dialog_rescue_each_base.cpp:78
 msgid "Library Symbol:"
-msgstr "函式庫符號:"
+msgstr "庫符號:"
 
 #: eeschema/dialogs/dialog_rescue_each_base.cpp:102
 msgid "Never Show Again"
@@ -12897,7 +12897,7 @@ msgstr "零點"
 
 #: eeschema/dialogs/dialog_sim_command_base.cpp:643
 msgid "Add full path for .include library directives"
-msgstr "為 .include 函式庫指令添加完整路徑"
+msgstr "為 .include 庫指令添加完整路徑"
 
 #: eeschema/dialogs/dialog_sim_command_base.cpp:659
 msgid "Compatibility mode:"
@@ -13106,7 +13106,7 @@ msgstr "<未知>"
 #: eeschema/dialogs/dialog_sim_model.cpp:237
 #, c-format
 msgid "No model named '%s' in library."
-msgstr "函式庫中沒有名為 '%s' 的模型。"
+msgstr "庫中沒有名為 '%s' 的模型。"
 
 #: eeschema/dialogs/dialog_sim_model.cpp:318
 msgid "Failed to read simulation model from fields."
@@ -13629,7 +13629,7 @@ msgstr "DNP (不作裝配)"
 
 #: eeschema/dialogs/dialog_symbol_properties_base.cpp:229
 msgid "Update Symbol from Library..."
-msgstr "與函式庫符號同步..."
+msgstr "與庫符號同步..."
 
 #: eeschema/dialogs/dialog_symbol_properties_base.cpp:232
 #: eeschema/tools/ee_actions.cpp:752
@@ -13643,7 +13643,7 @@ msgstr "編輯符號..."
 #: eeschema/dialogs/dialog_symbol_properties_base.cpp:241
 #: eeschema/tools/ee_actions.cpp:1011
 msgid "Edit Library Symbol..."
-msgstr "編輯函式庫符號..."
+msgstr "編輯庫符號..."
 
 #: eeschema/dialogs/dialog_symbol_properties_base.cpp:279
 #: eeschema/sch_pin.cpp:2265
@@ -13661,7 +13661,7 @@ msgstr "接腳功能"
 #: eeschema/dialogs/dialog_symbol_properties_base.cpp:318
 #: pcbnew/dialogs/dialog_footprint_properties_base.cpp:384
 msgid "Library link:"
-msgstr "函式庫鏈結:"
+msgstr "庫鏈結:"
 
 #: eeschema/dialogs/dialog_symbol_properties_base.cpp:328
 msgid "Simulation Model..."
@@ -13697,14 +13697,14 @@ msgstr ""
 #: eeschema/dialogs/dialog_symbol_remap.cpp:215
 #, c-format
 msgid "Adding library '%s', file '%s' to project symbol library table."
-msgstr "將函式庫 '%s' 和檔案 '%s' 添加到專案符號函式庫表中。"
+msgstr "將庫 '%s' 和檔案 '%s' 添加到專案符號庫表中。"
 
 #: eeschema/dialogs/dialog_symbol_remap.cpp:224
 #: eeschema/dialogs/panel_sym_lib_table.cpp:887
 #: pcbnew/dialogs/panel_fp_lib_table.cpp:842
 #, c-format
 msgid "Library '%s' not found."
-msgstr "函式庫 '%s' 未找到。"
+msgstr "庫 '%s' 未找到。"
 
 #: eeschema/dialogs/dialog_symbol_remap.cpp:241
 #, c-format
@@ -13717,21 +13717,21 @@ msgstr ""
 
 #: eeschema/dialogs/dialog_symbol_remap.cpp:245
 msgid "Created project symbol library table.\n"
-msgstr "建立專案符號函式庫表。\n"
+msgstr "建立專案符號庫表。\n"
 
 #: eeschema/dialogs/dialog_symbol_remap.cpp:270
 #, c-format
 msgid "No symbol %s found in symbol library table."
-msgstr "在符號函式庫表中未找到符號 %s。"
+msgstr "在符號庫表中未找到符號 %s。"
 
 #: eeschema/dialogs/dialog_symbol_remap.cpp:276
 #, c-format
 msgid "Symbol %s mapped to symbol library '%s'."
-msgstr "已對映符號 %s 到符號函式庫 '%s'。"
+msgstr "已對映符號 %s 到符號庫 '%s'。"
 
 #: eeschema/dialogs/dialog_symbol_remap.cpp:285
 msgid "Symbol library table mapping complete!"
-msgstr "符號函式庫表對映完成!"
+msgstr "符號庫表對映完成!"
 
 #: eeschema/dialogs/dialog_symbol_remap.cpp:355
 #, c-format
@@ -14728,7 +14728,7 @@ msgstr "重複接腳的間距 (&P):"
 #: eeschema/dialogs/panel_sym_lib_table.cpp:430
 #: pcbnew/dialogs/panel_fp_lib_table.cpp:539
 msgid "A library table row nickname and path cells are empty."
-msgstr "電子試算表條目的行名稱和函式庫路徑儲存格為空。"
+msgstr "電子試算表條目的行名稱和庫路徑儲存格為空。"
 
 #: eeschema/dialogs/panel_sym_lib_table.cpp:432
 #: pcbnew/dialogs/panel_fp_lib_table.cpp:541
@@ -14738,7 +14738,7 @@ msgstr "電子試算表條目的行名稱儲存格為空。"
 #: eeschema/dialogs/panel_sym_lib_table.cpp:434
 #: pcbnew/dialogs/panel_fp_lib_table.cpp:543
 msgid "A library table row path cell is empty."
-msgstr "電子試算表條目的函式庫路徑儲存格為空。"
+msgstr "電子試算表條目的庫路徑儲存格為空。"
 
 #: eeschema/dialogs/panel_sym_lib_table.cpp:438
 #: pcbnew/dialogs/panel_fp_lib_table.cpp:547
@@ -14772,22 +14772,22 @@ msgstr "在名稱: '%2$s' 中出現非法字元 '%1$c'"
 #: pcbnew/dialogs/panel_fp_lib_table.cpp:578
 #: pcbnew/dialogs/panel_fp_lib_table.cpp:626
 msgid "Library Nickname Error"
-msgstr "函式庫名稱錯誤"
+msgstr "庫名稱錯誤"
 
 #: eeschema/dialogs/panel_sym_lib_table.cpp:508
 #: pcbnew/dialogs/panel_fp_lib_table.cpp:612
 #, c-format
 msgid "Multiple libraries cannot share the same nickname ('%s')."
-msgstr "不能在多個函式庫中使用相同的名稱 ('%s')。"
+msgstr "不能在多個庫中使用相同的名稱 ('%s')。"
 
 #: eeschema/dialogs/panel_sym_lib_table.cpp:557 eeschema/symbol_library.cpp:576
 #, c-format
 msgid "Symbol library '%s' failed to load."
-msgstr "符號函式庫 '%s' 載入失敗。"
+msgstr "符號庫 '%s' 載入失敗。"
 
 #: eeschema/dialogs/panel_sym_lib_table.cpp:562
 msgid "Error Loading Library"
-msgstr "載入函式庫時出錯"
+msgstr "載入庫時出錯"
 
 #: eeschema/dialogs/panel_sym_lib_table.cpp:607 eeschema/files-io.cpp:730
 #: eeschema/import_gfx/dialog_import_gfx_sch.cpp:200
@@ -14799,7 +14799,7 @@ msgstr "所有支援的格式"
 
 #: eeschema/dialogs/panel_sym_lib_table.cpp:619
 msgid "Add Library"
-msgstr "添加函式庫"
+msgstr "添加庫"
 
 #: eeschema/dialogs/panel_sym_lib_table.cpp:633
 msgid "Warning: Duplicate Nickname"
@@ -14809,12 +14809,12 @@ msgstr "警告: 重複的名稱"
 #: pcbnew/dialogs/panel_fp_lib_table.cpp:978
 #, c-format
 msgid "A library nicknamed '%s' already exists."
-msgstr "名稱為 '%s' 的函式庫已存在。"
+msgstr "名稱為 '%s' 的庫已存在。"
 
 #: eeschema/dialogs/panel_sym_lib_table.cpp:635
 #: pcbnew/dialogs/panel_fp_lib_table.cpp:979
 msgid "One of the nicknames will need to be changed after adding this library."
-msgstr "不能出現重複的函式庫名稱, 添加該函式庫後, 需要變更其中一個函式庫的名稱。"
+msgstr "不能出現重複的庫名稱, 添加該庫後, 需要變更其中一個庫的名稱。"
 
 #: eeschema/dialogs/panel_sym_lib_table.cpp:654 eeschema/sch_base_frame.cpp:286
 #: pcbnew/dialogs/panel_fp_lib_table.cpp:999
@@ -14831,21 +14831,21 @@ msgstr "仍然添加"
 msgid ""
 "Select one or more rows containing libraries to save as current KiCad format "
 "(*.kicad_sym)."
-msgstr "選擇一條或多條函式庫並將其儲存為當前 KiCad 函式庫格式 (*.kicad_sym)。"
+msgstr "選擇一條或多條庫並將其儲存為當前 KiCad 庫格式 (*.kicad_sym)。"
 
 #: eeschema/dialogs/panel_sym_lib_table.cpp:863
 #, c-format
 msgid ""
 "Save '%s' as current KiCad format (*.kicad_sym) and replace legacy entry in "
 "table?"
-msgstr "將 '%s' 另存為當前 KiCad 函式庫格式 (*.kicad_sym) 並替換表中的舊格式條目?"
+msgstr "將 '%s' 另存為當前 KiCad 庫格式 (*.kicad_sym) 並替換表中的舊格式條目?"
 
 #: eeschema/dialogs/panel_sym_lib_table.cpp:869
 #, c-format
 msgid ""
 "Save %d libraries as current KiCad format (*.kicad_sym) and replace legacy "
 "entries in table?"
-msgstr "將 %d 個函式庫另存為當前 KiCad 版本格式 (*.kicad_sym) 並替換表中的舊條目?"
+msgstr "將 %d 個庫另存為當前 KiCad 版本格式 (*.kicad_sym) 並替換表中的舊條目?"
 
 #: eeschema/dialogs/panel_sym_lib_table.cpp:900
 #: pcbnew/dialogs/dialog_export_step.cpp:443
@@ -14856,13 +14856,13 @@ msgstr "檔案 '%s' 已存在, 要覆蓋它嗎?"
 #: eeschema/dialogs/panel_sym_lib_table.cpp:903
 #: pcbnew/dialogs/panel_fp_lib_table.cpp:857
 msgid "Migrate Library"
-msgstr "遷移函式庫"
+msgstr "遷移庫"
 
 #: eeschema/dialogs/panel_sym_lib_table.cpp:931 eeschema/libarch.cpp:129
 #: eeschema/libarch.cpp:135
 #, c-format
 msgid "Failed to save symbol library file '%s'."
-msgstr "符號函式庫檔案 '%s' 儲存失敗。"
+msgstr "符號庫檔案 '%s' 儲存失敗。"
 
 #: eeschema/dialogs/panel_sym_lib_table.cpp:1098
 msgid ""
@@ -14875,7 +14875,7 @@ msgstr ""
 
 #: eeschema/dialogs/panel_sym_lib_table.cpp:1112
 msgid "Symbol Libraries"
-msgstr "符號函式庫"
+msgstr "符號庫"
 
 #: eeschema/dialogs/panel_sym_lib_table.cpp:1134
 #: eeschema/tools/sch_editor_control.cpp:496
@@ -14929,23 +14929,23 @@ msgstr "名稱"
 #: include/lib_table_grid.h:191 pcbnew/dialogs/panel_fp_lib_table_base.cpp:47
 #: pcbnew/dialogs/panel_fp_lib_table_base.cpp:96
 msgid "Library Path"
-msgstr "函式庫路徑"
+msgstr "庫路徑"
 
 #: eeschema/dialogs/panel_sym_lib_table_base.cpp:48
 #: eeschema/dialogs/panel_sym_lib_table_base.cpp:98
 #: include/lib_table_grid.h:194 pcbnew/dialogs/panel_fp_lib_table_base.cpp:48
 msgid "Library Format"
-msgstr "函式庫格式"
+msgstr "庫格式"
 
 #: eeschema/dialogs/panel_sym_lib_table_base.cpp:70
 #: pcbnew/dialogs/panel_fp_lib_table_base.cpp:69
 msgid "Global Libraries"
-msgstr "全域函式庫"
+msgstr "全域庫"
 
 #: eeschema/dialogs/panel_sym_lib_table_base.cpp:121
 #: pcbnew/dialogs/panel_fp_lib_table_base.cpp:118
 msgid "Project Specific Libraries"
-msgstr "專案專用函式庫"
+msgstr "專案專用庫"
 
 #: eeschema/dialogs/panel_sym_lib_table_base.cpp:129
 #: pcbnew/dialogs/panel_fp_lib_table_base.cpp:126
@@ -14954,17 +14954,17 @@ msgstr "向表中添加空行"
 
 #: eeschema/dialogs/panel_sym_lib_table_base.cpp:134
 msgid "Add existing library to table"
-msgstr "將現有函式庫添加到表中"
+msgstr "將現有庫添加到表中"
 
 #: eeschema/dialogs/panel_sym_lib_table_base.cpp:152
 #: pcbnew/dialogs/panel_fp_lib_table_base.cpp:149
 msgid "Remove library from table"
-msgstr "從表中移除函式庫"
+msgstr "從表中移除庫"
 
 #: eeschema/dialogs/panel_sym_lib_table_base.cpp:159
 #: pcbnew/dialogs/panel_fp_lib_table_base.cpp:156
 msgid "Migrate Libraries"
-msgstr "遷移函式庫"
+msgstr "遷移庫"
 
 #: eeschema/dialogs/panel_sym_lib_table_base.cpp:203
 #: pcbnew/dialogs/panel_fp_lib_table_base.cpp:197
@@ -15074,7 +15074,7 @@ msgstr "將符號 '%s' 繪製到 '%s'\n"
 #: eeschema/eeschema_jobs_handler.cpp:903 pcbnew/pcbnew_jobs_handler.cpp:1007
 #: pcbnew/pcbnew_jobs_handler.cpp:1078
 msgid "Unable to load library\n"
-msgstr "無法載入函式庫\n"
+msgstr "無法載入庫\n"
 
 #: eeschema/eeschema_jobs_handler.cpp:821
 #: eeschema/symbol_editor/symbol_editor_import_export.cpp:149
@@ -15088,15 +15088,15 @@ msgstr "輸出路徑不得與現有路徑衝突\n"
 #: eeschema/eeschema_jobs_handler.cpp:887 pcbnew/pcbnew_jobs_handler.cpp:979
 msgid ""
 "Output path must be specified to convert legacy and non-KiCad libraries\n"
-msgstr "轉換舊版函式庫和非 KiCad 函式庫時必須指定輸出路徑\n"
+msgstr "轉換舊版庫和非 KiCad 庫時必須指定輸出路徑\n"
 
 #: eeschema/eeschema_jobs_handler.cpp:913
 msgid "Saving symbol library in updated format\n"
-msgstr "用更新的格式儲存符號函式庫\n"
+msgstr "用更新的格式儲存符號庫\n"
 
 #: eeschema/eeschema_jobs_handler.cpp:934
 msgid "Symbol library was not updated\n"
-msgstr "符號函式庫未更新\n"
+msgstr "符號庫未更新\n"
 
 #: eeschema/eeschema_jobs_handler.cpp:996
 msgid "Running ERC...\n"
@@ -15231,22 +15231,22 @@ msgstr "接腳 %s 同時連接到 %s 和 %s"
 #: eeschema/erc.cpp:964
 #, c-format
 msgid "The current configuration does not include the symbol library '%s'"
-msgstr "當前組態不包含符號函式庫 '%s'"
+msgstr "當前組態不包含符號庫 '%s'"
 
 #: eeschema/erc.cpp:979
 #, c-format
 msgid "The library '%s' is not enabled in the current configuration"
-msgstr "當前組態中未啟用函式庫 '%s'"
+msgstr "當前組態中未啟用庫 '%s'"
 
 #: eeschema/erc.cpp:998
 #, c-format
 msgid "Symbol '%s' not found in symbol library '%s'"
-msgstr "在符號函式庫中 '%s' 找不到符號 '%s'"
+msgstr "在符號庫中 '%s' 找不到符號 '%s'"
 
 #: eeschema/erc.cpp:1017
 #, c-format
 msgid "Symbol '%s' doesn't match copy in library '%s'"
-msgstr "封裝 '%s' 與來源函式庫封裝 '%s' 存在差異"
+msgstr "封裝 '%s' 與來源庫封裝 '%s' 存在差異"
 
 #: eeschema/erc.cpp:1065
 #, c-format
@@ -15257,18 +15257,18 @@ msgstr "'%s' 不是有效封裝索引。"
 #: pcbnew/footprint_editor_utils.cpp:339
 #, c-format
 msgid "The current configuration does not include the footprint library '%s'."
-msgstr "當前組態不包含封裝函式庫 '%s'。"
+msgstr "當前組態不包含封裝庫 '%s'。"
 
 #: eeschema/erc.cpp:1088 pcbnew/drc/drc_test_provider_library_parity.cpp:863
 #: pcbnew/footprint_editor_utils.cpp:351
 #, c-format
 msgid "The footprint library '%s' is not enabled in the current configuration."
-msgstr "當前組態中未啟用封裝函式庫 '%s'。"
+msgstr "當前組態中未啟用封裝庫 '%s'。"
 
 #: eeschema/erc.cpp:1097 pcbnew/drc/drc_test_provider_library_parity.cpp:899
 #, c-format
 msgid "Footprint '%s' not found in library '%s'."
-msgstr "在函式庫 %2$s 中未找到封裝 '%1$s'。"
+msgstr "在庫 %2$s 中未找到封裝 '%1$s'。"
 
 #: eeschema/erc.cpp:1310
 msgid "Checking sheet names..."
@@ -15317,7 +15317,7 @@ msgstr "正在檢查沒有連接的連接接腳..."
 
 #: eeschema/erc.cpp:1418
 msgid "Checking for library symbol issues..."
-msgstr "正在檢查函式庫符號問題..."
+msgstr "正在檢查庫符號問題..."
 
 #: eeschema/erc.cpp:1426
 msgid "Checking for footprint link issues..."
@@ -15446,11 +15446,11 @@ msgstr "未連接到任何物件的連線"
 
 #: eeschema/erc_item.cpp:155
 msgid "Library symbol issue"
-msgstr "函式庫符號問題"
+msgstr "庫符號問題"
 
 #: eeschema/erc_item.cpp:159
 msgid "Symbol doesn't match copy in library"
-msgstr "符號與來源函式庫符號存在差異"
+msgstr "符號與來源庫符號存在差異"
 
 #: eeschema/erc_item.cpp:163
 msgid "Footprint link issue"
@@ -15601,7 +15601,7 @@ msgstr ""
 
 #: eeschema/files-io.cpp:397
 msgid "Illegal entry found in project file symbol library list."
-msgstr "在專案檔案符號函式庫列表中找到非法條目。"
+msgstr "在專案檔案符號庫列表中找到非法條目。"
 
 #: eeschema/files-io.cpp:398
 msgid "Project Load Warning"
@@ -15625,7 +15625,7 @@ msgstr "不再顯示。"
 #: eeschema/files-io.cpp:434
 #, c-format
 msgid "The project symbol library cache file '%s' was not found."
-msgstr "找不到專案符號函式庫快取檔案 '%s'。"
+msgstr "找不到專案符號庫快取檔案 '%s'。"
 
 #: eeschema/files-io.cpp:436
 msgid ""
@@ -15865,7 +15865,7 @@ msgstr "衍生自"
 #: eeschema/widgets/symbol_preview_widget.cpp:203
 #, c-format
 msgid "Error loading symbol %s from library '%s'."
-msgstr "從函式庫 %2$s 載入符號 '%1$s' 出錯。"
+msgstr "從庫 %2$s 載入符號 '%1$s' 出錯。"
 
 #: eeschema/generate_alias_info.cpp:121 eeschema/sim/spice_simulator.cpp:69
 #: kicad/pcm/pcm.cpp:779 pcbnew/zone.cpp:626
@@ -16040,7 +16040,7 @@ msgstr "單元 %s"
 #: eeschema/libarch.cpp:77
 #, c-format
 msgid "Failed to add symbol %s to library file '%s'."
-msgstr "未能將符號 %s 添加到函式庫檔案 '%s'。"
+msgstr "未能將符號 %s 添加到庫檔案 '%s'。"
 
 #: eeschema/libarch.cpp:86
 msgid "Unexpected exception occurred."
@@ -16049,12 +16049,12 @@ msgstr "發生異常。"
 #: eeschema/libarch.cpp:101
 #, c-format
 msgid "Symbol %s not found in any library or cache."
-msgstr "在所有函式庫或快取中都找不到符號 '%s'。"
+msgstr "在所有庫或快取中都找不到符號 '%s'。"
 
 #: eeschema/libarch.cpp:117
 #, c-format
 msgid "Errors occurred creating symbol library %s."
-msgstr "建立符號函式庫 %s 時出錯。"
+msgstr "建立符號庫 %s 時出錯。"
 
 #: eeschema/menubar.cpp:97
 msgid "Insert Schematic Sheet Content..."
@@ -16099,11 +16099,11 @@ msgstr "網表..."
 
 #: eeschema/menubar.cpp:129
 msgid "Symbols to Library..."
-msgstr "符號到函式庫..."
+msgstr "符號到庫..."
 
 #: eeschema/menubar.cpp:131
 msgid "Symbols to New Library..."
-msgstr "符號到新函式庫..."
+msgstr "符號到新庫..."
 
 #: eeschema/menubar.cpp:352
 #: eeschema/symbol_editor/menubar_symbol_editor.cpp:174
@@ -16242,7 +16242,7 @@ msgstr ""
 #: eeschema/netlist_exporters/netlist_exporter_spice.cpp:599
 #, c-format
 msgid "Could not find library file '%s'"
-msgstr "找不到函式庫檔案 '%s'"
+msgstr "找不到庫檔案 '%s'"
 
 #: eeschema/netlist_exporters/netlist_generator.cpp:157
 #, c-format
@@ -16264,7 +16264,7 @@ msgstr "變更單元"
 #: eeschema/picksymbol.cpp:138
 #, c-format
 msgid "No alternate body style found for symbol '%s' in library '%s'."
-msgstr "在函式庫 '%s' 中未找到符號 '%s' 的替代主體圖形樣式。"
+msgstr "在庫 '%s' 中未找到符號 '%s' 的替代主體圖形樣式。"
 
 #: eeschema/picksymbol.cpp:161 eeschema/tools/sch_edit_tool.cpp:1754
 msgid "Change Body Style"
@@ -16376,12 +16376,12 @@ msgstr "將 %s 重新命名為 %s"
 #, c-format
 msgid ""
 "Cannot rescue symbol %s which is not available in any library or the cache."
-msgstr "無法恢復在任何函式庫或快取中都不可用的符號 %s。"
+msgstr "無法恢復在任何庫或快取中都不可用的符號 %s。"
 
 #: eeschema/project_rescue.cpp:321 eeschema/project_rescue.cpp:497
 #, c-format
 msgid "Rescue symbol %s found only in cache library to %s."
-msgstr "僅在快取函式庫 %s 中找到的恢復符號 %s。"
+msgstr "僅在快取庫 %s 中找到的恢復符號 %s。"
 
 #: eeschema/project_rescue.cpp:324 eeschema/project_rescue.cpp:503
 #, c-format
@@ -16400,16 +16400,16 @@ msgstr "未恢復元件符號。"
 #: eeschema/symbol_editor/symbol_editor_import_export.cpp:224
 #, c-format
 msgid "Failed to create symbol library file '%s'."
-msgstr "未能建立符號函式庫檔案 '%s'。"
+msgstr "未能建立符號庫檔案 '%s'。"
 
 #: eeschema/project_rescue.cpp:873
 #, c-format
 msgid "Failed to save rescue library %s."
-msgstr "無法儲存恢復函式庫 %s。"
+msgstr "無法儲存恢復庫 %s。"
 
 #: eeschema/project_rescue.cpp:896
 msgid "Error occurred saving project specific symbol library table."
-msgstr "儲存專案特定的符號函式庫表時出錯。"
+msgstr "儲存專案特定的符號庫表時出錯。"
 
 #: eeschema/project_sch.cpp:113 pcbnew/board_connected_item.cpp:129
 msgid "Not Found"
@@ -16417,12 +16417,12 @@ msgstr "找不到"
 
 #: eeschema/project_sch.cpp:115
 msgid "The following libraries were not found:"
-msgstr "找不到以下函式庫:"
+msgstr "找不到以下庫:"
 
 #: eeschema/project_sch.cpp:168 eeschema/sheet.cpp:397
 #, c-format
 msgid "Error loading the symbol library table '%s'."
-msgstr "載入符號函式庫表 '%s' 時出錯誤。"
+msgstr "載入符號庫表 '%s' 時出錯誤。"
 
 #: eeschema/sch_base_frame.cpp:232
 #, c-format
@@ -16444,11 +16444,11 @@ msgstr ""
 
 #: eeschema/sch_base_frame.cpp:267 pcbnew/footprint_libraries_utils.cpp:410
 msgid "Add the library to the global library table?"
-msgstr "是否將函式庫添加到全域函式庫表?"
+msgstr "是否將庫添加到全域庫表?"
 
 #: eeschema/sch_base_frame.cpp:268 pcbnew/footprint_libraries_utils.cpp:411
 msgid "Add To Global Library Table"
-msgstr "添加到全域函式庫表"
+msgstr "添加到全域庫表"
 
 #: eeschema/sch_base_frame.cpp:278 eeschema/widgets/search_handlers.cpp:353
 #: pcbnew/footprint_libraries_utils.cpp:421
@@ -16457,19 +16457,19 @@ msgstr "全域"
 
 #: eeschema/sch_base_frame.cpp:281 pcbnew/footprint_libraries_utils.cpp:424
 msgid "Choose the Library Table to add the library to:"
-msgstr "選擇函式庫表添加到以下函式庫:"
+msgstr "選擇庫表添加到以下庫:"
 
 #: eeschema/sch_base_frame.cpp:282 pcbnew/footprint_libraries_utils.cpp:425
 msgid "Add To Library Table"
-msgstr "添加到函式庫表"
+msgstr "添加到庫表"
 
 #: eeschema/sch_base_frame.cpp:567
 msgid "No symbol libraries are loaded."
-msgstr "沒有載入符號函式庫。"
+msgstr "沒有載入符號庫。"
 
 #: eeschema/sch_base_frame.cpp:612
 msgid "Select Symbol Library"
-msgstr "選擇符號函式庫"
+msgstr "選擇符號庫"
 
 #: eeschema/sch_base_frame.cpp:727
 msgid ""
@@ -16601,7 +16601,7 @@ msgstr "儲存符號到原理圖"
 
 #: eeschema/sch_edit_frame.cpp:2421 eeschema/tools/ee_actions.cpp:60
 msgid "Compare Symbol with Library"
-msgstr "將符號與函式庫符號進行比較"
+msgstr "將符號與庫符號進行比較"
 
 #: eeschema/sch_field.cpp:1052
 msgid "Symbol Field"
@@ -16751,7 +16751,7 @@ msgstr "找不到檔案 %s。"
 
 #: eeschema/sch_io/altium/sch_io_altium.cpp:4375
 msgid "Expected Altium Schematic Library file version 5.0"
-msgstr "Altium 原理圖函式庫檔案應為 5.0 版本"
+msgstr "Altium 原理圖庫檔案應為 5.0 版本"
 
 #: eeschema/sch_io/altium/sch_io_altium.h:64
 msgid "Altium schematic files"
@@ -16759,11 +16759,11 @@ msgstr "Altium 原理圖檔案"
 
 #: eeschema/sch_io/altium/sch_io_altium.h:69
 msgid "Altium Schematic Library or Integrated Library"
-msgstr "Altium 原理圖函式庫或整合函式庫"
+msgstr "Altium 原理圖庫或整合庫"
 
 #: eeschema/sch_io/cadstar/cadstar_sch_archive_loader.cpp:70
 msgid "The selected file does not appear to be a CADSTAR parts Library file"
-msgstr "所選檔案似乎不是 CADSTAR 零件函式庫檔案"
+msgstr "所選檔案似乎不是 CADSTAR 零件庫檔案"
 
 #: eeschema/sch_io/cadstar/cadstar_sch_archive_loader.cpp:115
 #, c-format
@@ -16872,7 +16872,7 @@ msgstr ""
 msgid ""
 "Symbol '%s' references part '%s' which could not be found in the library. "
 "The symbol was not loaded"
-msgstr "符號 '%s' 參照在函式庫中找不到的零件 '%s'。未載入符號"
+msgstr "符號 '%s' 參照在庫中找不到的零件 '%s'。未載入符號"
 
 #: eeschema/sch_io/cadstar/cadstar_sch_archive_loader.cpp:825
 #, c-format
@@ -16914,7 +16914,7 @@ msgstr ""
 msgid ""
 "Documentation Symbol '%s' refers to symbol definition ID '%s' which does not "
 "exist in the library. The symbol was not loaded."
-msgstr "檔案符號 '%s' 是指函式庫中不存在的符號定義 ID '%s'。未載入符號。"
+msgstr "檔案符號 '%s' 是指庫中不存在的符號定義 ID '%s'。未載入符號。"
 
 #: eeschema/sch_io/cadstar/cadstar_sch_archive_loader.cpp:1566
 msgid "Text Variables could not be set as there is no project attached."
@@ -16982,7 +16982,7 @@ msgstr ""
 #: eeschema/sch_io/cadstar/sch_io_cadstar_archive.cpp:286
 #, c-format
 msgid "Cannot find the .csa file corresponding to library '%s'."
-msgstr "無法找到與 '%s' 函式庫相對應的 .csa 檔案。"
+msgstr "無法找到與 '%s' 庫相對應的 .csa 檔案。"
 
 #: eeschema/sch_io/cadstar/sch_io_cadstar_archive.h:55
 msgid "CADSTAR Schematic Archive files"
@@ -16990,26 +16990,26 @@ msgstr "CADSTAR 原理圖存檔檔案"
 
 #: eeschema/sch_io/cadstar/sch_io_cadstar_archive.h:61
 msgid "CADSTAR Parts Library files"
-msgstr "CADSTAR 零件函式庫檔案"
+msgstr "CADSTAR 零件庫檔案"
 
 #: eeschema/sch_io/database/sch_io_database.cpp:222
 #, c-format
 msgid "Error reading database table %s: %s"
-msgstr "讀取資料函式庫表 %s 出錯: %s"
+msgstr "讀取資料庫表 %s 出錯: %s"
 
 #: eeschema/sch_io/database/sch_io_database.cpp:258
 #, c-format
 msgid "Could not load database library: settings file %s missing or invalid"
-msgstr "無法載入資料函式庫式庫: 標示檔案 %s 遺失或無效"
+msgstr "無法載入資料函式庫: 標示檔案 %s 遺失或無效"
 
 #: eeschema/sch_io/database/sch_io_database.cpp:299
 #, c-format
 msgid "Could not load database library: could not connect to database %s (%s)"
-msgstr "無法載入資料函式庫式庫: 無法連接到資料函式庫 %s (%s)"
+msgstr "無法載入資料函式庫: 無法連接到資料庫 %s (%s)"
 
 #: eeschema/sch_io/database/sch_io_database.h:50
 msgid "KiCad database library files"
-msgstr "KiCad 資料函式庫式庫檔案"
+msgstr "KiCad 資料函式庫檔案"
 
 #: eeschema/sch_io/eagle/sch_io_eagle.cpp:628
 #: eeschema/sch_io/eagle/sch_io_eagle.cpp:645
@@ -17036,7 +17036,7 @@ msgstr "解析 Eagle 檔案時出錯。找不到 '%s' 實例, 但在原理圖中
 #: eeschema/sch_io/eagle/sch_io_eagle.cpp:1776
 #, c-format
 msgid "Could not find '%s' in the imported library."
-msgstr "在匯入的函式庫中找不到 '%s'。"
+msgstr "在匯入的庫中找不到 '%s'。"
 
 #: eeschema/sch_io/eagle/sch_io_eagle.h:85
 msgid "Eagle XML schematic files"
@@ -17044,7 +17044,7 @@ msgstr "Eagle XML 原理圖檔案"
 
 #: eeschema/sch_io/eagle/sch_io_eagle.h:90
 msgid "Eagle XML library files"
-msgstr "Eagle XML 函式庫檔案"
+msgstr "Eagle XML 庫檔案"
 
 #: eeschema/sch_io/easyeda/sch_io_easyeda.cpp:147
 #: eeschema/sch_io/easyeda/sch_io_easyeda.cpp:297
@@ -17061,7 +17061,7 @@ msgstr "無法在 '%s' 中找到有效的原理圖檔案"
 #: eeschema/sch_io/easyeda/sch_io_easyeda.cpp:473
 #, c-format
 msgid "Error loading symbol '%s' from library '%s': %s"
-msgstr "從函式庫 %2$s 載入符號 '%1$s' 出錯: %3$s"
+msgstr "從庫 %2$s 載入符號 '%1$s' 出錯: %3$s"
 
 #: eeschema/sch_io/easyeda/sch_io_easyeda.cpp:394
 #: eeschema/sch_io/easyeda/sch_io_easyeda.cpp:399
@@ -17069,7 +17069,7 @@ msgstr "從函式庫 %2$s 載入符號 '%1$s' 出錯: %3$s"
 #: eeschema/sch_io/easyeda/sch_io_easyeda.cpp:441
 #, c-format
 msgid "Error enumerating symbol library '%s': %s"
-msgstr "列舉符號函式庫 '%s' 時出錯: %s"
+msgstr "列舉符號庫 '%s' 時出錯: %s"
 
 #: eeschema/sch_io/easyeda/sch_io_easyeda.cpp:575
 #: eeschema/sch_io/easyeda/sch_io_easyeda.cpp:580
@@ -17090,34 +17090,34 @@ msgstr "無法解析數值: '%s'"
 
 #: eeschema/sch_io/http_lib/sch_io_http_lib.cpp:58
 msgid "httplib plugin missing library table handle!"
-msgstr "httplib 外掛程式缺少函式庫表控制代碼!"
+msgstr "httplib 外掛程式缺少庫表控制代碼!"
 
 #: eeschema/sch_io/http_lib/sch_io_http_lib.cpp:218
 #, c-format
 msgid "HTTP library settings file %s missing or invalid"
-msgstr "HTTP 函式庫標示檔案 %s 遺失或無效"
+msgstr "HTTP 庫標示檔案 %s 遺失或無效"
 
 #: eeschema/sch_io/http_lib/sch_io_http_lib.cpp:226
 #, c-format
 msgid "HTTP library settings file %s is missing the API version number!"
-msgstr "HTTP 函式庫標示檔案 %s 缺少 API 版本號!"
+msgstr "HTTP 庫標示檔案 %s 缺少 API 版本號!"
 
 #: eeschema/sch_io/http_lib/sch_io_http_lib.cpp:234
 #, c-format
 msgid ""
 "HTTP library settings file %s uses API version %s, but KiCad requires "
 "version %s"
-msgstr "HTTP 函式庫標示檔案 %s 使用 API 版本 %s, 但 KiCad 需要版本 %s"
+msgstr "HTTP 庫標示檔案 %s 使用 API 版本 %s, 但 KiCad 需要版本 %s"
 
 #: eeschema/sch_io/http_lib/sch_io_http_lib.cpp:245
 #, c-format
 msgid "HTTP library settings file %s is missing the root URL!"
-msgstr "HTTP 函式庫標示檔案 %s 缺少 root URL!"
+msgstr "HTTP 庫標示檔案 %s 缺少 root URL!"
 
 #: eeschema/sch_io/http_lib/sch_io_http_lib.cpp:256
 #, c-format
 msgid "HTTP library settings file %s has an invalid library type"
-msgstr "HTTP 函式庫標示檔案 %s 存在無效的函式庫類型"
+msgstr "HTTP 庫標示檔案 %s 存在無效的庫類型"
 
 #: eeschema/sch_io/http_lib/sch_io_http_lib.cpp:301
 #, c-format
@@ -17127,11 +17127,11 @@ msgstr "無法連接到 %s。錯誤: %s"
 #: eeschema/sch_io/http_lib/sch_io_http_lib.cpp:345
 #, c-format
 msgid "Error retriving data from HTTP library %s: %s"
-msgstr "從 HTTP 函式庫 %s 讀取數據時出錯: %s"
+msgstr "從 HTTP 庫 %s 讀取數據時出錯: %s"
 
 #: eeschema/sch_io/http_lib/sch_io_http_lib.h:46
 msgid "KiCad HTTP library files"
-msgstr "KiCad HTTP 函式庫檔案"
+msgstr "KiCad HTTP 庫檔案"
 
 #: eeschema/sch_io/kicad_legacy/sch_io_kicad_legacy.cpp:116
 #: eeschema/sch_io/kicad_legacy/sch_io_kicad_legacy.cpp:288
@@ -17196,17 +17196,17 @@ msgstr "符號欄位文字特性至少要包含 3 個字元"
 #: eeschema/sch_io/kicad_sexpr/sch_io_kicad_sexpr.cpp:1714
 #, c-format
 msgid "Symbol library '%s' already exists."
-msgstr "符號函式庫 '%s' 已存在。"
+msgstr "符號庫 '%s' 已存在。"
 
 #: eeschema/sch_io/kicad_legacy/sch_io_kicad_legacy.cpp:2256
 #: eeschema/sch_io/kicad_sexpr/sch_io_kicad_sexpr.cpp:1740
 #, c-format
 msgid "Symbol library '%s' cannot be deleted."
-msgstr "無法刪除符號函式庫 '%s'。"
+msgstr "無法刪除符號庫 '%s'。"
 
 #: eeschema/sch_io/kicad_legacy/sch_io_kicad_legacy.h:81
 msgid "KiCad legacy symbol library files"
-msgstr "KiCad 舊版符號函式庫檔案"
+msgstr "KiCad 舊版符號庫檔案"
 
 #: eeschema/sch_io/kicad_legacy/sch_io_kicad_legacy_helpers.cpp:222
 msgid "expected unquoted string"
@@ -17216,7 +17216,7 @@ msgstr "需要不帶括號的字元"
 #: eeschema/sch_io/kicad_sexpr/sch_io_kicad_sexpr_lib_cache.cpp:54
 #, c-format
 msgid "Library file '%s' not found."
-msgstr "找不到函式庫檔案 '%s'。"
+msgstr "找不到庫檔案 '%s'。"
 
 #: eeschema/sch_io/kicad_legacy/sch_io_kicad_legacy_lib_cache.cpp:88
 msgid "Unexpected end of file."
@@ -17225,17 +17225,17 @@ msgstr "檔案意外結束。"
 #: eeschema/sch_io/kicad_legacy/sch_io_kicad_legacy_lib_cache.cpp:185
 #, c-format
 msgid "Insufficient permissions to read library '%s'."
-msgstr "讀取函式庫 '%s' 的權限不足。"
+msgstr "讀取庫 '%s' 的權限不足。"
 
 #: eeschema/sch_io/kicad_legacy/sch_io_kicad_legacy_lib_cache.cpp:194
 msgid "symbol document library file is empty"
-msgstr "符號檔案函式庫檔案為空"
+msgstr "符號檔案庫檔案為空"
 
 #: eeschema/sch_io/kicad_legacy/sch_io_kicad_legacy_lib_cache.cpp:1917
 #: eeschema/sch_io/kicad_sexpr/sch_io_kicad_sexpr_lib_cache.cpp:533
 #, c-format
 msgid "library %s does not contain a symbol named %s"
-msgstr "函式庫 %s 不包含名為 %s 的符號"
+msgstr "庫 %s 不包含名為 %s 的符號"
 
 #: eeschema/sch_io/kicad_sexpr/sch_io_kicad_sexpr.cpp:212
 #, c-format
@@ -17261,7 +17261,7 @@ msgstr "符號 %s 包含無效字元 '%c'"
 
 #: eeschema/sch_io/kicad_sexpr/sch_io_kicad_sexpr_parser.cpp:334
 msgid "Invalid library identifier"
-msgstr "無效的函式庫索引值"
+msgstr "無效的庫索引值"
 
 #: eeschema/sch_io/kicad_sexpr/sch_io_kicad_sexpr_parser.cpp:395
 msgid "Invalid parent symbol name"
@@ -17289,7 +17289,7 @@ msgstr "無效的符號單元名稱字尾 %s"
 #: eeschema/sch_io/kicad_sexpr/sch_io_kicad_sexpr_parser.cpp:454
 #, c-format
 msgid "Invalid symbol unit number %s"
-msgstr "無效的符號函式庫單元數 %s"
+msgstr "無效的符號庫單元數 %s"
 
 #: eeschema/sch_io/kicad_sexpr/sch_io_kicad_sexpr_parser.cpp:462
 #, c-format
@@ -17355,11 +17355,11 @@ msgstr "空的圖紙接腳名"
 
 #: eeschema/sch_io/kicad_sexpr/sch_io_kicad_sexpr_parser.cpp:2849
 msgid "Invalid symbol library name"
-msgstr "符號的函式庫名稱無效"
+msgstr "符號的庫名稱無效"
 
 #: eeschema/sch_io/kicad_sexpr/sch_io_kicad_sexpr_parser.cpp:2890
 msgid "Invalid symbol library ID"
-msgstr "符號的函式庫索引值無效"
+msgstr "符號的庫索引值無效"
 
 #: eeschema/sch_io/ltspice/ltspice_schematic.cpp:220
 #, c-format
@@ -17744,26 +17744,26 @@ msgstr "原理圖示記"
 #: eeschema/sch_screen.cpp:914 eeschema/sch_screen.cpp:1006
 #, c-format
 msgid "Setting schematic symbol '%s %s' library identifier to '%s'."
-msgstr "正將原理圖符號 '%s %s' 函式庫索引值標示為 '%s'。"
+msgstr "正將原理圖符號 '%s %s' 庫索引值標示為 '%s'。"
 
 #: eeschema/sch_screen.cpp:930
 #, c-format
 msgid ""
 "Schematic symbol reference '%s' library identifier is not valid. Unable to "
 "link library symbol."
-msgstr "原理圖符號參照 '%s' 函式庫索引值無效。無法鏈結函式庫符號。"
+msgstr "原理圖符號參照 '%s' 庫索引值無效。無法鏈結庫符號。"
 
 #: eeschema/sch_screen.cpp:946
 #, c-format
 msgid ""
 "Symbol library '%s' not found and no fallback cache library available.  "
 "Unable to link library symbol."
-msgstr "找不到符號函式庫 '%s' , 並且沒有可用的後備快取函式庫。無法鏈結函式庫符號。"
+msgstr "找不到符號庫 '%s' , 並且沒有可用的後備快取庫。無法鏈結庫符號。"
 
 #: eeschema/sch_screen.cpp:965
 #, c-format
 msgid "I/O error %s resolving library symbol %s"
-msgstr "I/O 錯誤 %s 正在解析函式庫符號 %s"
+msgstr "I/O 錯誤 %s 正在解析庫符號 %s"
 
 #: eeschema/sch_screen.cpp:985
 #, c-format
@@ -17773,7 +17773,7 @@ msgstr "正在回退到快取以標示符號 '%s:%s' 鏈結 '%s'。"
 #: eeschema/sch_screen.cpp:1017
 #, c-format
 msgid "No library symbol found for schematic symbol '%s %s'."
-msgstr "找不到原理圖符號 '%s %s'的函式庫符號。"
+msgstr "找不到原理圖符號 '%s %s'的庫符號。"
 
 #: eeschema/sch_shape.cpp:581
 #, c-format
@@ -17907,7 +17907,7 @@ msgstr "<未知>"
 
 #: eeschema/sch_symbol.cpp:1985
 msgid "No library defined!"
-msgstr "未定義函式庫!"
+msgstr "未定義庫!"
 
 #: eeschema/sch_symbol.cpp:1987
 #, c-format
@@ -17929,12 +17929,12 @@ msgstr "Y 軸鏡像"
 
 #: eeschema/sch_symbol.cpp:2772 pcbnew/footprint.cpp:3758
 msgid "Library Link"
-msgstr "函式庫鏈結"
+msgstr "庫鏈結"
 
 #: eeschema/sch_symbol.cpp:2775 pcbnew/footprint.cpp:3761
 #: pcbnew/plot_board_layers.cpp:114
 msgid "Library Description"
-msgstr "函式庫描述"
+msgstr "庫描述"
 
 #: eeschema/sch_symbol.cpp:2784
 msgid "Exclude From Board"
@@ -19040,17 +19040,17 @@ msgstr "預期測量格式定義"
 #: eeschema/sim/sim_lib_mgr.cpp:83
 #, c-format
 msgid "Simulation model library not found at '%s'"
-msgstr "在 '%s' 找不到類比模型函式庫"
+msgstr "在 '%s' 找不到類比模型庫"
 
 #: eeschema/sim/sim_lib_mgr.cpp:88
 #, c-format
 msgid "Simulation model library not found at '%s' or '%s'"
-msgstr "在 '%s' or '%s' 找不到類比模型函式庫"
+msgstr "在 '%s' or '%s' 找不到類比模型庫"
 
 #: eeschema/sim/sim_lib_mgr.cpp:301
 #, c-format
 msgid "Error loading simulation model library '%s': %s"
-msgstr "載入類比模型函式庫 '%s' 出錯: %s"
+msgstr "載入類比模型庫 '%s' 出錯: %s"
 
 #: eeschema/sim/sim_lib_mgr.cpp:310
 #, c-format
@@ -19073,7 +19073,7 @@ msgstr "未知"
 msgid ""
 "Error loading simulation model: could not find base model '%s' in library "
 "'%s'"
-msgstr "載入類比模型時出錯: 在函式庫 %2$s 中找不到基礎模型 %1$s"
+msgstr "載入類比模型時出錯: 在庫 %2$s 中找不到基礎模型 %1$s"
 
 #: eeschema/sim/sim_library_kibis.cpp:39 eeschema/sim/sim_model_kibis.cpp:76
 #, c-format
@@ -19588,7 +19588,7 @@ msgstr ""
 #: eeschema/symbol_async_loader.cpp:108
 #, c-format
 msgid "Loading library %s..."
-msgstr "正在載入 %s 函式庫..."
+msgstr "正在載入 %s 庫..."
 
 #: eeschema/symbol_async_loader.cpp:122 eeschema/symbol_async_loader.cpp:130
 #, c-format
@@ -19779,7 +19779,7 @@ msgstr "匯出符號為 SVG..."
 #: eeschema/symbol_editor/menubar_symbol_editor.cpp:86
 #: eeschema/symbol_editor/symbol_edit_frame.cpp:102
 msgid "Library Editor"
-msgstr "函式庫編輯器"
+msgstr "庫編輯器"
 
 #: eeschema/symbol_editor/symbol_edit_frame.cpp:116
 msgid "KiCad Symbol Editor"
@@ -19790,15 +19790,15 @@ msgstr "KiCad 符號編輯器"
 #: eeschema/symbol_library.cpp:517 eeschema/symbol_tree_model_adapter.cpp:74
 #: eeschema/symbol_viewer_frame.cpp:274
 msgid "Loading Symbol Libraries"
-msgstr "載入符號函式庫"
+msgstr "載入符號庫"
 
 #: eeschema/symbol_editor/symbol_edit_frame.cpp:262
 msgid "Library changes are unsaved"
-msgstr "函式庫變更未儲存"
+msgstr "庫變更未儲存"
 
 #: eeschema/symbol_editor/symbol_edit_frame.cpp:273
 msgid "Symbol library loading was cancelled by user."
-msgstr "使用者取消了符號函式庫載入。"
+msgstr "使用者取消了符號庫載入。"
 
 #: eeschema/symbol_editor/symbol_edit_frame.cpp:844
 #, c-format
@@ -19808,13 +19808,13 @@ msgstr "從原理圖編輯符號 %s。儲存將僅更新原理圖。"
 
 #: eeschema/symbol_editor/symbol_edit_frame.cpp:853
 msgid "Manage symbol libraries"
-msgstr "管理符號函式庫"
+msgstr "管理符號庫"
 
 #: eeschema/symbol_editor/symbol_edit_frame.cpp:864
 msgid ""
 "Symbols in legacy libraries are not editable.  Use Manage Symbol Libraries "
 "to migrate to current format."
-msgstr "舊版函式庫中的符號不可編輯。使用\"管理符號函式庫\"遷移到當前格式。"
+msgstr "舊版庫中的符號不可編輯。使用\"管理符號庫\"遷移到當前格式。"
 
 #: eeschema/symbol_editor/symbol_edit_frame.cpp:885
 #, c-format
@@ -19826,7 +19826,7 @@ msgstr "符號 %s 為衍生符號, 不可直接對其進行編輯。"
 #: eeschema/tools/sch_editor_control.cpp:408
 #, c-format
 msgid "Library '%s' already exists."
-msgstr "函式庫 '%s' 已存在。"
+msgstr "庫 '%s' 已存在。"
 
 #: eeschema/symbol_editor/symbol_edit_frame.cpp:971
 #, c-format
@@ -19841,12 +19841,12 @@ msgstr ""
 #: eeschema/symbol_editor/symbol_edit_frame.cpp:1020
 #: eeschema/symbol_editor/symbol_editor_import_export.cpp:245
 msgid "Could not open the library file."
-msgstr "無法打開函式庫檔案。"
+msgstr "無法打開庫檔案。"
 
 #: eeschema/symbol_editor/symbol_edit_frame.cpp:1113
 #, c-format
 msgid "Loading library '%s'..."
-msgstr "正在載入 '%s' 函式庫..."
+msgstr "正在載入 '%s' 庫..."
 
 #: eeschema/symbol_editor/symbol_edit_frame.cpp:1207
 #, c-format
@@ -19856,35 +19856,35 @@ msgstr "未能將備份儲存到 '%s'。"
 #: eeschema/symbol_editor/symbol_edit_frame.cpp:1445
 #, c-format
 msgid "The current configuration does not include the symbol library '%s'."
-msgstr "當前組態不包含符號函式庫 '%s'。"
+msgstr "當前組態不包含符號庫 '%s'。"
 
 #: eeschema/symbol_editor/symbol_edit_frame.cpp:1447
 #: eeschema/symbol_editor/symbol_edit_frame.cpp:1458
 msgid "Use Manage Symbol Libraries to edit the configuration."
-msgstr "使用 管理符號函式庫 功能編輯組態。"
+msgstr "使用 管理符號庫 功能編輯組態。"
 
 #: eeschema/symbol_editor/symbol_edit_frame.cpp:1448
 msgid "Library not found in symbol library table."
-msgstr "在符號函式庫表中找不到函式庫。"
+msgstr "在符號庫表中找不到庫。"
 
 #: eeschema/symbol_editor/symbol_edit_frame.cpp:1456
 #, c-format
 msgid "The symbol library '%s' is not enabled in the current configuration."
-msgstr "當前組態中未啟用封裝函式庫 '%s'。"
+msgstr "當前組態中未啟用封裝庫 '%s'。"
 
 #: eeschema/symbol_editor/symbol_edit_frame.cpp:1459
 msgid "Symbol library not enabled."
-msgstr "符號函式庫未啟用。"
+msgstr "符號庫未啟用。"
 
 #: eeschema/symbol_editor/symbol_edit_frame.cpp:1776
 #: eeschema/symbol_editor/symbol_edit_frame.cpp:1828
 msgid "Error saving global library table."
-msgstr "儲存全域函式庫表時出錯。"
+msgstr "儲存全域庫表時出錯。"
 
 #: eeschema/symbol_editor/symbol_edit_frame.cpp:1777
 #: eeschema/symbol_editor/symbol_edit_frame.cpp:1829
 msgid "Error saving project library table."
-msgstr "儲存專案函式庫表時出錯。"
+msgstr "儲存專案庫表時出錯。"
 
 #: eeschema/symbol_editor/symbol_editor.cpp:65
 msgid "[from schematic]"
@@ -19892,7 +19892,7 @@ msgstr "[來自原理圖]"
 
 #: eeschema/symbol_editor/symbol_editor.cpp:75
 msgid "[Read Only Library]"
-msgstr "[唯讀函式庫]"
+msgstr "[唯讀庫]"
 
 #: eeschema/symbol_editor/symbol_editor.cpp:79
 msgid "[no symbol loaded]"
@@ -19911,7 +19911,7 @@ msgstr "當前沒有打開原理圖。"
 #: eeschema/tools/symbol_editor_control.cpp:360
 #, c-format
 msgid "Symbol library '%s' is not writable."
-msgstr "符號函式庫 '%s' 不可寫入。"
+msgstr "符號庫 '%s' 不可寫入。"
 
 #: eeschema/symbol_editor/symbol_editor.cpp:129
 #: eeschema/symbol_editor/symbol_editor.cpp:523
@@ -19934,7 +19934,7 @@ msgstr "衍生自符號 '%s'。"
 #: eeschema/tools/symbol_editor_control.cpp:425
 #, c-format
 msgid "Symbol '%s' already exists in library '%s'."
-msgstr "符號 '%s' 已存在於函式庫 '%s' 中。"
+msgstr "符號 '%s' 已存在於庫 '%s' 中。"
 
 #: eeschema/symbol_editor/symbol_editor.cpp:399
 #: eeschema/symbol_editor/symbol_editor.cpp:703
@@ -19958,17 +19958,17 @@ msgstr "將符號儲存為"
 #: eeschema/symbol_editor/symbol_editor.cpp:607
 #: pcbnew/footprint_libraries_utils.cpp:1003
 msgid "Save in library:"
-msgstr "儲存在函式庫:"
+msgstr "儲存在庫:"
 
 #: eeschema/symbol_editor/symbol_editor.cpp:686
 #: pcbnew/footprint_libraries_utils.cpp:1086
 msgid "A library must be specified."
-msgstr "必須指定一個函式庫。"
+msgstr "必須指定一個庫。"
 
 #: eeschema/symbol_editor/symbol_editor.cpp:713
 msgid ""
 "Derived symbols must be saved in the same library as their parent symbol."
-msgstr "衍生符號必須被儲存在父級符號所在的同一函式庫中。"
+msgstr "衍生符號必須被儲存在父級符號所在的同一庫中。"
 
 #: eeschema/symbol_editor/symbol_editor.cpp:762
 #, c-format
@@ -20015,30 +20015,30 @@ msgstr "是否取消變更, 並將 '%s' 重設為上一儲存版本?"
 #: eeschema/symbol_editor/symbol_editor.cpp:1036
 #, c-format
 msgid "Symbol %s not found in library '%s'."
-msgstr "符號 '%s' 在函式庫中 '%s' 找不到。"
+msgstr "符號 '%s' 在庫中 '%s' 找不到。"
 
 #: eeschema/symbol_editor/symbol_editor.cpp:1065
 msgid "No library specified."
-msgstr "沒有指定函式庫。"
+msgstr "沒有指定庫。"
 
 #: eeschema/symbol_editor/symbol_editor.cpp:1084
 #, c-format
 msgid "Save Library '%s' As..."
-msgstr "將函式庫 '%s' 另存為..."
+msgstr "將庫 '%s' 另存為..."
 
 #: eeschema/symbol_editor/symbol_editor.cpp:1124
 #, c-format
 msgid "Failed to save changes to symbol library file '%s'."
-msgstr "無法將變更儲存到符號函式庫檔案 '%s'。"
+msgstr "無法將變更儲存到符號庫檔案 '%s'。"
 
 #: eeschema/symbol_editor/symbol_editor.cpp:1126
 msgid "Error Saving Library"
-msgstr "儲存函式庫時出錯"
+msgstr "儲存庫時出錯"
 
 #: eeschema/symbol_editor/symbol_editor.cpp:1172
 #, c-format
 msgid "Symbol library file '%s' saved."
-msgstr "符號函式庫檔案 '%s' 已儲存。"
+msgstr "符號庫檔案 '%s' 已儲存。"
 
 #: eeschema/symbol_editor/symbol_editor.cpp:1271
 msgid "Undefined!"
@@ -20074,18 +20074,18 @@ msgstr "無法為 '%s' 找到一個可用的讀取工具。"
 #: eeschema/symbol_editor/symbol_editor_import_export.cpp:107
 #, c-format
 msgid "Cannot import symbol library '%s'."
-msgstr "無法匯入符號函式庫 '%s'。"
+msgstr "無法匯入符號庫 '%s'。"
 
 #: eeschema/symbol_editor/symbol_editor_import_export.cpp:114
 #, c-format
 msgid "Symbol library file '%s' is empty."
-msgstr "符號函式庫檔案 '%s' 為空。"
+msgstr "符號庫檔案 '%s' 為空。"
 
 #: eeschema/symbol_editor/symbol_editor_import_export.cpp:126
 #: eeschema/symbol_editor/symbol_editor_import_export.cpp:191
 #, c-format
 msgid "Symbol %s already exists in library '%s'."
-msgstr "符號 '%s' 已存在於函式庫 '%s' 中。"
+msgstr "符號 '%s' 已存在於庫 '%s' 中。"
 
 #: eeschema/symbol_editor/symbol_editor_import_export.cpp:158
 msgid "Export Symbol"
@@ -20094,44 +20094,44 @@ msgstr "匯出符號"
 #: eeschema/symbol_editor/symbol_editor_import_export.cpp:183
 #, c-format
 msgid "Error occurred attempting to load symbol library file '%s'."
-msgstr "試圖載入符號函式庫檔案 '%s' 時出錯。"
+msgstr "試圖載入符號庫檔案 '%s' 時出錯。"
 
 #: eeschema/symbol_editor/symbol_editor_import_export.cpp:206
 #, c-format
 msgid "Insufficient permissions to save library '%s'."
-msgstr "儲存函式庫 '%s' 的權限不足。"
+msgstr "儲存庫 '%s' 的權限不足。"
 
 #: eeschema/symbol_editor/symbol_editor_import_export.cpp:226
 #, c-format
 msgid "Error creating symbol library '%s'."
-msgstr "建立符號函式庫 '%s' 出錯。"
+msgstr "建立符號庫 '%s' 出錯。"
 
 #: eeschema/symbol_editor/symbol_editor_import_export.cpp:233
 #, c-format
 msgid "Symbol %s saved to library '%s'."
-msgstr "已儲存符號 %s 到函式庫 '%s'。"
+msgstr "已儲存符號 %s 到庫 '%s'。"
 
 #: eeschema/symbol_lib_table.cpp:278
 #, c-format
 msgid ""
 "Duplicate library nickname '%s' found in symbol library table file line %d"
-msgstr "找到重複的函式庫名稱 '%s' 在符號函式庫表檔案行 %d 中"
+msgstr "找到重複的庫名稱 '%s' 在符號庫表檔案行 %d 中"
 
 #: eeschema/symbol_library.cpp:598 eeschema/symbol_tree_model_adapter.cpp:218
 #, c-format
 msgid "Error loading symbol library '%s'."
-msgstr "載入符號函式庫 '%s' 時出現錯誤。"
+msgstr "載入符號庫 '%s' 時出現錯誤。"
 
 #: eeschema/symbol_library_manager.cpp:84
 #: eeschema/symbol_tree_model_adapter.cpp:109
 #: eeschema/symbol_viewer_frame.cpp:306
 msgid "Errors loading symbols:"
-msgstr "函式庫載入出錯:"
+msgstr "庫載入出錯:"
 
 #: eeschema/symbol_library_manager.cpp:162
 #, c-format
 msgid "Library '%s' not found in the Symbol Library Table."
-msgstr "在符號函式庫表中找不到函式庫 '%s'。"
+msgstr "在符號庫表中找不到庫 '%s'。"
 
 #: eeschema/symbol_library_manager.cpp:414
 msgid "Symbol not found."
@@ -20140,28 +20140,28 @@ msgstr "找不到符號。"
 #: eeschema/symbol_library_manager.cpp:622
 #, c-format
 msgid "Cannot load symbol '%s' from library '%s'."
-msgstr "無法從函式庫 '%s' 載入符號 '%s'。"
+msgstr "無法從庫 '%s' 載入符號 '%s'。"
 
 #: eeschema/symbol_library_manager.cpp:781
 #, c-format
 msgid "Cannot enumerate library '%s'."
-msgstr "無法列舉函式庫 '%s'。"
+msgstr "無法列舉庫 '%s'。"
 
 #: eeschema/symbol_library_manager.cpp:843
 #: eeschema/symbol_library_manager.cpp:848
 #, c-format
 msgid "Error updating library buffer: %s"
-msgstr "更新函式庫緩衝區時出錯: %s"
+msgstr "更新庫緩衝區時出錯: %s"
 
 #: eeschema/symbol_library_manager.cpp:853
 msgid "Error updating library buffer."
-msgstr "更新函式庫緩衝區時出錯。"
+msgstr "更新庫緩衝區時出錯。"
 
 #: eeschema/symbol_library_manager.cpp:993
 #: eeschema/tools/sch_editor_control.cpp:455
 #, c-format
 msgid "Error saving symbol %s to library '%s'."
-msgstr "儲存符號 %s 到函式庫 '%s' 出錯。"
+msgstr "儲存符號 %s 到庫 '%s' 出錯。"
 
 #: eeschema/symbol_tree_synchronizing_adapter.cpp:273
 msgid "(failed to load)"
@@ -20169,12 +20169,12 @@ msgstr "(載入失敗)"
 
 #: eeschema/symbol_viewer_frame.cpp:110
 msgid "KiCad Symbol Library Browser"
-msgstr "KiCad 符號函式庫瀏覽器"
+msgstr "KiCad 符號庫瀏覽器"
 
 #: eeschema/symbol_viewer_frame.cpp:1102 pcbnew/footprint_viewer_frame.cpp:1016
 #: pcbnew/footprint_viewer_frame.cpp:1021
 msgid "[no library selected]"
-msgstr "[沒有選擇函式庫]"
+msgstr "[沒有選擇庫]"
 
 #: eeschema/sync_sheet_pin/dialog_sync_sheet_pins_base.cpp:28
 msgid ""
@@ -20390,7 +20390,7 @@ msgstr "顯示符號檢查器視窗"
 
 #: eeschema/tools/ee_actions.cpp:61
 msgid "Show differences between schematic symbol and its library equivalent"
-msgstr "顯示原理圖符號與函式庫中的對應符號之間的差異"
+msgstr "顯示原理圖符號與庫中的對應符號之間的差異"
 
 #: eeschema/tools/ee_actions.cpp:67
 msgid "Show Bus Syntax Help"
@@ -20431,11 +20431,11 @@ msgstr "選擇完整的連接"
 
 #: eeschema/tools/ee_actions.cpp:161
 msgid "Save Library As..."
-msgstr "將函式庫另存為 ......"
+msgstr "將庫另存為 ......"
 
 #: eeschema/tools/ee_actions.cpp:162
 msgid "Save the current library to a new file."
-msgstr "將當前函式庫儲存到一個新的檔案。"
+msgstr "將當前庫儲存到一個新的檔案。"
 
 #: eeschema/tools/ee_actions.cpp:168
 msgid "New Symbol..."
@@ -20483,11 +20483,11 @@ msgstr "另存為..."
 
 #: eeschema/tools/ee_actions.cpp:204
 msgid "Save a copy of the current symbol to a different library."
-msgstr "將當前符號另存到其他函式庫。"
+msgstr "將當前符號另存到其他庫。"
 
 #: eeschema/tools/ee_actions.cpp:211
 msgid "Remove the selected symbol from its library"
-msgstr "從函式庫中移除所選符號"
+msgstr "從庫中移除所選符號"
 
 #: eeschema/tools/ee_actions.cpp:229
 msgid "Paste Symbol"
@@ -20499,7 +20499,7 @@ msgstr "匯入符號..."
 
 #: eeschema/tools/ee_actions.cpp:236
 msgid "Import a symbol to the current library"
-msgstr "匯入符號到當前函式庫"
+msgstr "匯入符號到當前庫"
 
 #: eeschema/tools/ee_actions.cpp:242
 msgid "Export..."
@@ -20507,7 +20507,7 @@ msgstr "匯出..."
 
 #: eeschema/tools/ee_actions.cpp:243
 msgid "Export a symbol to a new library file"
-msgstr "將符號匯出到新函式庫檔案"
+msgstr "將符號匯出到新庫檔案"
 
 #: eeschema/tools/ee_actions.cpp:249 pcbnew/tools/pcb_actions.cpp:773
 msgid "Edit in a Text Editor..."
@@ -20515,7 +20515,7 @@ msgstr "在文字編輯器中編輯..."
 
 #: eeschema/tools/ee_actions.cpp:250 pcbnew/tools/pcb_actions.cpp:774
 msgid "Open a library file with a text editor"
-msgstr "使用文字編輯器打開函式庫檔案"
+msgstr "使用文字編輯器打開庫檔案"
 
 #: eeschema/tools/ee_actions.cpp:256
 msgid "Update Symbol Fields..."
@@ -20954,27 +20954,27 @@ msgstr "替換符號..."
 
 #: eeschema/tools/ee_actions.cpp:739
 msgid "Assign different symbols from the library"
-msgstr "從函式庫中分配不同的符號"
+msgstr "從庫中分配不同的符號"
 
 #: eeschema/tools/ee_actions.cpp:745
 msgid "Update Symbols from Library..."
-msgstr "與函式庫符號同步..."
+msgstr "與庫符號同步..."
 
 #: eeschema/tools/ee_actions.cpp:746
 msgid "Update symbols to include any changes from the library"
-msgstr "更新符號以使原理圖符號與函式庫中的符號同步"
+msgstr "更新符號以使原理圖符號與庫中的符號同步"
 
 #: eeschema/tools/ee_actions.cpp:753
 msgid "Assign a different symbol from the library"
-msgstr "從函式庫中分配不同的符號"
+msgstr "從庫中分配不同的符號"
 
 #: eeschema/tools/ee_actions.cpp:759
 msgid "Update Symbol..."
-msgstr "與函式庫符號同步..."
+msgstr "與庫符號同步..."
 
 #: eeschema/tools/ee_actions.cpp:760
 msgid "Update symbol to include any changes from the library"
-msgstr "更新符號以使原理圖符號與函式庫中的符號同步"
+msgstr "更新符號以使原理圖符號與庫中的符號同步"
 
 #: eeschema/tools/ee_actions.cpp:766 pcbnew/tools/pcb_actions.cpp:1121
 msgid "Assign Netclass..."
@@ -21239,7 +21239,7 @@ msgstr "切換 'DNP (不作裝配)' 特性"
 
 #: eeschema/tools/ee_actions.cpp:1012
 msgid "Open the library symbol in the Symbol Editor"
-msgstr "在符號編輯器中打開函式庫符號"
+msgstr "在符號編輯器中打開庫符號"
 
 #: eeschema/tools/ee_actions.cpp:1018
 msgid "Edit Symbol Fields..."
@@ -21251,11 +21251,11 @@ msgstr "批量編輯原理圖中所有符號的欄位"
 
 #: eeschema/tools/ee_actions.cpp:1025
 msgid "Edit Symbol Library Links..."
-msgstr "編輯符號函式庫鏈結..."
+msgstr "編輯符號庫鏈結..."
 
 #: eeschema/tools/ee_actions.cpp:1026
 msgid "Edit links between schematic and library symbols"
-msgstr "編輯原理圖和函式庫符號之間的鏈結"
+msgstr "編輯原理圖和庫符號之間的鏈結"
 
 #: eeschema/tools/ee_actions.cpp:1032
 msgid "Assign Footprints..."
@@ -21308,13 +21308,13 @@ msgstr "在專案中找到舊的符號重新命名或恢復它們"
 
 #: eeschema/tools/ee_actions.cpp:1073
 msgid "Remap Legacy Library Symbols..."
-msgstr "重新對映舊版函式庫符號..."
+msgstr "重新對映舊版庫符號..."
 
 #: eeschema/tools/ee_actions.cpp:1074
 msgid ""
 "Remap library symbol references in legacy schematics to the symbol library "
 "table"
-msgstr "將舊原理圖中的函式庫符號參照重新對映到符號函式庫表"
+msgstr "將舊原理圖中的庫符號參照重新對映到符號庫表"
 
 #: eeschema/tools/ee_actions.cpp:1080
 msgid "Export Drawing to Clipboard"
@@ -21377,7 +21377,7 @@ msgstr "為當前原理圖生成物料清單(外部生成器)"
 
 #: eeschema/tools/ee_actions.cpp:1132
 msgid "Export Symbols to Library..."
-msgstr "將符號匯出到函式庫..."
+msgstr "將符號匯出到庫..."
 
 #: eeschema/tools/ee_actions.cpp:1133
 msgid ""
@@ -21389,7 +21389,7 @@ msgstr ""
 
 #: eeschema/tools/ee_actions.cpp:1140
 msgid "Export Symbols to New Library..."
-msgstr "將符號匯出到新函式庫..."
+msgstr "將符號匯出到新庫..."
 
 #: eeschema/tools/ee_actions.cpp:1141
 msgid ""
@@ -21787,7 +21787,7 @@ msgstr "符號警告"
 
 #: eeschema/tools/ee_inspection_tool.cpp:352
 msgid "Select a symbol to diff against its library equivalent."
-msgstr "選擇一個符號, 與其函式庫中的對應符號進行比較。"
+msgstr "選擇一個符號, 與其庫中的對應符號進行比較。"
 
 #: eeschema/tools/ee_inspection_tool.cpp:373
 #, c-format
@@ -21801,39 +21801,39 @@ msgstr "總結"
 
 #: eeschema/tools/ee_inspection_tool.cpp:381
 msgid "Schematic vs library diff for:"
-msgstr "原理圖與函式庫的差異:"
+msgstr "原理圖與庫的差異:"
 
 #: eeschema/tools/ee_inspection_tool.cpp:383
 #: pcbnew/dialogs/dialog_footprint_associations.cpp:47
 #: pcbnew/tools/board_inspection_tool.cpp:1561
 msgid "Library: "
-msgstr "函式庫: "
+msgstr "庫: "
 
 #: eeschema/tools/ee_inspection_tool.cpp:384
 #: pcbnew/tools/board_inspection_tool.cpp:1562
 msgid "Library item: "
-msgstr "函式庫專案: "
+msgstr "庫專案: "
 
 #: eeschema/tools/ee_inspection_tool.cpp:394
 #: pcbnew/tools/board_inspection_tool.cpp:1580
 msgid "The library is not included in the current configuration."
-msgstr "當前組態中不包括該函式庫。"
+msgstr "當前組態中不包括該庫。"
 
 #: eeschema/tools/ee_inspection_tool.cpp:396
 #: eeschema/tools/ee_inspection_tool.cpp:402
 msgid "Manage Symbol Libraries"
-msgstr "管理符號函式庫"
+msgstr "管理符號庫"
 
 #: eeschema/tools/ee_inspection_tool.cpp:400
 #: pcbnew/tools/board_inspection_tool.cpp:1588
 msgid "The library is not enabled in the current configuration."
-msgstr "當前組態中未啟用該函式庫。"
+msgstr "當前組態中未啟用該庫。"
 
 #: eeschema/tools/ee_inspection_tool.cpp:420
 #: pcbnew/tools/board_inspection_tool.cpp:1608
 #, c-format
 msgid "The library no longer contains the item %s."
-msgstr "函式庫中不再包含專案 %s。"
+msgstr "庫中不再包含專案 %s。"
 
 #: eeschema/tools/ee_inspection_tool.cpp:441
 #: pcbnew/tools/board_inspection_tool.cpp:1614
@@ -22036,16 +22036,16 @@ msgstr "是否取消變更, 並將 '%s' (及所有子圖紙) 重設為上一儲�
 
 #: eeschema/tools/sch_editor_control.cpp:355
 msgid "Include power symbols in schematic to the library?"
-msgstr "將原理圖中的電源符號納入函式庫中?"
+msgstr "將原理圖中的電源符號納入庫中?"
 
 #: eeschema/tools/sch_editor_control.cpp:420
 #, c-format
 msgid "Could not add library '%s'."
-msgstr "無法添加函式庫 '%s'。"
+msgstr "無法添加庫 '%s'。"
 
 #: eeschema/tools/sch_editor_control.cpp:433
 msgid "Update symbols in schematic to refer to new library?"
-msgstr "更新原理圖中的符號以指向新函式庫?"
+msgstr "更新原理圖中的符號以指向新庫?"
 
 #: eeschema/tools/sch_editor_control.cpp:811
 msgid "Error: duplicate sub-sheet names found in current sheet."
@@ -22071,7 +22071,7 @@ msgstr ""
 
 #: eeschema/tools/sch_editor_control.cpp:2234
 msgid "Symbols with broken library symbol links cannot be edited."
-msgstr "無法編輯有損壞的函式庫符號鏈結的符號。"
+msgstr "無法編輯有損壞的庫符號鏈結的符號。"
 
 #: eeschema/tools/sch_editor_control.cpp:2623
 #: pcbnew/tools/board_editor_control.cpp:604
@@ -22160,7 +22160,7 @@ msgstr "SPICE 網表"
 
 #: eeschema/tools/symbol_editor_control.cpp:201
 msgid "No symbol library selected."
-msgstr "未勾選符號函式庫。"
+msgstr "未勾選符號庫。"
 
 #: eeschema/tools/symbol_editor_control.cpp:277
 #: pcbnew/tools/footprint_editor_control.cpp:594
@@ -22379,19 +22379,19 @@ msgstr "指令"
 
 #: eeschema/widgets/symbol_filedlg_save_as.h:33
 msgid "Do not update library tables"
-msgstr "不要更新函式庫表"
+msgstr "不要更新庫表"
 
 #: eeschema/widgets/symbol_filedlg_save_as.h:35
 msgid "Update existing library table entry"
-msgstr "更新現有函式庫表項目"
+msgstr "更新現有庫表項目"
 
 #: eeschema/widgets/symbol_filedlg_save_as.h:37
 msgid "Add new global library table entry"
-msgstr "添加新的全域函式庫表條目"
+msgstr "添加新的全域庫表條目"
 
 #: eeschema/widgets/symbol_filedlg_save_as.h:39
 msgid "Add new project library table entry"
-msgstr "添加新的專案函式庫表條目"
+msgstr "添加新的專案庫表條目"
 
 #: eeschema/widgets/tuner_slider.cpp:58 eeschema/widgets/tuner_slider.cpp:114
 #, c-format
@@ -23702,7 +23702,7 @@ msgstr "顯示說明資訊並登出"
 
 #: kicad/cli/command_fp.h:31
 msgid "Footprint and Footprint Libraries"
-msgstr "封裝和封裝函式庫"
+msgstr "封裝和封裝庫"
 
 #: kicad/cli/command_fp_export.h:32 kicad/cli/command_sym_export.h:33
 msgid "Export utilities (svg)"
@@ -23710,7 +23710,7 @@ msgstr "匯出組件 (svg)"
 
 #: kicad/cli/command_fp_export_svg.cpp:37
 msgid "Exports the footprint or entire footprint library to SVG"
-msgstr "將封裝或整個封裝函式庫匯出為 SVG"
+msgstr "將封裝或整個封裝庫匯出為 SVG"
 
 #: kicad/cli/command_fp_export_svg.cpp:45
 msgid "Color theme to use (will default to footprint editor settings)"
@@ -23718,19 +23718,19 @@ msgstr "要使用的配色主題 (預設使用封裝編輯器標示)"
 
 #: kicad/cli/command_fp_export_svg.cpp:50
 msgid "Specific footprint to export within the library"
-msgstr "指定要從函式庫中匯出的封裝"
+msgstr "指定要從庫中匯出的封裝"
 
 #: kicad/cli/command_fp_export_svg.cpp:75
 msgid "Footprint library does not exist or is not accessible\n"
-msgstr "封裝函式庫不存在或無法存取\n"
+msgstr "封裝庫不存在或無法存取\n"
 
 #: kicad/cli/command_fp_upgrade.cpp:35
 msgid "Upgrades the footprint library to the current kicad version format"
-msgstr "將封裝函式庫升級為當前的 kicad 版本格式"
+msgstr "將封裝庫升級為當前的 kicad 版本格式"
 
 #: kicad/cli/command_fp_upgrade.cpp:40
 msgid "Forces the footprint library to be resaved regardless of versioning"
-msgstr "無論版本如何, 強制重新儲存封裝函式庫"
+msgstr "無論版本如何, 強制重新儲存封裝庫"
 
 #: kicad/cli/command_pcb_drc.cpp:47
 msgid "Runs the Design Rules Check (DRC) on the PCB and creates a report"
@@ -24365,11 +24365,11 @@ msgstr "在原理圖編輯器中使用 Python 指令碼匯出舊版的 BOM XML �
 
 #: kicad/cli/command_sym.h:31
 msgid "Symbol and Symbol Libraries"
-msgstr "符號和符號函式庫"
+msgstr "符號和符號庫"
 
 #: kicad/cli/command_sym_export_svg.cpp:43
 msgid "Exports the symbol or entire symbol library to SVG"
-msgstr "將符號或整個符號函式庫匯出為 SVG"
+msgstr "將符號或整個符號庫匯出為 SVG"
 
 #: kicad/cli/command_sym_export_svg.cpp:48
 msgid "Color theme to use (will default to symbol editor settings)"
@@ -24377,7 +24377,7 @@ msgstr "使用的配色主題 (預設使用符號編輯器標示)"
 
 #: kicad/cli/command_sym_export_svg.cpp:54
 msgid "Specific symbol to export within the library"
-msgstr "要在函式庫中匯出的特定符號"
+msgstr "要在庫中匯出的特定符號"
 
 #: kicad/cli/command_sym_export_svg.cpp:62
 msgid "Include hidden pins"
@@ -24393,15 +24393,15 @@ msgstr "符號檔案不存在或無法存取\n"
 
 #: kicad/cli/command_sym_upgrade.cpp:39
 msgid "Upgrades the symbol library to the current kicad version format"
-msgstr "將符號函式庫升級為目前版本的 KiCad 符號函式庫格式"
+msgstr "將符號庫升級為目前版本的 KiCad 符號庫格式"
 
 #: kicad/cli/command_sym_upgrade.cpp:44
 msgid "Forces the symbol library to be resaved regardless of versioning"
-msgstr "強制重新儲存符號函式庫, 不考慮版本控制"
+msgstr "強制重新儲存符號庫, 不考慮版本控制"
 
 #: kicad/cli/command_sym_upgrade.cpp:59
 msgid "Symbol library does not exist or is not accessible\n"
-msgstr "符號函式庫不存在或無法存取\n"
+msgstr "符號庫不存在或無法存取\n"
 
 #: kicad/cli/command_version.cpp:35
 msgid "Reports the version info in various formats"
@@ -24477,7 +24477,7 @@ msgstr "編輯專案原理圖"
 
 #: kicad/dialogs/panel_kicad_launcher.cpp:134
 msgid "Edit global and/or project schematic symbol libraries"
-msgstr "編輯全域和/或專案原理符號函式庫"
+msgstr "編輯全域和/或專案原理符號庫"
 
 #: kicad/dialogs/panel_kicad_launcher.cpp:138
 msgid "Edit the project PCB design"
@@ -24485,7 +24485,7 @@ msgstr "編輯 PCB 設計專案"
 
 #: kicad/dialogs/panel_kicad_launcher.cpp:142
 msgid "Edit global and/or project PCB footprint libraries"
-msgstr "編輯全域和/或專案 PCB 封裝函式庫"
+msgstr "編輯全域和/或專案 PCB 封裝庫"
 
 #: kicad/dialogs/panel_kicad_launcher.cpp:146
 msgid "Preview Gerber files"
@@ -24507,7 +24507,7 @@ msgstr "編輯用於原理圖和 PCB 設計的圖紙邊框和專案明細表"
 
 #: kicad/dialogs/panel_kicad_launcher.cpp:164
 msgid "Manage downloadable packages from KiCad and 3rd party repositories"
-msgstr "管理從 KiCad 和第三方倉函式庫下載的擴充內容包"
+msgstr "管理從 KiCad 和第三方倉庫下載的擴充內容包"
 
 #: kicad/files-io.cpp:46
 msgid "KiCad project file"
@@ -24767,16 +24767,16 @@ msgstr "在檔案資源管理員中打開專案目錄"
 
 #: kicad/pcm/dialogs/dialog_manage_repositories.cpp:53
 msgid "Add Default Repository"
-msgstr "添加預設倉函式庫"
+msgstr "添加預設倉庫"
 
 #: kicad/pcm/dialogs/dialog_manage_repositories.cpp:96
 msgid "Please enter fully qualified repository url"
-msgstr "請輸入合規的倉函式庫 URL"
+msgstr "請輸入合規的倉庫 URL"
 
 #: kicad/pcm/dialogs/dialog_manage_repositories.cpp:97
 #: kicad/pcm/dialogs/dialog_manage_repositories_base.cpp:59
 msgid "Add repository"
-msgstr "添加倉函式庫"
+msgstr "添加倉庫"
 
 #: kicad/pcm/dialogs/dialog_manage_repositories_base.cpp:58
 #: pcbnew/dialogs/panel_fp_lib_table_base.cpp:130
@@ -24786,11 +24786,11 @@ msgstr "添加現有"
 
 #: kicad/pcm/dialogs/dialog_manage_repositories_base.cpp:77
 msgid "Remove repository"
-msgstr "移除倉函式庫"
+msgstr "移除倉庫"
 
 #: kicad/pcm/dialogs/dialog_manage_repositories_base.h:62
 msgid "Manage Repositories"
-msgstr "管理倉函式庫"
+msgstr "管理倉庫"
 
 #: kicad/pcm/dialogs/dialog_pcm.cpp:50
 #, c-format
@@ -24800,7 +24800,7 @@ msgstr "外掛程式 (%d)"
 #: kicad/pcm/dialogs/dialog_pcm.cpp:51
 #, c-format
 msgid "Libraries (%d)"
-msgstr "函式庫 (%d)"
+msgstr "庫 (%d)"
 
 #: kicad/pcm/dialogs/dialog_pcm.cpp:52
 #, c-format
@@ -24836,7 +24836,7 @@ msgstr "解除安裝"
 #: kicad/pcm/dialogs/dialog_pcm_base.cpp:53
 #, c-format
 msgid "Repository (%d)"
-msgstr "倉函式庫 (%d)"
+msgstr "倉庫 (%d)"
 
 #: kicad/pcm/dialogs/dialog_pcm.cpp:165
 msgid "Apply Pending Changes"
@@ -24878,7 +24878,7 @@ msgstr "擴充內容包"
 
 #: kicad/pcm/dialogs/dialog_pcm_base.cpp:88
 msgid "Repository"
-msgstr "倉函式庫"
+msgstr "倉庫"
 
 #: kicad/pcm/dialogs/dialog_pcm_base.cpp:107
 msgid "Discard action"
@@ -25067,34 +25067,34 @@ msgstr "下載過大。"
 
 #: kicad/pcm/pcm.cpp:263
 msgid "Fetching repository"
-msgstr "提取倉函式庫中"
+msgstr "提取倉庫中"
 
 #: kicad/pcm/pcm.cpp:268
 msgid "Unable to load repository url"
-msgstr "無法載入倉函式庫 URL"
+msgstr "無法載入倉庫 URL"
 
 #: kicad/pcm/pcm.cpp:287
 #, c-format
 msgid "Unable to parse repository: %s"
-msgstr "無法解析倉函式庫: %s"
+msgstr "無法解析倉庫: %s"
 
 #: kicad/pcm/pcm.cpp:288
 msgid ""
 "The given repository URL does not look like a valid KiCad package "
 "repository. Please double check the URL."
-msgstr "給定的倉函式庫 URL 看起來不像是有效的 KiCad 包倉函式庫。請仔細檢查 URL。"
+msgstr "給定的倉庫 URL 看起來不像是有效的 KiCad 包倉庫。請仔細檢查 URL。"
 
 #: kicad/pcm/pcm.cpp:314
 msgid "Fetching repository packages"
-msgstr "正在提取倉函式庫擴充內容包"
+msgstr "正在提取倉庫擴充內容包"
 
 #: kicad/pcm/pcm.cpp:319
 msgid "Unable to load repository packages url."
-msgstr "無法載入倉函式庫擴充內容包 URL。"
+msgstr "無法載入倉庫擴充內容包 URL。"
 
 #: kicad/pcm/pcm.cpp:329
 msgid "Packages hash doesn't match. Repository may be corrupted."
-msgstr "擴充內容包 HASH 不匹配。倉函式庫可能已損壞。"
+msgstr "擴充內容包 HASH 不匹配。倉庫可能已損壞。"
 
 #: kicad/pcm/pcm.cpp:345
 #, c-format
@@ -25109,12 +25109,12 @@ msgstr ""
 
 #: kicad/pcm/pcm.cpp:429
 msgid "Failed to parse locally stored repository.json."
-msgstr "無法解析本地儲存的倉函式庫.json。"
+msgstr "無法解析本地儲存的倉庫.json。"
 
 #: kicad/pcm/pcm.cpp:457
 msgid ""
 "Packages cache for current repository is corrupted, it will be redownloaded."
-msgstr "當前倉函式庫的擴充內容包快取已損壞, 將重新下載擴充內容包。"
+msgstr "當前倉庫的擴充內容包快取已損壞, 將重新下載擴充內容包。"
 
 #: kicad/pcm/pcm.cpp:510
 msgid "Downloading resources"
@@ -25124,7 +25124,7 @@ msgstr "正在下載資源"
 msgid ""
 "Resources file hash doesn't match and will not be used. Repository may be "
 "corrupted."
-msgstr "資源檔案 HASH 不匹配, 將不會被使用。倉函式庫可能已損壞。"
+msgstr "資源檔案 HASH 不匹配, 將不會被使用。倉庫可能已損壞。"
 
 #: kicad/pcm/pcm.cpp:775
 msgid "Local file"
@@ -25136,11 +25136,11 @@ msgstr "擴充內容包更新"
 
 #: kicad/pcm/pcm.cpp:1114
 msgid "Preparing to fetch repositories"
-msgstr "準備提取倉函式庫"
+msgstr "準備提取倉庫"
 
 #: kicad/pcm/pcm.cpp:1132
 msgid "Fetching repository..."
-msgstr "提取倉函式庫中..."
+msgstr "提取倉庫中..."
 
 #: kicad/pcm/pcm.cpp:1145
 msgid "Reviewing packages..."
@@ -25397,7 +25397,7 @@ msgstr "將專案添加到版本控制..."
 
 #: kicad/project_tree_pane.cpp:936
 msgid "Initialize a new repository"
-msgstr "初始化新倉函式庫"
+msgstr "初始化新倉庫"
 
 #: kicad/project_tree_pane.cpp:940
 msgid "Commit Project..."
@@ -25405,7 +25405,7 @@ msgstr "提交專案..."
 
 #: kicad/project_tree_pane.cpp:941 kicad/project_tree_pane.cpp:955
 msgid "Commit changes to the local repository"
-msgstr "將變更提交到本地倉函式庫"
+msgstr "將變更提交到本地倉庫"
 
 #: kicad/project_tree_pane.cpp:944
 msgid "Push"
@@ -25413,7 +25413,7 @@ msgstr "推播"
 
 #: kicad/project_tree_pane.cpp:945
 msgid "Push committed local changes to remote repository"
-msgstr "將提交的本地變更推播到遠端倉函式庫"
+msgstr "將提交的本地變更推播到遠端倉庫"
 
 #: kicad/project_tree_pane.cpp:948
 msgid "Pull"
@@ -25421,7 +25421,7 @@ msgstr "拉取"
 
 #: kicad/project_tree_pane.cpp:949
 msgid "Pull changes from remote repository into local"
-msgstr "將遠端倉函式庫中的變更拉取到本地"
+msgstr "將遠端倉庫中的變更拉取到本地"
 
 #: kicad/project_tree_pane.cpp:954
 msgid "Commit File..."
@@ -25532,7 +25532,7 @@ msgstr "由於檔案選擇為空而取消提交。"
 #: kicad/project_tree_pane.cpp:2176
 #, c-format
 msgid "Failed to get repository index: %s"
-msgstr "無法取得倉函式庫索引: %s"
+msgstr "無法取得倉庫索引: %s"
 
 #: kicad/project_tree_pane.cpp:2184
 #, c-format
@@ -25592,11 +25592,11 @@ msgstr "從模板新建專案"
 
 #: kicad/tools/kicad_manager_actions.cpp:60
 msgid "Clone Project from Repository..."
-msgstr "從倉函式庫克隆專案..."
+msgstr "從倉庫克隆專案..."
 
 #: kicad/tools/kicad_manager_actions.cpp:61
 msgid "Clone a project from an existing repository"
-msgstr "從現有倉函式庫克隆專案"
+msgstr "從現有倉庫克隆專案"
 
 #: kicad/tools/kicad_manager_actions.cpp:68
 msgid "Open Demo Project..."
@@ -25691,15 +25691,15 @@ msgstr ""
 
 #: kicad/tools/kicad_manager_control.cpp:152
 msgid "Clone Project from Git Repository"
-msgstr "從 Git 倉函式庫克隆專案"
+msgstr "從 Git 倉庫克隆專案"
 
 #: kicad/tools/kicad_manager_control.cpp:174
 msgid "Cloning Repository"
-msgstr "正在克隆倉函式庫"
+msgstr "正在克隆倉庫"
 
 #: kicad/tools/kicad_manager_control.cpp:186
 msgid "No project files were found in the repository."
-msgstr "倉函式庫中沒有專案檔案。"
+msgstr "倉庫中沒有專案檔案。"
 
 #: kicad/tools/kicad_manager_control.cpp:223
 msgid "System Templates"
@@ -31147,7 +31147,7 @@ msgstr "替換具有這個值的封裝:"
 
 #: pcbnew/dialogs/dialog_exchange_footprints.cpp:77
 msgid "Change footprints with library id:"
-msgstr "替換具有此函式庫索引值 的封裝:"
+msgstr "替換具有此庫索引值 的封裝:"
 
 #: pcbnew/dialogs/dialog_exchange_footprints.cpp:78
 msgid "Update text layers and visibilities"
@@ -31187,7 +31187,7 @@ msgstr "將封裝 %s 由 '%s' 變更為 '%s'"
 
 #: pcbnew/dialogs/dialog_exchange_footprints.cpp:370
 msgid "*** library footprint not found ***"
-msgstr "***未找到函式庫封裝***"
+msgstr "***未找到庫封裝***"
 
 #: pcbnew/dialogs/dialog_exchange_footprints.cpp:393
 msgid ": (no changes)"
@@ -31215,15 +31215,15 @@ msgstr "更新具有此值的封裝:"
 
 #: pcbnew/dialogs/dialog_exchange_footprints_base.cpp:45
 msgid "Update footprints with library id:"
-msgstr "更新具有此函式庫索引值 的封裝:"
+msgstr "更新具有此庫索引值 的封裝:"
 
 #: pcbnew/dialogs/dialog_exchange_footprints_base.cpp:74
 msgid "New footprint library id:"
-msgstr "新封裝的函式庫索引值:"
+msgstr "新封裝的庫索引值:"
 
 #: pcbnew/dialogs/dialog_exchange_footprints_base.cpp:97
 msgid "Remove text items which are not in library footprint"
-msgstr "移除在來源函式庫封裝中不存在的文字專案"
+msgstr "移除在來源庫封裝中不存在的文字專案"
 
 #: pcbnew/dialogs/dialog_exchange_footprints_base.cpp:102
 msgid "Update/reset text layers and visibilities"
@@ -31243,7 +31243,7 @@ msgstr "更新/重設 3D 模型"
 
 #: pcbnew/dialogs/dialog_exchange_footprints_base.h:87
 msgid "Update Footprints from Library"
-msgstr "從函式庫中更新封裝"
+msgstr "從庫中更新封裝"
 
 #: pcbnew/dialogs/dialog_export_2581.cpp:71
 msgid "IPC-2581 Files (*.xml)|*.xml"
@@ -31888,7 +31888,7 @@ msgstr "圖紙: "
 
 #: pcbnew/dialogs/dialog_footprint_associations_base.cpp:21
 msgid "Library Association"
-msgstr "函式庫分配"
+msgstr "庫分配"
 
 #: pcbnew/dialogs/dialog_footprint_associations_base.cpp:62
 msgid "Schematic Association"
@@ -32045,7 +32045,7 @@ msgstr "不會產生\"遺失外框\"的 DRC 違規行為"
 
 #: pcbnew/dialogs/dialog_footprint_properties_base.cpp:230
 msgid "Update Footprint from Library..."
-msgstr "從函式庫中更新封裝..."
+msgstr "從庫中更新封裝..."
 
 #: pcbnew/dialogs/dialog_footprint_properties_base.cpp:233
 #: pcbnew/tools/pcb_actions.cpp:816
@@ -32055,7 +32055,7 @@ msgstr "替換封裝..."
 #: pcbnew/dialogs/dialog_footprint_properties_base.cpp:242
 #: pcbnew/tools/pcb_actions.cpp:436
 msgid "Edit Library Footprint..."
-msgstr "編輯函式庫封裝..."
+msgstr "編輯庫封裝..."
 
 #: pcbnew/dialogs/dialog_footprint_properties_base.cpp:267
 #: pcbnew/dialogs/dialog_footprint_properties_fp_editor_base.cpp:235
@@ -32199,7 +32199,7 @@ msgstr "間距重寫和標示"
 msgid ""
 "The library ID and footprint ID currently assigned.  Use \"Change "
 "Footprint...\" to assign a different footprint."
-msgstr "當前已經分配了函式庫 ID 和封裝 ID。使用 \"替換封裝…\" 來分配不同的封裝。"
+msgstr "當前已經分配了庫 ID 和封裝 ID。使用 \"替換封裝…\" 來分配不同的封裝。"
 
 #: pcbnew/dialogs/dialog_footprint_properties_base.h:122
 #: pcbnew/dialogs/dialog_footprint_properties_fp_editor_base.h:114
@@ -33118,7 +33118,7 @@ msgstr "PCB標註專案"
 
 #: pcbnew/dialogs/dialog_global_edit_text_and_graphics_base.cpp:85
 msgid "Filter items by parent footprint library id:"
-msgstr "按父級封裝函式庫索引值 篩選專案:"
+msgstr "按父級封裝庫索引值 篩選專案:"
 
 #: pcbnew/dialogs/dialog_global_edit_text_and_graphics_base.cpp:112
 #: pcbnew/dialogs/dialog_global_edit_tracks_and_vias_base.cpp:133
@@ -33162,21 +33162,21 @@ msgstr "封裝"
 #: pcbnew/dialogs/dialog_global_fp_lib_table_config.cpp:60
 #, c-format
 msgid "Error occurred writing empty footprint library table '%s'."
-msgstr "寫入空封裝函式庫表檔案 '%s' 時出錯。"
+msgstr "寫入空封裝庫表檔案 '%s' 時出錯。"
 
 #: pcbnew/dialogs/dialog_global_fp_lib_table_config.cpp:74
 msgid "Please select a footprint library table file."
-msgstr "請選擇一個封裝函式庫表檔案。"
+msgstr "請選擇一個封裝庫表檔案。"
 
 #: pcbnew/dialogs/dialog_global_fp_lib_table_config.cpp:96
 #, c-format
 msgid "'%s' is not a valid footprint library table."
-msgstr "檔案 \"%s\" 不是一個有效的封裝函式庫表檔案。"
+msgstr "檔案 \"%s\" 不是一個有效的封裝庫表檔案。"
 
 #: pcbnew/dialogs/dialog_global_fp_lib_table_config.cpp:107
 #, c-format
 msgid "Cannot create library table path '%s'."
-msgstr "無法建立函式庫表路徑 '%s'。"
+msgstr "無法建立庫表路徑 '%s'。"
 
 #: pcbnew/dialogs/dialog_global_fp_lib_table_config.cpp:115
 #, c-format
@@ -33193,7 +33193,7 @@ msgstr ""
 
 #: pcbnew/dialogs/dialog_global_fp_lib_table_config.cpp:134
 msgid "Error loading footprint library table."
-msgstr "載入封裝函式庫表時出錯。"
+msgstr "載入封裝庫表時出錯。"
 
 #: pcbnew/dialogs/dialog_group_properties.cpp:114
 msgid "Edit Group Properties"
@@ -35488,7 +35488,7 @@ msgstr "將 '%s' 另存為當前 KiCad 版本格式並替換表中的舊條目?"
 #: pcbnew/dialogs/panel_fp_lib_table.cpp:824
 #, c-format
 msgid "Save %d libraries as current KiCad format and replace entries in table?"
-msgstr "將 %d 箇舊格式函式庫另存為當前 KiCad 版本格式並替換表中的舊條目?"
+msgstr "將 %d 箇舊格式庫另存為當前 KiCad 版本格式並替換表中的舊條目?"
 
 #: pcbnew/dialogs/panel_fp_lib_table.cpp:854
 #, c-format
@@ -35499,12 +35499,12 @@ msgstr "資料夾 '%s' 已存在, 是否覆蓋現有封裝?"
 #: pcbnew/dialogs/panel_fp_lib_table.cpp:884
 #, c-format
 msgid "Failed to save footprint library file '%s'."
-msgstr "未能儲存封裝函式庫檔案 '%s'。"
+msgstr "未能儲存封裝庫檔案 '%s'。"
 
 #: pcbnew/dialogs/panel_fp_lib_table.cpp:920
 #, c-format
 msgid "Select %s Library"
-msgstr "選擇 %s 函式庫"
+msgstr "選擇 %s 庫"
 
 #: pcbnew/dialogs/panel_fp_lib_table.cpp:977
 msgid "Warning: Duplicate Nicknames"
@@ -35512,7 +35512,7 @@ msgstr "警告: 重複的名稱"
 
 #: pcbnew/dialogs/panel_fp_lib_table_base.cpp:97
 msgid "LIbrary Format"
-msgstr "函式庫格式"
+msgstr "庫格式"
 
 #: pcbnew/dialogs/panel_fp_properties_3d_model.cpp:409
 msgid "No filename entered"
@@ -38166,11 +38166,11 @@ msgstr "封裝特性與符號不匹配"
 
 #: pcbnew/drc/drc_item.cpp:189
 msgid "Footprint not found in libraries"
-msgstr "在函式庫中找不到封裝"
+msgstr "在庫中找不到封裝"
 
 #: pcbnew/drc/drc_item.cpp:193
 msgid "Footprint doesn't match copy in library"
-msgstr "封裝與來源函式庫封裝存在差異"
+msgstr "封裝與來源庫封裝存在差異"
 
 #: pcbnew/drc/drc_item.cpp:201
 msgid "Assertion failure"
@@ -38860,20 +38860,20 @@ msgstr "'規則區域數量' 差異。"
 
 #: pcbnew/drc/drc_test_provider_library_parity.cpp:797
 msgid "No project loaded, skipping library parity tests."
-msgstr "沒有載入專案, 跳過函式庫的一致性測試。"
+msgstr "沒有載入專案, 跳過庫的一致性測試。"
 
 #: pcbnew/drc/drc_test_provider_library_parity.cpp:801
 msgid "Loading footprint library table..."
-msgstr "正在載入封裝函式庫表..."
+msgstr "正在載入封裝庫表..."
 
 #: pcbnew/drc/drc_test_provider_library_parity.cpp:811
 msgid "Checking board footprints against library..."
-msgstr "正在根據函式庫檢查電路板封裝..."
+msgstr "正在根據庫檢查電路板封裝..."
 
 #: pcbnew/drc/drc_test_provider_library_parity.cpp:912
 #, c-format
 msgid "Footprint '%s' does not match copy in library '%s'."
-msgstr "封裝 '%s' 與來源函式庫封裝 '%s' 存在差異。"
+msgstr "封裝 '%s' 與來源庫封裝 '%s' 存在差異。"
 
 #: pcbnew/drc/drc_test_provider_matched_length.cpp:114
 #, c-format
@@ -39411,11 +39411,11 @@ msgstr "載入電路板 '%s' 時記憶體空乏"
 #: pcbnew/files.cpp:830
 #, c-format
 msgid "Error saving footprint %s to project specific library."
-msgstr "將封裝 %s 儲存到專案專用封裝函式庫時出錯。"
+msgstr "將封裝 %s 儲存到專案專用封裝庫時出錯。"
 
 #: pcbnew/files.cpp:861
 msgid "Error saving project specific footprint library table."
-msgstr "儲存專案專用封裝函式庫表時出錯。"
+msgstr "儲存專案專用封裝庫表時出錯。"
 
 #: pcbnew/files.cpp:953 pcbnew/files.cpp:1092 pcbnew/files.cpp:1260
 #: pcbnew/footprint_libraries_utils.cpp:268
@@ -39676,7 +39676,7 @@ msgstr "[未載入任何封裝]"
 
 #: pcbnew/footprint_edit_frame.cpp:1042
 msgid "Updating Footprint Libraries"
-msgstr "更新封裝函式庫"
+msgstr "更新封裝庫"
 
 #: pcbnew/footprint_edit_frame.cpp:1366
 msgid "No footprint selected."
@@ -39688,19 +39688,19 @@ msgstr "編輯覆銅"
 
 #: pcbnew/footprint_editor_utils.cpp:341 pcbnew/footprint_editor_utils.cpp:353
 msgid "Use Manage Footprint Libraries to edit the configuration."
-msgstr "使用 管理封裝函式庫 編輯組態。"
+msgstr "使用 管理封裝庫 編輯組態。"
 
 #: pcbnew/footprint_editor_utils.cpp:342
 msgid "Library not found in footprint library table."
-msgstr "在封裝函式庫表中找不到函式庫。"
+msgstr "在封裝庫表中找不到庫。"
 
 #: pcbnew/footprint_editor_utils.cpp:354
 msgid "Footprint library not enabled."
-msgstr "封裝函式庫未啟用。"
+msgstr "封裝庫未啟用。"
 
 #: pcbnew/footprint_info_impl.cpp:124
 msgid "Fetching footprint libraries..."
-msgstr "正在提取封裝函式庫..."
+msgstr "正在提取封裝庫..."
 
 #: pcbnew/footprint_info_impl.cpp:155
 msgid "Loading footprints..."
@@ -39755,12 +39755,12 @@ msgstr "已匯出封裝到檔案 '%s'。"
 #: pcbnew/footprint_libraries_utils.cpp:368
 #, c-format
 msgid "Library %s is read only."
-msgstr "%s 函式庫是隻讀的。"
+msgstr "%s 庫是隻讀的。"
 
 #: pcbnew/footprint_libraries_utils.cpp:374
 #, c-format
 msgid "Library %s already exists."
-msgstr "函式庫 %s 已存在。"
+msgstr "庫 %s 已存在。"
 
 #: pcbnew/footprint_libraries_utils.cpp:543
 #: pcbnew/pcb_io/geda/pcb_io_geda.cpp:960
@@ -39768,17 +39768,17 @@ msgstr "函式庫 %s 已存在。"
 #: pcbnew/pcb_io/kicad_sexpr/pcb_io_kicad_sexpr.cpp:2825
 #, c-format
 msgid "Library '%s' is read only."
-msgstr "'%s' 函式庫為唯讀。"
+msgstr "'%s' 庫為唯讀。"
 
 #: pcbnew/footprint_libraries_utils.cpp:549
 #, c-format
 msgid "Delete footprint '%s' from library '%s'?"
-msgstr "刪除封裝 '%s' 來自函式庫 '%s'?"
+msgstr "刪除封裝 '%s' 來自庫 '%s'?"
 
 #: pcbnew/footprint_libraries_utils.cpp:566
 #, c-format
 msgid "Footprint '%s' deleted from library '%s'"
-msgstr "封裝 '%s' 刪除來自函式庫 '%s'"
+msgstr "封裝 '%s' 刪除來自庫 '%s'"
 
 #: pcbnew/footprint_libraries_utils.cpp:581
 msgid "No footprints to export!"
@@ -39791,7 +39791,7 @@ msgstr "更新板上的封裝指向 %s?"
 
 #: pcbnew/footprint_libraries_utils.cpp:660
 msgid "Update footprints on board to refer to new library?"
-msgstr "更新板上的封裝以參照新函式庫?"
+msgstr "更新板上的封裝以參照新庫?"
 
 #: pcbnew/footprint_libraries_utils.cpp:854
 #: pcbnew/footprint_viewer_frame.cpp:744
@@ -39846,11 +39846,11 @@ msgstr "新建封裝"
 #: pcbnew/tools/footprint_editor_control.cpp:465
 #, c-format
 msgid "Footprint '%s' already exists in library '%s'."
-msgstr "封裝 '%s' 已存在於函式庫 '%s' 中。"
+msgstr "封裝 '%s' 已存在於庫 '%s' 中。"
 
 #: pcbnew/footprint_viewer_frame.cpp:116
 msgid "KiCad Footprint Library Browser"
-msgstr "KiCad 封裝函式庫瀏覽器"
+msgstr "KiCad 封裝庫瀏覽器"
 
 #: pcbnew/footprint_viewer_frame.cpp:158
 msgid ""
@@ -39907,7 +39907,7 @@ msgstr "檔案"
 #: pcbnew/generate_footprint_info.cpp:81
 #, c-format
 msgid "Error loading footprint %s from library '%s'."
-msgstr "從函式庫 '%s' 載入封裝 %s 時出錯。"
+msgstr "從庫 '%s' 載入封裝 %s 時出錯。"
 
 #: pcbnew/generators/pcb_tuning_pattern.cpp:254
 #: pcbnew/generators/pcb_tuning_pattern.cpp:259
@@ -40148,7 +40148,7 @@ msgstr "封裝 '%s' 已儲存。"
 #: pcbnew/load_select_footprint.cpp:376
 #, c-format
 msgid "Footprint library '%s' saved as '%s'."
-msgstr "封裝函式庫 '%s' 已另存為 '%s'。"
+msgstr "封裝庫 '%s' 已另存為 '%s'。"
 
 #: pcbnew/menubar_footprint_editor.cpp:67
 #: pcbnew/menubar_footprint_editor.cpp:76
@@ -40266,7 +40266,7 @@ msgstr "Hyperlynx..."
 
 #: pcbnew/menubar_pcb_editor.cpp:150
 msgid "Footprints to Library..."
-msgstr "將封裝匯出到函式庫..."
+msgstr "將封裝匯出到庫..."
 
 #: pcbnew/menubar_pcb_editor.cpp:151
 msgid ""
@@ -40278,7 +40278,7 @@ msgstr ""
 
 #: pcbnew/menubar_pcb_editor.cpp:155
 msgid "Footprints to New Library..."
-msgstr "將封裝匯出到新函式庫..."
+msgstr "將封裝匯出到新庫..."
 
 #: pcbnew/menubar_pcb_editor.cpp:156
 msgid ""
@@ -40799,7 +40799,7 @@ msgstr "%s 封裝 ID '%s' 無效。"
 #, c-format
 msgid ""
 "%s footprint '%s' not found in any libraries in the footprint library table."
-msgstr "在封裝函式庫表的任何函式庫中都沒找到 %s 封裝 '%s'。"
+msgstr "在封裝庫表的任何庫中都沒找到 %s 封裝 '%s'。"
 
 #: pcbnew/netlist_reader/netlist_reader.cpp:184
 #, c-format
@@ -41118,7 +41118,7 @@ msgstr "約束報告"
 
 #: pcbnew/pcb_edit_frame.cpp:2601 pcbnew/tools/pcb_actions.cpp:1855
 msgid "Compare Footprint with Library"
-msgstr "將封裝與函式庫比較"
+msgstr "將封裝與庫比較"
 
 #: pcbnew/pcb_field.cpp:138
 msgid "User Field"
@@ -41583,12 +41583,12 @@ msgstr "Altium Circuit Studio PCB 檔案"
 #: pcbnew/pcb_io/altium/pcb_io_altium_designer.cpp:269
 #, c-format
 msgid "No footprints in library '%s'"
-msgstr "函式庫 '%s' 中沒有封裝"
+msgstr "庫 '%s' 中沒有封裝"
 
 #: pcbnew/pcb_io/altium/pcb_io_altium_designer.cpp:290
 #, c-format
 msgid "Footprint '%s' not found in '%s'."
-msgstr "在函式庫 '%2$s' 中未找到封裝 '%1$s'。"
+msgstr "在庫 '%2$s' 中未找到封裝 '%1$s'。"
 
 #: pcbnew/pcb_io/altium/pcb_io_altium_designer.h:42
 msgid "Altium Designer PCB files"
@@ -41596,7 +41596,7 @@ msgstr "Altium Designer PCB 檔案"
 
 #: pcbnew/pcb_io/altium/pcb_io_altium_designer.h:47
 msgid "Altium PCB Library or Integrated Library"
-msgstr "Altium PCB 函式庫或整合函式庫"
+msgstr "Altium PCB 庫或整合庫"
 
 #: pcbnew/pcb_io/altium/pcb_io_solidworks.h:31
 msgid "Solidworks PCB files"
@@ -41803,12 +41803,12 @@ msgstr ""
 #: pcbnew/pcb_io/cadstar/cadstar_pcb_archive_loader.cpp:1758
 #, c-format
 msgid "Unable to find component '%s' in the library(Symdef ID: '%s')"
-msgstr "無法在函式庫中尋找元件 '%s' (符號定義 ID: '%s')"
+msgstr "無法在庫中尋找元件 '%s' (符號定義 ID: '%s')"
 
 #: pcbnew/pcb_io/cadstar/cadstar_pcb_archive_loader.cpp:1882
 #, c-format
 msgid "Unable to find documentation symbol in the library (Symdef ID: '%s')"
-msgstr "無法在函式庫中尋找檔案符號 (符號定義 ID: '%s')"
+msgstr "無法在庫中尋找檔案符號 (符號定義 ID: '%s')"
 
 #: pcbnew/pcb_io/cadstar/cadstar_pcb_archive_loader.cpp:1951
 #, c-format
@@ -42029,12 +42029,12 @@ msgstr "無法讀取檔案 '%s'"
 #: pcbnew/pcb_io/eagle/pcb_io_eagle.cpp:1192
 #, c-format
 msgid "<package> '%s' duplicated in <library> '%s'"
-msgstr "<擴充內容包> '%s' 在 <函式庫> '%s' 中重複"
+msgstr "<擴充內容包> '%s' 在 <庫> '%s' 中重複"
 
 #: pcbnew/pcb_io/eagle/pcb_io_eagle.cpp:1277
 #, c-format
 msgid "No '%s' package in library '%s'."
-msgstr "函式庫 '%s' 中沒有擴充內容包 '%s'。"
+msgstr "庫 '%s' 中沒有擴充內容包 '%s'。"
 
 #: pcbnew/pcb_io/eagle/pcb_io_eagle.cpp:1510
 #: pcbnew/pcb_io/eagle/pcb_io_eagle.cpp:2329
@@ -42086,7 +42086,7 @@ msgstr "Eagle ver. 6.x XML PCB 檔案"
 
 #: pcbnew/pcb_io/eagle/pcb_io_eagle.h:141
 msgid "Eagle ver. 6.x XML library files"
-msgstr "Eagle ver. 6.x XML 函式庫檔案"
+msgstr "Eagle ver. 6.x XML 庫檔案"
 
 #: pcbnew/pcb_io/easyeda/pcb_io_easyeda_parser.cpp:777
 #, c-format
@@ -42114,13 +42114,13 @@ msgstr "無法在 '%s' 中找到有效封裝"
 #: pcbnew/pcb_io/easyeda/pcb_io_easyeda_plugin.cpp:372
 #, c-format
 msgid "Error enumerating footprints in library '%s': %s"
-msgstr "從函式庫 '%s' 載入封裝時出錯: %s"
+msgstr "從庫 '%s' 載入封裝時出錯: %s"
 
 #: pcbnew/pcb_io/easyeda/pcb_io_easyeda_plugin.cpp:525
 #: pcbnew/pcb_io/easyeda/pcb_io_easyeda_plugin.cpp:530
 #, c-format
 msgid "Error reading footprint '%s' from library '%s': %s"
-msgstr "從函式庫 '%2$s' 載入封裝 %1$s 時出錯: %3$s"
+msgstr "從庫 '%2$s' 載入封裝 %1$s 時出錯: %3$s"
 
 #: pcbnew/pcb_io/easyedapro/pcb_io_easyedapro.cpp:342
 #: pcbnew/pcb_io/easyedapro/pcb_io_easyedapro.cpp:398
@@ -42277,13 +42277,13 @@ msgstr "無法轉換 '%s' 為整數。"
 #: pcbnew/pcb_io/kicad_sexpr/pcb_io_kicad_sexpr.cpp:169
 #, c-format
 msgid "Footprint library '%s' not found."
-msgstr "找不到封裝函式庫 '%s'。"
+msgstr "找不到封裝庫 '%s'。"
 
 #: pcbnew/pcb_io/geda/pcb_io_geda.cpp:282
 #: pcbnew/pcb_io/kicad_sexpr/pcb_io_kicad_sexpr.cpp:229
 #, c-format
 msgid "Library '%s' has no footprint '%s'."
-msgstr "函式庫 '%s' 沒有封裝 '%s'。"
+msgstr "庫 '%s' 沒有封裝 '%s'。"
 
 #: pcbnew/pcb_io/geda/pcb_io_geda.cpp:347
 #: pcbnew/pcb_io/kicad_sexpr/pcb_io_kicad_sexpr_parser.cpp:861
@@ -42307,19 +42307,19 @@ msgstr "刪除資料夾 '%s' 的權限不足。"
 #: pcbnew/pcb_io/kicad_sexpr/pcb_io_kicad_sexpr.cpp:2877
 #, c-format
 msgid "Library folder '%s' has unexpected sub-folders."
-msgstr "函式庫資料夾 '%s' 有意料外的子目錄。"
+msgstr "庫資料夾 '%s' 有意料外的子目錄。"
 
 #: pcbnew/pcb_io/geda/pcb_io_geda.cpp:1006
 #, c-format
 msgid "Unexpected file '%s' found in library '%s'."
-msgstr "在函式庫 '%s' 中找到了意想不到的檔案 '%s'。"
+msgstr "在庫 '%s' 中找到了意想不到的檔案 '%s'。"
 
 #: pcbnew/pcb_io/geda/pcb_io_geda.cpp:1025
 #: pcbnew/pcb_io/kicad_legacy/pcb_io_kicad_legacy.cpp:3258
 #: pcbnew/pcb_io/kicad_sexpr/pcb_io_kicad_sexpr.cpp:2914
 #, c-format
 msgid "Footprint library '%s' cannot be deleted."
-msgstr "無法刪除封裝函式庫 '%s'。"
+msgstr "無法刪除封裝庫 '%s'。"
 
 #: pcbnew/pcb_io/geda/pcb_io_geda.h:52
 msgid "gEDA PCB footprint file"
@@ -42327,7 +42327,7 @@ msgstr "gEDA PCB 封裝檔案"
 
 #: pcbnew/pcb_io/geda/pcb_io_geda.h:57
 msgid "gEDA PCB footprint library directory"
-msgstr "gEDA PCB 封裝函式庫檔案目錄"
+msgstr "gEDA PCB 封裝庫檔案目錄"
 
 #: pcbnew/pcb_io/ipc2581/pcb_io_ipc2581.cpp:313
 msgid "Generating content section"
@@ -42446,21 +42446,21 @@ msgstr "檔案 '%s' 為空。"
 #: pcbnew/pcb_io/kicad_legacy/pcb_io_kicad_legacy.cpp:3035
 #, c-format
 msgid "File '%s' is not a legacy library."
-msgstr "檔案 '%s' 不是一箇舊函式庫。"
+msgstr "檔案 '%s' 不是一箇舊庫。"
 
 #: pcbnew/pcb_io/kicad_legacy/pcb_io_kicad_legacy.h:76
 msgid "Legacy footprint library files"
-msgstr "舊版封裝函式庫檔案"
+msgstr "舊版封裝庫檔案"
 
 #: pcbnew/pcb_io/kicad_sexpr/pcb_io_kicad_sexpr.cpp:96
 #, c-format
 msgid "Cannot create footprint library '%s'."
-msgstr "無法建立封裝函式庫 '%s'。"
+msgstr "無法建立封裝庫 '%s'。"
 
 #: pcbnew/pcb_io/kicad_sexpr/pcb_io_kicad_sexpr.cpp:102
 #, c-format
 msgid "Footprint library '%s' is read only."
-msgstr "封裝函式庫 '%s' 是隻讀的。"
+msgstr "封裝庫 '%s' 是隻讀的。"
 
 #: pcbnew/pcb_io/kicad_sexpr/pcb_io_kicad_sexpr.cpp:143
 #, c-format
@@ -42516,7 +42516,7 @@ msgstr ""
 
 #: pcbnew/pcb_io/kicad_sexpr/pcb_io_kicad_sexpr.cpp:2738
 msgid "Library Not Found"
-msgstr "找不到函式庫"
+msgstr "找不到庫"
 
 #: pcbnew/pcb_io/kicad_sexpr/pcb_io_kicad_sexpr.cpp:2766
 #, c-format
@@ -42531,12 +42531,12 @@ msgstr "刪除 '%s' 的權限不足。"
 #: pcbnew/pcb_io/kicad_sexpr/pcb_io_kicad_sexpr.cpp:2844
 #, c-format
 msgid "Cannot overwrite library path '%s'."
-msgstr "無法覆蓋函式庫路徑 '%s'。"
+msgstr "無法覆蓋庫路徑 '%s'。"
 
 #: pcbnew/pcb_io/kicad_sexpr/pcb_io_kicad_sexpr.cpp:2896
 #, c-format
 msgid "Unexpected file '%s' found in library path '%s'."
-msgstr "在函式庫路徑 '%s' 中找到了意料外的檔案 '%s'。"
+msgstr "在庫路徑 '%s' 中找到了意料外的檔案 '%s'。"
 
 #: pcbnew/pcb_io/kicad_sexpr/pcb_io_kicad_sexpr.h:298
 msgid "KiCad footprint file"
@@ -42711,7 +42711,7 @@ msgstr "KiCad 最多支援 32 個訊號層。"
 
 #: pcbnew/pcb_io/pcad/pcad_via.cpp:92
 msgid "Unable to find library section."
-msgstr "無法找到函式庫部分。"
+msgstr "無法找到庫部分。"
 
 #: pcbnew/pcb_io/pcad/pcad_via.cpp:107
 #, c-format
@@ -42744,11 +42744,11 @@ msgstr "啟用事務紀錄檔記錄。只需存在此選項目即可打開紀錄
 
 #: pcbnew/pcb_io/pcb_io.cpp:190
 msgid "User name for <b>login</b> to some special library server."
-msgstr "<b>登入</b>某特定函式庫伺服器的使用者名稱。"
+msgstr "<b>登入</b>某特定庫伺服器的使用者名稱。"
 
 #: pcbnew/pcb_io/pcb_io.cpp:193
 msgid "Password for <b>login</b> to some special library server."
-msgstr "<b>登入</b>某特定函式庫伺服器的密碼。"
+msgstr "<b>登入</b>某特定庫伺服器的密碼。"
 
 #: pcbnew/pcb_io/pcb_io.cpp:200
 msgid ""
@@ -43024,23 +43024,23 @@ msgstr "無法建立輸出目錄 %s\n"
 
 #: pcbnew/pcbnew_jobs_handler.cpp:989
 msgid "Footprint library path does not exist or is not accessible\n"
-msgstr "封裝函式庫路徑不存在或無法存取\n"
+msgstr "封裝庫路徑不存在或無法存取\n"
 
 #: pcbnew/pcbnew_jobs_handler.cpp:996 pcbnew/pcbnew_jobs_handler.cpp:1067
 msgid "Loading footprint library\n"
-msgstr "載入封裝函式庫\n"
+msgstr "載入封裝庫\n"
 
 #: pcbnew/pcbnew_jobs_handler.cpp:1024
 msgid "Saving footprint library\n"
-msgstr "儲存封裝函式庫\n"
+msgstr "儲存封裝庫\n"
 
 #: pcbnew/pcbnew_jobs_handler.cpp:1037
 msgid "Unable to save library\n"
-msgstr "無法儲存函式庫\n"
+msgstr "無法儲存庫\n"
 
 #: pcbnew/pcbnew_jobs_handler.cpp:1043
 msgid "Footprint library was not updated\n"
-msgstr "封裝函式庫未更新\n"
+msgstr "封裝庫未更新\n"
 
 #: pcbnew/pcbnew_jobs_handler.cpp:1117
 msgid "The given footprint could not be found to export."
@@ -43093,7 +43093,7 @@ msgstr "多層"
 
 #: pcbnew/project_pcb.cpp:64
 msgid "Error loading project footprint libraries."
-msgstr "載入專案封裝函式庫時出錯。"
+msgstr "載入專案封裝庫時出錯。"
 
 #: pcbnew/python/scripting/pcbnew_action_plugins.cpp:82
 msgid "Exception on python action plugin code"
@@ -44111,7 +44111,7 @@ msgstr "當前位置允許的專案。"
 
 #: pcbnew/tools/board_inspection_tool.cpp:1514
 msgid "Select a footprint to diff with its library equivalent."
-msgstr "選擇一個封裝並與其對應的函式庫封裝進行比較。"
+msgstr "選擇一個封裝並與其對應的庫封裝進行比較。"
 
 #: pcbnew/tools/board_inspection_tool.cpp:1532
 msgid "Select a footprint for a footprint associations report."
@@ -44119,12 +44119,12 @@ msgstr "選擇一個封裝, 生成封裝關聯報告。。"
 
 #: pcbnew/tools/board_inspection_tool.cpp:1559
 msgid "Board vs library diff for:"
-msgstr "比較電路板與函式庫的差異:"
+msgstr "比較電路板與庫的差異:"
 
 #: pcbnew/tools/board_inspection_tool.cpp:1582
 #: pcbnew/tools/board_inspection_tool.cpp:1590
 msgid "Manage Footprint Libraries"
-msgstr "管理封裝函式庫"
+msgstr "管理封裝庫"
 
 #: pcbnew/tools/convert_tool.cpp:77
 msgid "Copy line width of first object"
@@ -45093,7 +45093,7 @@ msgstr "重新命名所選封裝"
 
 #: pcbnew/tools/pcb_actions.cpp:734 pcbnew/tools/pcb_actions.cpp:735
 msgid "Delete Footprint from Library"
-msgstr "從函式庫中刪除封裝"
+msgstr "從庫中刪除封裝"
 
 #: pcbnew/tools/pcb_actions.cpp:741
 msgid "Cut Footprint"
@@ -45137,15 +45137,15 @@ msgstr "更新封裝..."
 
 #: pcbnew/tools/pcb_actions.cpp:796
 msgid "Update footprint to include any changes from the library"
-msgstr "更新封裝以包含來自函式庫的修改"
+msgstr "更新封裝以包含來自庫的修改"
 
 #: pcbnew/tools/pcb_actions.cpp:802
 msgid "Update Footprints from Library..."
-msgstr "從函式庫中更新封裝..."
+msgstr "從庫中更新封裝..."
 
 #: pcbnew/tools/pcb_actions.cpp:803
 msgid "Update footprints to include any changes from the library"
-msgstr "更新封裝以包含來自函式庫的修改"
+msgstr "更新封裝以包含來自庫的修改"
 
 #: pcbnew/tools/pcb_actions.cpp:809
 msgid "Remove Unused Pads..."
@@ -45158,7 +45158,7 @@ msgstr "移除或恢復未連接內層的通孔焊盤及貫孔"
 
 #: pcbnew/tools/pcb_actions.cpp:817
 msgid "Assign a different footprint from the library"
-msgstr "從函式庫中分配不同的封裝"
+msgstr "從庫中分配不同的封裝"
 
 #: pcbnew/tools/pcb_actions.cpp:823
 msgid "Change Footprints..."
@@ -45166,7 +45166,7 @@ msgstr "變更封裝..."
 
 #: pcbnew/tools/pcb_actions.cpp:824
 msgid "Assign different footprints from the library"
-msgstr "從函式庫中分配不同的封裝"
+msgstr "從庫中分配不同的封裝"
 
 #: pcbnew/tools/pcb_actions.cpp:830
 msgid "Swap Layers..."
@@ -45920,7 +45920,7 @@ msgstr "顯示所選物件的約束解析"
 
 #: pcbnew/tools/pcb_actions.cpp:1856
 msgid "Show differences between board footprint and its library equivalent"
-msgstr "顯示電路板封裝與其對應函式庫的差異"
+msgstr "顯示電路板封裝與其對應庫的差異"
 
 #: pcbnew/tools/pcb_actions.cpp:1862
 msgid "Show Footprint Associations"
@@ -45928,7 +45928,7 @@ msgstr "顯示封裝分配"
 
 #: pcbnew/tools/pcb_actions.cpp:1863
 msgid "Show footprint library and schematic symbol associations"
-msgstr "顯示封裝函式庫和原理圖符號分配"
+msgstr "顯示封裝庫和原理圖符號分配"
 
 #: pcbnew/tools/pcb_actions.cpp:1870
 msgid "Geographical Reannotate..."

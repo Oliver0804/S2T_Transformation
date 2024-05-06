@@ -10,6 +10,8 @@ from odf.text import P
 from tqdm import tqdm
 from opencc import OpenCC
 
+import math
+
 #檔案清單轉換為list
 def find_ods_files(directory):
     ods_files = []
@@ -154,62 +156,88 @@ def replace_text(line, translation_dict, auto_mode):
 
 
 # %%
-# 設置ods文件路徑
+# 設置ods文件路徑資料夾
 directory_path = "dataset"
 ods_files = find_ods_files(directory_path)
 print(ods_files)
-# 載入csv翻譯表
+# 載入csv翻譯表資料夾
 directory_path = "./wikiCGroupTools/outputData"
 csv_files = find_csv_files(directory_path)
 print(csv_files)
 
 # %%
+input_document = "KiCad Taipei source zh Hant.po"
+output_document = "KiCad Taipei source zh Hant_translated.po"
+auto_mode = False   # 自動模式
+debug_mode = False  # 開啟會打印更多資訊
+logging_mode = True # 如果開啟 會將有翻譯的行數與翻譯前後結果記錄於另外檔案
+use_ods = False     # 使用ods文件(False: 不使用樂詞網數據)
+
+# %%
 #針對taotieren事件採用繁體字的大陸詞彙
 #會將大陸詞彙轉換為繁體字的大陸詞彙的預處理
+# 初始化字典
+translation_dict = {}
 
-# 載入樂詞網翻譯表
-#translation_dict = load_translation_table_from_ods(ods_files) 
+# 加載數據
+if use_ods:
+    translation_dict.update(load_translation_table_from_ods(ods_files))# 加載ods文件
 
-# 載入WIKI轉換的 csv翻譯表
-translation_dict = load_translation_table_from_csv(csv_files)
+# 加載csv文件
+translation_dict.update(load_translation_table_from_csv(csv_files))# 加載csv文件
 
 
 #打印個別
 # 打印translation_dict目前詞彙數量
 print(f"Number of entries in translation dictionary: {len(translation_dict)}")
 
+# %% [markdown]
+# ## 抽樣打印數據100筆
+
 # %%
-# format_and_trim
+
+# 動態計算最大長度
 def format_and_trim(text, max_length):
     if len(text) > max_length:
         return text[:max_length-3] + '...'
-    return text
+    return text.ljust(max_length)
 
-# 動態計算為了未來py文件於終端機運行
-max_length_english = max(len(format_and_trim(detail['english'], 30)) for simplified, detail in translation_dict.items())
+
+
+# 計算最大長度
+max_length_english = max(len(format_and_trim(detail['english'], 30)) for detail in translation_dict.values())
 max_length_simplified = max(len(format_and_trim(simplified, 20)) for simplified in translation_dict.keys())
-max_length_traditional = max(len(format_and_trim(detail['traditional'], 20)) for simplified, detail in translation_dict.items())
+max_length_traditional = max(len(format_and_trim(detail['traditional'], 20)) for detail in translation_dict.values())
 
-# 欄位資訊
+# 打印表頭
 print(f"{'English'.ljust(max_length_english)}{'Simplified'.ljust(max_length_simplified)}{'Traditional'.ljust(max_length_traditional)}")
 print("-" * (max_length_english + max_length_simplified + max_length_traditional))
 
+# 計算抽樣間隔
+total_entries = len(translation_dict)
+samples_to_show = 100  # 顯示條目數
+step = max(1, math.ceil(total_entries / samples_to_show))
 
+# 打印抽樣條目
 for index, (simplified, details) in enumerate(translation_dict.items()):
-    if index < 10:
+    if index % step == 0:
+        traditional = format_and_trim(details['traditional'], max_length_traditional)
+        english = format_and_trim(details.get('english', ''), max_length_english)  
+        simplified = format_and_trim(simplified, max_length_simplified)
+        print(f"{english}{simplified}{traditional}")
+
+
+# %% [markdown]
+# ## 依序打印數據100比
+
+# %%
+for index, (simplified, details) in enumerate(translation_dict.items()):
+    if index < 100:
         traditional = format_and_trim(details['traditional'], max_length_traditional)
         english = format_and_trim(details['english'], max_length_english)
         simplified = format_and_trim(simplified, max_length_simplified)
         print(f"{english.ljust(max_length_english)}{simplified.ljust(max_length_simplified)}{traditional.ljust(max_length_traditional)}")
 
-
-# %%
-#input_document = "KiCad_dev_testdata.po"
-input_document = "KiCad Taipei source zh Hant.po"
-output_document = "KiCad Taipei source zh Hant_translated.po"
-auto_mode = False  # 自動模式
-debug_mode = False  # 開啟會打印更多資訊
-logging_mode = True #如果開啟 會將有翻譯的行數與翻譯前後結果記錄於另外檔案
 
 # %%
 def process_po_file(input_file, output_file, translation_dict, auto_mode=False, debug_mode=False, logging_mode=False):
